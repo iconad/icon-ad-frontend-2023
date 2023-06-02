@@ -29,11 +29,6 @@ export default {
     __dangerouslyDisableSanitizers: ["script"],
     script: [
       {
-        hid: "tiddo",
-        src: "https://code.tidio.co/63q3jhgjc4qzurtjnpz5dne6s8coi7zi.js",
-        defer: true
-      },
-      {
         hid: "gtm-script1",
         src: "https://www.googletagmanager.com/gtag/js?id=UA-118585551-1",
         defer: true

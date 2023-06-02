@@ -1,12 +1,12 @@
 <template>
   <div class="startformhere">
     <client-only>
-      <masonry :cols="{default: 2, 920: 1}" :gutter="{default: '50px', 1120: '20px', 880: '50px'}" >
+      <masonry :cols="{default: 2, 920: 1}" :gutter="{default: page == 'home' ? '100px' : '50px' , 1120: '20px', 880: '50px'}" >
         <div v-for="(project, i) in projects" :key="i" class="w-full">
 
-          <ProjectsProject link="advertising" :project="project" class="project"
+          <ProjectsProject :mode="mode" link="advertising" :project="project" class="project"
             :class="[
-              i == 1 ? 'lg:mt-32' : '' ,
+              i == 1 ? page == 'home' ? 'lg:mt-64' : 'lg:mt-32' : page == 'home' ? 'lg:mt-20' : '' ,
             ]"
           />
 
@@ -20,7 +20,7 @@
 <script>
 
 export default {
-  props:['from', 'to'],
+  props:['from', 'to', 'mode', 'page'],
 
   mounted() {
     // this.$nextTick(() => this.animate());

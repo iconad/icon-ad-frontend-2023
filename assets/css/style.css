@@ -23,9 +23,13 @@ body.team-body {
 }
 
 .theme-container {
-  /* @apply max-w-7xl mx-auto px-5; */
   @apply max-w-screen-lg 3xl:max-w-7xl mx-auto px-5;
 }
+
+.home-container {
+  @apply w-[90%] mx-auto;
+}
+
 .theme-container-3xl {
   @apply 2xl:max-w-7xl mx-auto px-5;
 }
