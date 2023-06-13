@@ -1,19 +1,20 @@
 <template>
-    <div>
+  <div>
 
-        <HomeTopNavbar class="hidden md:block" />
-        <MobileMegaMenu class="relative z-50 block md:hidden" />
+      <HomeTopNavbar class="hidden md:block" />
+      <MobileMegaMenu class="relative z-50 block md:hidden" />
 
-        <div>
-          <Nuxt />
-        </div>
+      <div>
+        <Nuxt />
+      </div>
 
-        <footer id="FooterSection" class="footer-section bg-theme-gray pt-16 pb-8 3xl:pt-32 pb-10">
-        <div class="theme-container">
-          <Footer />
-        </div>
-      </footer>
+      <footer id="FooterSection" class="footer-section bg-theme-gray pt-16 pb-8 3xl:pt-32 pb-10">
+      <div class="home-container">
+        <Footer />
+      </div>
+    </footer>
 
-      
-    </div>
+    
+  </div>
 </template>
+

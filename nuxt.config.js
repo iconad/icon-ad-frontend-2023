@@ -84,8 +84,14 @@ export default {
     { src: "~/plugins/vue-smooth-scrollbar", mode: "client" },
     { src: '@/plugins/update.js', mode: 'client' },
     { src: "~/plugins/vue-easy-lightbox", mode: "client" },
-    { src: "~/plugins/vue-masonry", mode: "client" }
+    { src: "~/plugins/vue-masonry", mode: "client" },
+    { src: "~/plugins/vue-aos", mode: "client" },
   ],
+
+  purgeCSS: {
+    whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 

@@ -351,16 +351,15 @@
             </carousel>
             <!-- carousel end -->
 
-
-           
-
         </div>
 
+        <div id="contact" class="pt-24"></div>
 
-        <div class="w-full px-[5%]  mb-10">
+
+        <div class="w-full px-[5%] mb-10">
             <div class="flex flex-wrap lg:flex-nowrap lg:space-x-10 space-y-5 lg:space-y-0">
-                <div class="w-full pt-0 lg:pt-14 flex items-center">
-                    <div class="space-y-10 py-5">
+                <div class="w-full flex items-center">
+                    <div class="space-y-10 pb-5">
                         <div class="space-y-4">
                             <h1 class="text-4xl 3xl:text-5xl font-semibold">Get Socially Savvy with <br> ICON Digital.</h1>
                             <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2>
@@ -394,35 +393,12 @@
 
                 </div>
                 <div class="w-full relative ">
-                    <div class="rounded-2xl overflow-hidden">
-                        <client-only>
-                            <vimeo-player
-                            ref="player"
-                            :options="options"
-                            video-id="822628606"
-                            ></vimeo-player>
-                        </client-only>
-                    </div>                
+                    <FormsLandingForm />
                 </div>
             </div>
         </div>
         
-        <div id="contact" class="h-12 lg:h-24"></div>
-
-        <div class="landing-container space-y-12" style="scroll-padding-block: 2em;">  
-
-            <div class="bg-gray-100 rounded-2xl overflow-hidden px-5 md:px-10 py-10 scroll-mt-28">
-            <FormsLandingContactUs
-                :data="{
-                title: 'Reach out',
-                title2: 'to us',
-                subtitle: `And together, let's create campaigns`,
-                subtitle2: 'that leave a lasting impact on your audience.'
-            }"
-                />
-            </div>
-            <!-- contact section end -->
-        </div>
+        
 
 
         <div class="landing-container">

@@ -4,13 +4,7 @@
     <div class="w-full">
       <div class="home-container relative space-y-10">
 
-        <div class="text-white pt-32 space-y-5">
-          <h1 class="text-7xl font-bold">Creativity & Brand <br class="hidden lg:block"> Experience <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink"> Reimagined!</span></h1>
-          <h2 class="text-2xl leading-lose">A 360° Integrated Creative, Branding, Marketing and <br class="hidden lg:block"> Communications Agency Based in Dubai, UAE.</h2>
-        </div>
-
-
-        <div class="w-full flex items-center justify-center bg-black md:bg-transparent rounded-2xl overflow-hidden">
+        <div class="w-full pt-6 md:pt-16 flex items-center justify-center bg-black md:bg-transparent rounded-2xl overflow-hidden">
           <div class="w-full h-auto bg-white box-shadow overflow-hidden rounded-2xl overflow-hidden">
             <client-only>
               <vimeo-player
@@ -25,6 +19,10 @@
         </div>
         <!-- video -->
 
+        <div class="text-white md:pt-10 space-y-5">
+          <h1 class="text-3xl h-[6.3rem] md:text-5xl lg:text-5xl font-bold font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-pink to-theme-pink">Creativity & Brand <br class="hidden lg:block"> Experience  Reimagined!</h1>
+          <h2 class="text-xl leading-lose">A 360° Integrated Creative, Branding, Marketing and <br class="hidden lg:block"> Communications Agency Based in Dubai, UAE.</h2>
+        </div>
 
         <div class="w-full text-white py-10">
 
@@ -87,10 +85,11 @@
         </div>
         <!-- Profile -->
 
+        <div class="border-b border-gray-50 border"></div>
 
         <div>
 
-          <div class="grid grid-cols-2 lg:grid-cols-10 gap-x-5 gap-y-2">
+          <div class="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-x-5 gap-y-2">
             <div v-for="client in clients" :key="client.id">
               <div class="w-full">
                 <UtilsProjectImage options="w-full object-contain mx-auto" :mini="client.image_mini_white" :image="client.white_logo" :title="client.title" />
@@ -106,33 +105,33 @@
           <div class="text-2xl text-white mb-10 tracking-wide">OUR SERVICES</div>
           <div class="text-white w-full space-y-10">
 
-            <a href="/advertising" class="flex items-center justify-between w-full border-b border-gray-100 hover:border-white transition-all py-5">
-              <span class="text-7xl block font-sembold capitalize">Advertising</span>
-              <span class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="36" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
+            <nuxt-link to="/advertising" class="flex items-center justify-between w-full border-b border-gray-50 hover:border-white transition-all py-5">
+              <span class="text-3xl md:text-4xl lg:text-5xl block font-sembold capitalize">Advertising</span>
+              <span class="flex flex-col items-center justify-center pt-5 h-16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
               </span>
-            </a>
+            </nuxt-link>
 
-            <a href="/advertising" class="flex items-center justify-between w-full border-b border-gray-100 hover:border-white transition-all py-5">
-              <span class="text-7xl block font-sembold capitalize">Digital</span>
-              <span class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="36" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
+            <nuxt-link to="/digital" class="flex items-center justify-between w-full border-b border-gray-50 hover:border-white transition-all py-5">
+              <span class="text-3xl md:text-4xl lg:text-5xl block font-sembold capitalize">Digital</span>
+              <span class="flex flex-col items-center justify-center pt-5 h-16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
               </span>
-            </a>
+            </nuxt-link>
 
-            <a href="/advertising" class="flex items-center justify-between w-full border-b border-gray-100 hover:border-white transition-all py-5">
-              <span class="text-7xl block font-sembold capitalize">Branding</span>
-              <span class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="36" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
+            <nuxt-link to="/branding" class="flex items-center justify-between w-full border-b border-gray-50 hover:border-white transition-all py-5">
+              <span class="text-3xl md:text-4xl lg:text-5xl block font-sembold capitalize">Branding</span>
+              <span class="flex flex-col items-center justify-center pt-5 h-16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
               </span>
-            </a>
+            </nuxt-link>
 
-            <a href="/advertising" class="flex items-center justify-between w-full border-b border-gray-100 hover:border-white transition-all py-5">
-              <span class="text-7xl block font-sembold capitalize">ICON Plus</span>
-              <span class="block">
-                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="36" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
+            <nuxt-link to="/plus" class="flex items-center justify-between w-full border-b border-gray-50 hover:border-white transition-all py-5">
+              <span class="text-3xl md:text-4xl lg:text-5xl block font-sembold capitalize">ICON Plus</span>
+              <span class="flex flex-col items-center justify-center pt-5 h-16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" fill="none"><path fill="#fff" d="M35.273 35.417a2.465 2.465 0 0 1-1.612-.571c-.881-.753-.881-2 0-2.753l16.844-14.388L33.66 3.318c-.881-.753-.881-2 0-2.753.882-.753 2.341-.753 3.223 0l18.455 15.764c.881.753.881 2 0 2.753L36.884 34.846a2.465 2.465 0 0 1-1.611.571Z"/><path fill="#fff" d="M52.75 19.868H2.25c-1.23 0-2.25-.979-2.25-2.16 0-1.18 1.02-2.159 2.25-2.159h50.5c1.23 0 2.25.98 2.25 2.16 0 1.18-1.02 2.16-2.25 2.16Z"/></svg>
               </span>
-            </a>
+            </nuxt-link>
 
           </div>
 
@@ -141,7 +140,8 @@
 
 
         <section id="projectsSection" class="relative">
-          <div class="front-projects theme-container-3xl px-0 md:px-5 pt-16 md:pt-20">
+          <div class="front-projects px-0 md:px-5 pt-16 md:pt-20">
+            <div class="text-2xl text-white -mb-[2rem] tracking-wide">RECENT WORK</div>
               <AdvertisingProjectProjects page="home" mode="dark" :from="0" :to="8" />
           </div>
         </section>
@@ -150,17 +150,22 @@
       </div>      
     </div>
 
+    
 
-    <div class="newsletter-section py-20 3xl:py-32 bg-theme-gray-dark relative mt-32">
+    <section id="ContactSection" class="contact-section bg-theme-gray-dark bg-opacity-50 text-white py-32">
+       <div class="theme-container">
+         <FormsContactUsBlack
+          :data="{
+            title: 'have an',
+            title2: 'impact',
+            subtitle: 'Join the most powerful',
+            subtitle2: 'brands in the world.'
+         }"
+          />
+       </div>
+    </section>
+        <!-- contact section end -->
 
-      <div class="theme-container-3xl">
-
-      <FormsNewsLetter />
-
-      </div>
-
-    </div>
-    <!-- new letter section -->      
 
   </div>
 </template>
@@ -168,7 +173,6 @@
 <script>
 
 import setupSplits from '~/utils/setupSplits'
-import Atos from '~/utils/Atos'
 
 export default {
 
@@ -189,33 +193,6 @@ export default {
         title:false
       },
     }
-  },
-
-  mounted() {
-
-    const elements = this.gsap.utils.toArray('.atos');
-    Atos(this.gsap, elements)
-
-
-    let q = this.gsap.utils.selector(this.$el);
-
-    const pathsvg = q(".pathsvg")
-    const creativityUnlock = q("#creativityUnlock")
-    const splitTextOnScroll = q("#ourClientTitle")
-
-    setupSplits(this.gsap, this.splitText, splitTextOnScroll)
-
-    this.gsap.from(pathsvg, {
-      scrollTrigger: {
-        trigger: creativityUnlock,
-        start:'top 80%',
-        end:'bottom 20%',
-        scrub: 0.5,
-      },
-      drawSVG: "0%"
-    });
-
-
   },
 
   methods: {
@@ -242,7 +219,7 @@ export default {
 
   async asyncData({ $axios, store }) {
 
-    const projects = await $axios.$get(`/projects/featured`)
+    const projects = await $axios.$get(`/projects/homefeatured`)
     const clients = await $axios.$get(`/all-clients`)
 
       store.commit('project/setFeaturedProjects', projects)
