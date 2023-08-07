@@ -327,9 +327,13 @@ import Atos from '~/utils/Atos'
       ).then(res => res.json())
     },
 
-    async asyncData({ $axios, params }) {
+    async asyncData({ $axios, params, redirect }) {
 
     const project = await $axios.$get(`/projects/slug/${params.project}`)
+
+    if (!project[0]) {
+      return redirect('/branding/projects')
+    }
 
     return {
       project: project[0]

@@ -2,13 +2,13 @@
   <div>
       <form @submit.prevent="submitForm" class="form">
 
-        <div class="form-element">
+        <div data-aos="fade-in" data-aos-duration="500" data-aos-delay="100" class="form-element">
           <input type="text" class="form-input-black" v-model="form.name" required placeholder="Full Name">
           <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.name">{{ errors.name }}</span>
         </div>
         <!-- form element -->
 
-        <div class="form-element">
+        <div data-aos="fade-in" data-aos-duration="500" data-aos-delay="150" class="form-element">
           <client-only>
             <vue-tel-input
               class="form-element"
@@ -22,18 +22,18 @@
         </div>
         <!-- form element -->
 
-        <div class="form-element">
+        <div data-aos="fade-in" data-aos-duration="500" data-aos-delay="200" class="form-element">
           <input type="text" v-model="form.email" class="form-input-black" required placeholder="Email">
           <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.email">{{ errors.email }}</span>
         </div>
         <!-- form element -->
 
-        <div class="form-element">
+        <div data-aos="fade-in" data-aos-duration="500" data-aos-delay="250" class="form-element">
           <textarea type="text" v-model="form.message" class="form-input-black" required placeholder="Message" rows="5"></textarea>
           <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.message">{{ errors.message }}</span>
         </div>
         <!-- Captcha Start -->
-        <div class="select-none transition-all duration-100 focus:outline-none active:outline-none active:border-none group flex flex-wrap items-center h-full">
+        <div data-aos="fade-in" data-aos-duration="500" data-aos-delay="300" class="select-none transition-all duration-100 focus:outline-none active:outline-none active:border-none group flex flex-wrap items-center h-full">
           <span :class="captcha.status ? 'bg-green-400' : 'bg-theme-gray-dark'" class="bg-opacity-75 px-4 py-2 transition-all rounded-xl block mr-3 flex items-center justify-between space-x-2 w-1/4 text-gray-100">
             <span class="block whitespace-nowrap">
               {{captcha.num1}}
@@ -53,7 +53,7 @@
         </div>
         <!-- Captcha End -->
 
-        <div v-if="!isLoading" class="form-element">
+        <div data-aos="fade-in" data-aos-duration="500" data-aos-delay="350" v-if="!isLoading" class="form-element">
           <span v-if="captcha && !captcha.status" class="select-none form-button block black-gray w-full cursor-not-allowed hover:bg-opacity-100"> Submit </span>
           <input v-else type="submit" class="form-button rainbow w-full cursor-pointer hover:bg-opacity-100 font-bold uppercase" value="Submit Your Request">
         </div>
@@ -73,6 +73,7 @@
   import _ from 'lodash'
 
   export default {
+    props: ['type'],
     data() {
       return {
         input: "",
@@ -139,6 +140,7 @@
 
         this.$axios.$post(`https://drupal.icon-ad.com/webform_rest/submit/?_format=json`, {
               webform_id: "contact",
+              type: this.type,
               name: this.form.name,
               email: this.form.email,
               subject: this.form.subject,

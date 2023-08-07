@@ -53,7 +53,7 @@
     <section id="ContactSection" class="contact-section text-white pb-32">
        <div class="theme-container">
          <div class="bg-theme-gray-1 rounded-2xl overflow-hidden px-10 lg:px-0 py-32">
-          <FormsContactUsBlack />
+          <FormsContactUsBlack type="services page" />
          </div>
        </div>
     </section>

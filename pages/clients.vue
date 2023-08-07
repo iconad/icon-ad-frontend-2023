@@ -49,6 +49,18 @@
 
 export default {
   layout: 'home',
+  head: {
+    title: 'Branding Services for Businesses in Dubai | ICON',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `Trusted by leading brands like  Dubai Municeipel Party, Dubai Police, Mercedes Benz, Ajman Government ICON Advertising delivers exceptional results. Discover satisfied clients success stories collaborative partnerships.`
+      } 
+    ],
+  },
   async asyncData({ $axios, store }) {
 
     const clients = await $axios.$get(`/all-clients`)

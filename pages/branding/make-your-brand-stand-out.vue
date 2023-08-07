@@ -8,21 +8,20 @@
                     <div class="space-y-10 py-5 h-full flex flex-col justify-center lg:pr-16">
                         <div class="space-y-5">
                             <div class="space-y-4">
-                                <h1 class="text-4xl 3xl:text-6xl font-semibold">Make Your Brand Stand Out in Dubai with <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink"> ICON </span>   </h1>
+                                <h1 class="text-3xl 3xl:text-5xl font-semibold">Make your Brand Stand-out in Dubai’s Competitive Marketplace with our <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink"> Branding services. </span>   </h1>
                                 <!-- <h2 class="text-3xl font-semibold">Our Expertise, Your Success.</h2> -->
                             </div>
                             <div class="text-base lg:text-sm xl:text-base space-y-3">
                                 <p>
-                                    We are an experienced Dubai-based digital marketing and social media agency specialized in delivering tailor-made social media and digital marketing plans. Our strategies are not only unique to brands and their individual business needs, but also aligned with the demands of Dubai's marketplace.
-                                </p>
-                                <p>
+                                    As a leading branding agency in Dubai, we specialize in crafting captivating brand experiences that resonate with Dubai’s vibrant market, tailored specifically for your brand. Our team of experts combine strategic thinking, creative excellence, and in-depth market knowledge, enabling your brand to stand out from the crowd and leave a lasting impression on your target audiences.                                 </p>
+                                <!-- <p>
                                     By partnering with us, we assure enhanced engagement with your brand’s target audiences, strengthened customer loyalties, and most importantly, a higher return on investment (ROI) within Dubai and the wider region.
-                                </p>
+                                </p> -->
                             </div>                            
                         </div>
                         <div class="space-y-5 ">
                             <p class="font-semibold bg-gray-100 text-lg p-3 rounded-2xl"> 
-                                Let us help you build a strong digital presence and take your brand to the next level.
+                                Reach out to us and discover the immense benefits and positive impact to your ROI when developing branding strategies with us.
                             </p>
                             <div class="flex items-center space-x-2 text-sm lg:text-base">
                                 <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
@@ -49,12 +48,13 @@
                             <img src="https://icon-ad.com/assets/ads.svg" class="absolute -top-8 right-10 w-[180px] z-[1]" alt="ads">
                             <span class="font-medium">Our Digital Campaign Featured on AdsOfTheWorld!</span>
                         </a> -->
+
                         <div class="rounded-2xl overflow-hidden">
                             <client-only>
                                 <vimeo-player
                                 ref="player"
                                 :options="options1"
-                                video-id="832538706"
+                                video-id="766097376"
                                 ></vimeo-player>
                             </client-only>
                         </div>
@@ -66,12 +66,12 @@
 
         </div>
 
-        <div class="marquee-wrapper my-10 py-10 lg:py-32 text-center bg-gray-100">
+        <div class="marquee-wrapper my-10 py-10 lg:py-32 text-center bg-gray-100"> 
 
             <div class="space-y-12">
                 <div class="space-y-4">
                     <h3 class="text-3xl font-bold">OUR CLIENTS</h3>
-                    <P>We understand that our clients' success is our success, <br> and we're proud to be a part of their story.</P>
+                    <P>We consider ourselves privileged to be an active participant in our clients' <br> journeys, helping to shape their success stories every step of the way. </P>
                 </div>
 
                 <div class="marquee flex space-x-4">
@@ -94,7 +94,7 @@
                     <div class="space-y-10 py-5">
                         <div class="space-y-3">
                             <h2 class="text-3xl font-semibold">
-                                Dynamic Team of <br> 45+ In-House Experts.
+                                Looking for comprehensive Branding solutions in Dubai and UAE?
                             </h2>
                             <!-- <h2 class="text-2xl font-semibold">
                                 Catering to all your digital marketing needs
@@ -102,7 +102,7 @@
                         </div>
                         <div class="space-y-4">
                             <p>
-                                A Social Media agency with 15+ years of industry expertise, our inhouse team have the proven ability to raise your brand to new heights in Dubai’s fiercely competitive realm of social media. We leave no stone unturned in optimizing your online presence and delivering unparalleled, measurable results. Get in touch with us to unlock the true potential of your brand in the digital landscape.
+                                Look no further. We are a leading Branding agency with over 15 years of industry expertise, offering a wide range of services to cater to all your Branding needs.
                             </p>
                         </div>
                         <div>
@@ -126,53 +126,41 @@
                 <div class="w-full 2xl:w-1/2">
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                        <div label="Trumpet" class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-red/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14 group-hover:text-theme-red">Content Calendars and Content Strategy</h2>        
+                        <div label="Trumpet" class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-red/30 transition-all">
+                            <h2 class="text-lg font-semibold group-hover:text-theme-red">Brand Strategy</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    At ICON Digital, our social media team is comprised of experienced content creators and strategists who understand what it takes to develop effective content calendars and strategies.
-                                </p>
-                                <p>
-                                    By partnering with us, you can rest assured that your social media channels will be filled with high-quality, on-brand content that drives engagement and generates results.
+                                    Boost your brand's potential with our exceptional brand strategy services. We excel in crafting strategic plans that align with your business goals, enhancing visibility, and promoting sustainable growth. Connect with us to unlock your brand's potential.
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
                         
-                        <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-purple/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14  group-hover:text-theme-purple">Community Management</h2>        
+                        <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-purple/30 transition-all">
+                            <h2 class="text-lg font-semibold  group-hover:text-theme-purple">Brand Identity</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Our social media team has a wealth of experience in community management, and we understand that building strong relationships with your followers is crucial to the success of your social media presence.
-                                </p>
-                                <p>
-                                    We'll work closely with you to understand your brand's voice and values, and develop a strategy that fosters meaningful interactions with your audience.
+                                    Leave a lasting impression with a strong brand identity. Our team specializes in creating compelling and unique brand identities that resonate with your target audience, ensuring your brand stands out in the competitive market.                                    
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
 
-                        <div class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-sky/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14 group-hover:text-theme-sky">Paid Media</h2>        
+                        <div class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-sky/30 transition-all">
+                            <h2 class="text-lg font-semibold group-hover:text-theme-sky">PR Services</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Our team has the expertise to create customized, high-performing ads that align with your business goals.
-                                </p>
-                                <p>
-                                    With our paid media expertise, you can be confident that your ads will reach the right people, at the right time, and generate a strong return on investment.
+                                    Amplify your brand's voice with our top-tier PR services. We offer comprehensive solutions, from media outreach to crisis management, ensuring your brand's reputation remains untarnished. Let us help your brand build strong, meaningful relationships with your audience.
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
 
-                        <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-pink/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14 group-hover:text-theme-pink">Campaign Performance Reporting</h2>        
+                        <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-pink/30 transition-all">
+                            <h2 class="text-lg font-semibold group-hover:text-theme-pink">Brand Management</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Our team will work closely with you to identify the KPIs that matter most to your business, and provide actionable insights that help you improve your social media performance over time. 
-                                </p>
-                                <p>
-                                    With our campaign performance reporting expertise, you'll have a clear understanding of how your social media campaigns are performing, and the information you need to make data-driven decisions.
+                                    Harness the power of effective brand management with our expert services. We meticulously manage your brand's image, perception, and positioning, reinforcing your presence in the market. Trust us to help you navigate your brand towards success.
                                 </p>
                             </div>            
                         </div>
@@ -198,153 +186,22 @@
 
 
             <!-- carousel start -->
-            <carousel v-if="isNuxtReady" :nav="false" :dots="false" :items="3" :autoplay="true" :margin="20" :autoWidth="true" :loop="true">
+            <carousel v-if="isNuxtReady" :nav="false" :dots="false" :items="3" :autoplay="false" :margin="20" :autoWidth="true" :loop="true">
 
-            <div class="w-[400px] relative rounded-2xl overflow-hidden group">
-                <img src="https://icon-ad.com/assets/digital/1/1.webp" alt="slider 2" class="h-full">
-                <div class="ani-list absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.7)] flex items-end opacity-0 group-hover:opacity-100 transition-all duration-300">                    
-                    <div class="text-white p-5 w-full space-y-5">
-                        <h3 class="ani-list-child font-semibold text-xl opacity-0 group-hover:opacity-100 transition-all duration-300">Continental Tires</h3>
-                        <ul class="w-full text-lg opacity-[0.8]">
-                            <li>
-                                <span class="mr-2 inline-block">Reach:</span>
-                                <span class="text-center inline-block">7M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Impressions: </span>
-                                <span class="text-center inline-block">9M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Traffic: </span>
-                                <span class="text-center inline-block">9K</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Followers growth: </span>
-                                <span class="text-center inline-block">23%</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Leads: </span>
-                                <span class="text-center inline-block">600+</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="w-[278px] relative rounded-2xl overflow-hidden group">
+                <img src="https://drupal.icon-ad.com/sites/default/files/styles/project_thumbnail/public/2022-12/buffalo_1.png?itok=AUpT8xRs" alt="slider 3" class="h-full">
             </div>
             <div class="w-[400px] relative rounded-2xl overflow-hidden group">
-                <img src="https://icon-ad.com/assets/digital/1/2.webp" alt="slider 3" class="h-full">
-                <div class="ani-list absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.7)] flex items-end opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <div class="text-white p-5 w-full space-y-5">
-                        <h3 class="ani-list-child font-semibold text-xl opacity-0 group-hover:opacity-100 transition-all duration-300">Suzuki</h3>
-                        <ul class="w-full text-lg opacity-[0.8]">
-                            <li>
-                                <span class="mr-2 inline-block">Reach:</span>
-                                <span class="text-center inline-block">3M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Impressions:</span>
-                                <span class="text-center inline-block">4M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Traffic: </span>
-                                <span class="text-center inline-block">15K</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Followers growth: </span>
-                                <span class="text-center inline-block">19%</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Leads: </span>
-                                <span class="text-center inline-block">1000+</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <img src="https://drupal.icon-ad.com/sites/default/files/styles/project_thumbnail/public/2023-03/cover-01_0.jpg?itok=kJs5Wpol" alt="slider 2" class="h-full">
+            </div>
+            <div class="w-[708px] relative rounded-2xl overflow-hidden group">
+                <img src="https://drupal.icon-ad.com/sites/default/files/styles/project_thumbnail/public/2023-01/Seaside%20Hills%20Concepts%20by%20ICON%20BrandingStudio_page-0009_0.jpg?itok=eZCdhnhJ" alt="slider 1" class="h-full">                
+            </div>
+            <div class="w-[313px] relative rounded-2xl overflow-hidden group">
+                <img src="https://drupal.icon-ad.com/sites/default/files/styles/project_thumbnail/public/2022-12/yarn_1.png?itok=66CHB-gm" alt="slider 1" class="h-full">
             </div>
             <div class="w-[400px] relative rounded-2xl overflow-hidden group">
-                <img src="https://icon-ad.com/assets/digital/1/3.webp" alt="slider 1" class="h-full">
-                <div class="ani-list absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.7)] flex items-end opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <div class="text-white p-5 w-full space-y-5">
-                        <h3 class="ani-list-child font-semibold text-xl opacity-0 group-hover:opacity-100 transition-all duration-300">Ballers</h3>
-                        <ul class="w-full text-lg opacity-[0.8]">
-                            <li>
-                                <span class="mr-2 inline-block">Reach:</span>
-                                <span class="text-center inline-block">900K</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Impressions: </span>
-                                <span class="text-center inline-block">1.1M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Traffic: </span>
-                                <span class="text-center inline-block">500</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Followers growth: </span>
-                                <span class="text-center inline-block">15%</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Leads: </span>
-                                <span class="text-center inline-block">300+</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="w-[400px] relative rounded-2xl overflow-hidden group">
-                <img src="https://icon-ad.com/assets/digital/1/4.webp" alt="slider 1" class="h-full">
-                <div class="ani-list absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.7)] flex items-end opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <div class="text-white p-5 w-full space-y-5">
-                        <h3 class="ani-list-child font-semibold text-xl opacity-0 group-hover:opacity-100 transition-all duration-300">
-                            Geeks Express 
-                            <br>
-                            In partnership with Apple
-                        </h3>
-                        <ul class="w-full text-lg opacity-[0.8]">
-                            <li>
-                                <span class="mr-2 inline-block">Reach:</span>
-                                <span class="text-center inline-block">2M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Impressions: </span>
-                                <span class="text-center inline-block">3.5M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Traffic: </span>
-                                <span class="text-center inline-block">3K</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Leads: </span>
-                                <span class="text-center inline-block">250+</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="w-[400px] relative rounded-2xl overflow-hidden group">
-                <img src="https://icon-ad.com/assets/digital/1/5.webp" alt="slider 1" class="h-full">
-                <div class="ani-list absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.7)] flex items-end opacity-0 group-hover:opacity-100 transition-all duration-300">
-                    <div class="text-white p-5 w-full space-y-5">
-                        <h3 class="ani-list-child font-semibold text-xl opacity-0 group-hover:opacity-100 transition-all duration-300">Dubai Municipality</h3>
-                        <ul class="w-full text-lg opacity-[0.8]">
-                            <li>
-                                <span class="mr-2 inline-block">Reach:</span>
-                                <span class="text-center inline-block">1.8M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Impressions: </span>
-                                <span class="text-center inline-block">5.9M</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Traffic: </span>
-                                <span class="text-center inline-block">18.5</span>
-                            </li>
-                            <li>
-                                <span class="mr-2 inline-block">Leads: </span>
-                                <span class="text-center inline-block">200+</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <img src="https://drupal.icon-ad.com/sites/default/files/styles/project_thumbnail/public/2022-12/thumb_8.png?itok=FqQU92wh" alt="slider 1" class="h-full">                
             </div>
 
 
@@ -361,18 +218,18 @@
                 <div class="w-full flex items-center">
                     <div class="space-y-10 pb-5">
                         <div class="space-y-4">
-                            <h1 class="text-4xl 3xl:text-5xl font-semibold">Get Socially Savvy with <br> ICON Digital.</h1>
-                            <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2>
+                            <h1 class="text-3xl 3xl:text-4xl font-semibold">We have Mastered Building Strong Brands that Captivate Audiences and Drive Engagement.</h1>
+                            <!-- <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2> -->
                         </div>
                         <div class="space-y-4 text-base lg:text-sm xl:text-base">
                             <p>
-                                We have a wealth of experience in creating and executing social media strategies across a range of platforms, including Facebook, Instagram, TikTok, LinkedIn, Twitter, and Snapchat. 
+                                At our agency, we understand the power of effective branding in making a lasting impact. Our dedicated team leaves no stone unturned when it comes to optimizing your online presence and delivering unparalleled, measurable results. With a strategic approach, we focus on enhancing your brand's visibility, building a strong identity, and creating meaningful connections with your target audience.
                             </p>
                             <p>
-                                Our team of social media experts understands the unique opportunities and challenges presented by each platform, and we'll work with you to develop a customized strategy that aligns with your business goals. 
+                                From crafting compelling brand stories to designing visually stunning assets, we have the skills and experience to ensure your brand stands out from the crowd. Our team leverages cutting-edge strategies and industry insights to create a brand that resonates with your audience and drives engagement.
                             </p>
                             <p>
-                                Whether you're looking to increase your followers, drive engagement, or generate leads, we have the skills and experience to deliver results.
+                                Partner with us to unlock the true potential of your brand in the digital landscape. Get in touch with our experts today and let us show you how our branding services can help you achieve your marketing goals and set your brand apart from the competition.
                             </p>
 
                         </div>
@@ -393,7 +250,7 @@
 
                 </div>
                 <div class="w-full relative ">
-                    <FormsLandingForm type="Social Media Landing Page" :isBudget="true" />
+                    <FormsLandingForm type="Branding Landing Page" />
                 </div>
             </div>
         </div>
@@ -405,7 +262,7 @@
             <img src="https://icon-ad.com/assets/partners.png" class="w-4/5 mx-auto pt-20 pb-10" alt="ICON Partners">
         </div>
 
-        <a target="_blank" href="https://wa.me/+971564034019" style="box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 16px;" class="block hover:scale-[1.1] transition-all whatsapp w-14 h-14 p-3 text-white rounded-full bg-green-500 fixed right-8 bottom-10 cursor-pointer z-50">
+        <a target="_blank" href="https://wa.me/+971502529223" style="box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 16px;" class="block hover:scale-[1.1] transition-all whatsapp w-14 h-14 p-3 text-white rounded-full bg-green-500 fixed right-8 bottom-10 cursor-pointer z-50">
             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>            
         </a>
 

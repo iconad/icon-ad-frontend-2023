@@ -147,9 +147,14 @@ export default {
     }
   },
 
-  async asyncData({ $axios, params }) {
+  async asyncData({ $axios, params, redirect }) {
 
     const blog = await $axios.$get(`/blogs/${params.blog}`)
+
+    if (!blog[0]) {
+      return redirect('/blogs')
+    }
+
 
     return {
       blog: blog[0],

@@ -27,7 +27,7 @@
     <div class="project-content space-y-8">
 
       <!-- ===== Project Content ===== -->
-      <div class="flex theme-container-lg my-24 white-bg-content" v-if="project && project.detail">
+      <div class="flex theme-container-lg my-16 white-bg-content" v-if="project && project.detail">
         <div class="w-full space-y-3" v-html="project.detail"></div>
       </div>
       <!-- paragraph -->
@@ -73,9 +73,8 @@
       <!-- video -->
 
       <!-- ===== Project Assets Content ===== -->
-
       <!-- <div class="projects-grid-warpper mt-2" v-if="project.assets.length > 0"> -->
-      <div class="projects-grid-warpper mt-2 theme-container-lg">
+      <div v-if="project.assets && project.assets.lenght != 0" class="projects-grid-warpper mt-2 theme-container-lg">
        <div class="inner w-full">
           <AdvertisingProjectAssets :assets="project.assets" />
         </div>
@@ -87,8 +86,7 @@
         <div class="inner w-full grid grid-cols-6 gap-2 md:gap-4">
           <div class="project image h-full" :class="image.class ? image.class : 'col-span-6'" v-for="(image, i) in projectsImages" :key="i">
             <!-- {{ image.hd }} -->
-            <div @click="showLightbox(i)" target="_blank" v-if="projectsImages != null">
-              working
+            <div @click="showLightbox(i)" target="_blank" v-if="projectsImages != null">              
               <UtilsImage v-if="image.big && image" options="w-full rounded-3xl overflow-hidden" :mini="image.mini" :image="image.hd" />
             </div>
 
@@ -96,7 +94,7 @@
         </div>
       </div>
 
-      <div class="theme-container-lg space-y-8">
+      <div v-if="project && project.video_4" class="theme-container-lg space-y-8">
       <div class="rounded-2xl overflow-hidden" v-if="project && project.video_4">
           <client-only>
             <vimeo-player
@@ -127,7 +125,7 @@
     <section id="ContactSection" class="contact-section text-white mb-10 md:mb-16">
        <div class="theme-container">
          <div class="bg-gray-100 rounded-2xl overflow-hidden px-10 lg:px-0 py-32">
-          <FormsContactUs
+          <FormsContactUs :type="project.title"
             :data="{
               title: 'have an',
               title2: 'impact',
@@ -347,20 +345,18 @@ import Atos from '~/utils/Atos'
       ).then(res => res.json())
     },
 
-    async asyncData({ $axios, params }) {
+    async asyncData({ $axios, params, redirect }) {
 
-    const project = await $axios.$get(`/projects/slug/${params.project}`)
+      const project = await $axios.$get(`/projects/slug/${params.project}`)
 
-    return {
-      project: project[0]
-    }
+      if (!project[0]) {
+        return redirect('/advertising/projects')
+      }
 
-
-
-
-
-
-    }
+      return {
+          project: project[0]
+      }
+      }
 
   }
 </script>

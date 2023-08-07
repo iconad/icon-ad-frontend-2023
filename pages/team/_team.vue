@@ -114,6 +114,7 @@
 
 <script>
   export default {
+    layout: 'nothing',
     mounted() {
       document.body.classList.add('team-body')
     },

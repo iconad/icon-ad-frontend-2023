@@ -183,7 +183,7 @@
 
       <section id="ContactSection" class="contact-section bg-black text-white py-32">
        <div class="theme-container">
-         <FormsContactUsBlack
+         <FormsContactUsBlack type="about page"
           :data="{
             title: 'have an',
             title2: 'impact',
@@ -208,14 +208,14 @@ export default {
   layout: 'home',
 
   head: {
-    title: 'About ICON Advertising ',
+    title: 'About ICON Advertising Agency',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: `With in-house team of marketing experts, we provide strategic advice to help achieve optimal and sustainable results. Generate value through analytics-driven strategic choices.`
+        content: `Learn about ICON Advertising agency and our commitment to delivering innovative marketing solutions. Discover our expertise, values, and client-centric approach.`
       }
     ],
   },

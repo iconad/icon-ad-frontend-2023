@@ -96,14 +96,14 @@ export default {
   layout: 'home',
 
   head: {
-    title: 'About ICON Advertising ',
+    title: 'Career Opportunities at ICON',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: `With in-house team of marketing experts, we provide strategic advice to help achieve optimal and sustainable results. Generate value through analytics-driven strategic choices.`
+        content: `Join our team of creative minds at ICON Advertising agency. Explore exciting career opportunities and be part of our innovative marketing campaigns.`
       }
     ],
   },

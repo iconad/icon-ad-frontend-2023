@@ -45,20 +45,20 @@
 
 
                 <div @click="goTo(project.slug)">
-                  <UtilsProjectImage options="cursor-pointer bg-gray-100 w-full object-cover rounded-2xl overflow-hidden" :mini="project.image_mini" :image="project.large_thumb" />
+                  <UtilsProjectImage data-aos="fade-up" data-aos-duration="600" options="cursor-pointer bg-gray-100 w-full object-cover rounded-2xl overflow-hidden" :mini="project.image_mini" :image="project.large_thumb" />
                 </div>
 
                 <div class="mt-5 space-y-3 px-5 pt-3 pb-8 w-full lg:w-3/4">
-                  <span @click="goTo(project.slug)" class="cursor-pointer inline-block px-4 py-1 text-sm border rounded-full tracking-wide capitalize font-medium">
+                  <span data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" @click="goTo(project.slug)" class="cursor-pointer inline-block px-4 py-1 text-sm border rounded-full tracking-wide capitalize font-medium">
 
                     <span v-if="project.client" v-html="project.client"></span>
                     <span v-else v-html="project.custom_client"></span>
 
                   </span>
-                  <h2 class="text-xl md:text-2xl 2xl:text-3xl font-semibold uppercase">
+                  <h2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" class="text-xl md:text-2xl 2xl:text-3xl font-semibold uppercase">
                     <nuxt-link :to="`/advertising/projects${project.slug}`" v-html="project.title"> </nuxt-link>
                   </h2>
-                  <ReadLessMore :text="project.body"  />
+                  <ReadLessMore data-aos="fade-up" data-aos-duration="600" data-aos-delay="400" :text="project.body"  />
                 </div>
 
               </div>

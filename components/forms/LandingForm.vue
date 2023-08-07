@@ -28,7 +28,7 @@
         </div>
         <!-- form element -->
 
-        <div class="form-element">
+        <div class="form-element" v-if="isBudget">
           <input type="text" class="form-input" v-model="form.budget" required placeholder="What is your monthly budget?">
           <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.budget">{{ errors.budget }}</span>
         </div>
@@ -80,6 +80,7 @@
   import _ from 'lodash'
 
   export default {
+    props: ['isBudget', 'type'],
     data() {
       return {
         input: null,
@@ -147,6 +148,7 @@
 
         this.$axios.$post(`https://drupal.icon-ad.com/webform_rest/submit/?_format=json`, {
               webform_id: "contact",
+              type: this.type,
               name: this.form.name,
               email: this.form.email,
               budget: this.form.budget,

@@ -7,7 +7,7 @@
 
         <div class="flex flex-col justify-between">
           <div class="space-y-5">
-            <h3 class="text-3xl md:text-4xl 2xl:text-5xl font-semibold text-white capitalize" v-html="expertise.page_title ? expertise.page_title : expertise.title "> </h3>
+            <h3 class="text-3xl md:text-4xl 2xl:text-5xl font-semibold text-white capitalize" v-html="expertise.page_title ? expertise.page_title : expertise.title"> </h3>
             <div class="text-base md:text-lg 2xl:text-xl font-light space-y-3 text-gray-200" v-html="expertise.summary"></div>
           </div>
         </div>
@@ -65,7 +65,7 @@
     <section id="ContactSection" class="contact-section text-white">
        <div class="theme-container">
          <div class="bg-gray-100 rounded-2xl overflow-hidden px-10 lg:px-0 py-32">
-          <FormsContactUs
+          <FormsContactUs :type="expertise.page_title ? expertise.page_title : expertise.title"
             :data="{
               title: 'have an',
               title2: 'impact',

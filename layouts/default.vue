@@ -1,6 +1,7 @@
 <template>
   <div>
 
+      <Chatbot />
       <HomeTopNavbar class="hidden md:block" />
       <MobileMegaMenu class="relative z-50 block md:hidden" />
 

@@ -56,6 +56,18 @@
 
 export default {
   layout: 'home',
+  head: {
+    title: 'Insights and Updates | ICON',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `Stay updated with industry insights and trends through ICON's informative blogs. Explore topics on marketing, advertising, branding, and digital strategies.`
+      } 
+    ],
+  },
   data() {
     return {
       blogs: [],

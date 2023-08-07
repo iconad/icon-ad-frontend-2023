@@ -73,7 +73,7 @@
     layout: 'branding',
 
     head: {
-      title: 'Branding Agency Dubai, Creative Brand Strategy & Design Services | ICON BrandingStudio',
+      title: 'Branding Services for Effective Communication | ICON',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

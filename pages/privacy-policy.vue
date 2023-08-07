@@ -269,11 +269,17 @@
 <script>
 export default {
   layout: 'home',
-  head() {
-    return {
-      title:
-        "Privacy & Policy | 360-Degree Marketing | ICON Advertising"
-    };
+  head: {
+    title: 'Privacy & Policy | 360-Degree Marketing | ICON Advertising',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `At ICON, we prioritize privacy. Read our privacy policy to understand how we handle your data and ensure a secure and trustworthy experience with our services.`
+      } 
+    ],
   },
   data() {
     return {

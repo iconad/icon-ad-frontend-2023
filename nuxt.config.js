@@ -17,7 +17,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "A creative advertising, branding, and digital agency located in Dubai, U.A.E. provides professional services to help clients reach their marketing and business objectives."
+          "ICON Advertising agency delivers innovative marketing solutions for businesses. Maximize your brand's potential with our comprehensive services. Contact us today!"
       },
       {
         hid: "keywords",

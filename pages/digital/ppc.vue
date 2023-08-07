@@ -8,15 +8,12 @@
                     <div class="space-y-10 py-5 h-full flex flex-col justify-center lg:pr-16">
                         <div class="space-y-5">
                             <div class="space-y-4">
-                                <h1 class="text-4xl 3xl:text-6xl font-semibold">Make Your Brand Stand Out in Dubai with <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink"> ICON </span>   </h1>
+                                <h1 class="text-4xl 3xl:text-6xl font-semibold">Boost Your Revenues and <br> Drive Sales Growth​ With our <br>  <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink"> Pay-Per-Click </span> strategies​  </h1>
                                 <!-- <h2 class="text-3xl font-semibold">Our Expertise, Your Success.</h2> -->
                             </div>
                             <div class="text-base lg:text-sm xl:text-base space-y-3">
                                 <p>
-                                    We are an experienced Dubai-based digital marketing and social media agency specialized in delivering tailor-made social media and digital marketing plans. Our strategies are not only unique to brands and their individual business needs, but also aligned with the demands of Dubai's marketplace.
-                                </p>
-                                <p>
-                                    By partnering with us, we assure enhanced engagement with your brand’s target audiences, strengthened customer loyalties, and most importantly, a higher return on investment (ROI) within Dubai and the wider region.
+                                    Welcome to ICON Advertising Agency, your trusted partner in Dubai for powerful Pay-Per-Click (PPC) solutions. We specialize in turning clicks into conversions, driving measurable results to help your business thrive in the competitive digital landscape. Our seasoned team of PPC experts will work with you to create customized, strategic campaigns designed to maximize your advertising ROI and elevate your sales performance. Experience the ICON difference and propel your business growth to new heights with our results-oriented PPC services​.
                                 </p>
                             </div>                            
                         </div>
@@ -127,52 +124,40 @@
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                         <div label="Trumpet" class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-red/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14 group-hover:text-theme-red">Content Calendars and Content Strategy</h2>        
+                            <h2 class="text-lg font-semibold group-hover:text-theme-red">Keyword Research & Strategy Planning</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    At ICON Digital, our social media team is comprised of experienced content creators and strategists who understand what it takes to develop effective content calendars and strategies.
-                                </p>
-                                <p>
-                                    By partnering with us, you can rest assured that your social media channels will be filled with high-quality, on-brand content that drives engagement and generates results.
+                                    We meticulously analyze industry trends, search patterns, and competitor data to identify high-performing keywords. These insights form the backbone of a robust PPC strategy that aligns with your business objectives and market opportunities.​
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
                         
                         <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-purple/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14  group-hover:text-theme-purple">Community Management</h2>        
+                            <h2 class="text-lg font-semibold group-hover:text-theme-purple">Campaign Creation & Management</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Our social media team has a wealth of experience in community management, and we understand that building strong relationships with your followers is crucial to the success of your social media presence.
-                                </p>
-                                <p>
-                                    We'll work closely with you to understand your brand's voice and values, and develop a strategy that fosters meaningful interactions with your audience.
+                                    Leveraging our expertise in PPC platforms like Google Ads, we create and manage campaigns that are highly targeted, delivering your message to the right people at the right time. Our efforts focus on optimizing bid management, ad placements, and scheduling for maximum visibility and engagement.
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
 
                         <div class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-sky/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14 group-hover:text-theme-sky">Paid Media</h2>        
+                            <h2 class="text-lg font-semibold group-hover:text-theme-sky">Conversion Rate Optimization</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Our team has the expertise to create customized, high-performing ads that align with your business goals.
-                                </p>
-                                <p>
-                                    With our paid media expertise, you can be confident that your ads will reach the right people, at the right time, and generate a strong return on investment.
+                                    Beyond driving traffic, our aim is to ensure your ads convert. We optimize landing pages, ad copy, and call-to-actions based on performance data and user behavior, focusing on improving your conversion rates and maximizing the return on your ad spend.    
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
 
                         <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-6 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-pink/30 transition-all">
-                            <h2 class="text-lg font-semibold h-14 group-hover:text-theme-pink">Campaign Performance Reporting</h2>        
+                            <h2 class="text-lg font-semibold group-hover:text-theme-pink">Analytics & Reporting</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Our team will work closely with you to identify the KPIs that matter most to your business, and provide actionable insights that help you improve your social media performance over time. 
-                                </p>
-                                <p>
-                                    With our campaign performance reporting expertise, you'll have a clear understanding of how your social media campaigns are performing, and the information you need to make data-driven decisions.
+                                    We believe in transparency and data-driven decisions. Our team provides comprehensive reports highlighting key performance indicators such as click-through rates, conversion rates, cost per acquisition, and overall ROI. These insights inform ongoing optimization and future strategy development.
                                 </p>
                             </div>            
                         </div>
@@ -361,18 +346,15 @@
                 <div class="w-full flex items-center">
                     <div class="space-y-10 pb-5">
                         <div class="space-y-4">
-                            <h1 class="text-4xl 3xl:text-5xl font-semibold">Get Socially Savvy with <br> ICON Digital.</h1>
-                            <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2>
+                            <h1 class="text-3xl font-semibold">Increase your sales with Expert <br> Pay-Per-Click Management</h1>
+                            <!-- <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2> -->
                         </div>
                         <div class="space-y-4 text-base lg:text-sm xl:text-base">
                             <p>
-                                We have a wealth of experience in creating and executing social media strategies across a range of platforms, including Facebook, Instagram, TikTok, LinkedIn, Twitter, and Snapchat. 
+                                At ICON Advertising, our expert's approach PPC strategies with an analytical, data-driven mindset. We start by gaining a deep understanding of your business, your goals, and your target audience. We then perform thorough keyword research, industry analysis, and competitor benchmarking to craft a tailored strategy that fits your unique needs. Our team continually monitors and optimizes your campaigns, using cutting-edge tools to analyze performance data and make necessary adjustments for maximum ROI. 
                             </p>
                             <p>
-                                Our team of social media experts understands the unique opportunities and challenges presented by each platform, and we'll work with you to develop a customized strategy that aligns with your business goals. 
-                            </p>
-                            <p>
-                                Whether you're looking to increase your followers, drive engagement, or generate leads, we have the skills and experience to deliver results.
+                                With an emphasis on high-quality traffic and conversion rates, we strive to deliver results that drive tangible business growth. At ICON, we believe in transparency and provide regular detailed reports to ensure you're fully informed of your campaign progress. Trust us to turn your PPC investment into a powerful engine for your business success​.
                             </p>
 
                         </div>
@@ -393,7 +375,7 @@
 
                 </div>
                 <div class="w-full relative ">
-                    <FormsLandingForm type="Social Media Landing Page" :isBudget="true" />
+                    <FormsLandingForm type="PPC Landing Page" :isBudget="true" />
                 </div>
             </div>
         </div>

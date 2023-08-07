@@ -5,6 +5,8 @@ export const state = () => ({
   isMenu: false,
   chooseSite: false,
   choice: null,
+  isPopupOnce: false,
+  isPopupActive: false
 })
 
 export const getters = {
@@ -13,6 +15,12 @@ export const getters = {
 
 export const mutations = {
 
+  isPopupOnce: function(state, payload) {
+    state.isPopupOnce = payload;
+  },
+  isPopupActive: function(state, payload) {
+    state.isPopupActive = payload;
+  },
   chooseSite: function(state, payload) {
     state.chooseSite = payload;
   },

@@ -34,6 +34,18 @@
 
 <script>
   export default {
-    layout: 'plus'
+    layout: 'plus',
+    head: {
+      title: 'Enhanced Advertising Solutions | ICON Plus',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: `ICON Plus offers enhanced advertising solutions in Metavers for future advertising to amplify your brand's reach. Benefit from our expertise in driving  campaigns.`
+        } 
+      ],
+    },
   }
 </script>

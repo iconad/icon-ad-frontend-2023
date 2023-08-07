@@ -1,6 +1,6 @@
 <template>
   <div :class="asset.type.toLowerCase() != 'text' ? 'bg-gray-200 rounded-xl md:rounded-3xl overflow-hidden' : ''">
-    <!-- <div class="hidden">{{asset.type}}</div> -->
+    <!-- <div class="hidden">{{asset}}</div> -->
     <client-only>
       <vue-easy-lightbox
         :visible="visible"
@@ -24,7 +24,7 @@
       <div v-html="asset.details"></div>
     </div>
     <div v-else>
-      <div @click="showLightbox(`${storageUrl}${asset.image_hd}`)" target="_blank" class="cursor-pointer">
+      <div v-if="asset.image_mini != ''" @click="showLightbox(`${storageUrl}${asset.image_hd}`)" target="_blank" class="cursor-pointer">
         <UtilsImage options="w-full atos" :mini="asset.image_mini" :image="asset.image_hd" />
       </div>
     </div>

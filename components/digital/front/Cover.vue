@@ -1,19 +1,17 @@
 <template>
-  <div class="w-full h-[70vh] sm:h-[70vh] lg:h-screen 3xl:h-[80vh] w-full flex items-center font-black relative text-center md:text-left">
+  <div class="w-full h-[70vh] sm:h-[70vh] lg:h-screen 3xl:h-[70vh] w-full flex items-center font-black relative text-center md:text-left">
       <div class="px-5 w-full space-y-10 lg:space-y-20">
 
             <div class="theme-container">
               <div class="space-y-5 lg:space-y-10">
 
-                <h1 class="text-[2rem] sm:text-[3rem] lg:text-[2.5rem] items-center w-full leading-tight italic lg:not-italic md:leading-none">
-                    <span class="inline md:block">  Revolutionize Your Business'
-                      <br class="hidden lg:block">Online Presence with Our <br class="hidden lg:block"></span>
-                      <span class="inline md:inline-block">
-                      <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-purple via-theme-pink to-theme-red font-icon"> Data-Driven Digital Marketing Strategies.</span>
+                <h1 class="text-[2rem] sm:text-[3rem] lg:text-[4rem] items-center w-full leading-tight italic lg:not-italic md:leading-none">
+                    <span class="inline md:block">  Data-Driven Digital Marketing <br class="hidden 2xl:block">
+                      <span class="text-[2rem] sm:text-[3rem] lg:text-[4rem] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-purple via-theme-pink to-theme-red font-icon"> Grow Your Business with Proven Strategies</span>
                     </span>
                 </h1>
 
-                <p class="hidden md:block text-sm md:text-base font-medium w-4/5">At Icon, we believe that creativity and strategy go hand in hand to deliver powerful results in digital marketing domain. With a deep understanding of the digital landscape and a passion for delivering sustained positive results, we're eager to partner with you on your marketing journey. Let's bring your brand's story to life and create a lasting impact in the ever-evolving world of digital marketing.</p>
+                <p class="hidden md:block text-sm md:text-base font-medium w-4/5">At Icon, we believe in the synergy between creativity and strategy in digital marketing producing impactful results. Together, we will breathe life into your brand's narrative and digital presence, making a lasting impression in the dynamic realm of digital marketing.</p>
 
 
 

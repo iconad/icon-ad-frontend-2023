@@ -2,7 +2,7 @@
   <div>
 
     <section class="projects-carousel relative" v-if="carousel.length != 0">
-      <ProjectsSelectedProjectsCarousel :projects="carousel" />
+      <ProjectsSelectedProjectsCarousel link="digital" :projects="carousel" />
     </section>
     <!-- projects carousel -->
 

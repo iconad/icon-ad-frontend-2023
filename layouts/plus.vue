@@ -2,6 +2,7 @@
   <div>
 
     <!-- <div class="this-navbar"> -->
+        <Chatbot />
         <TopNavbar class="top-navbar-1 hidden md:block" />
         <PlusMainNavbar class="top-navbar-2 hidden md:block" />
         <MobileMegaMenu class="block md:hidden" />

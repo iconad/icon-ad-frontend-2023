@@ -73,7 +73,7 @@
     layout: 'advertising',
 
     head: {
-      title: 'Creative Design Agency, Motion Graphic, 2d & 3d Animation Dubai | ICON Advertising',
+      title: 'Comprehensive Advertising Services | ICON',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

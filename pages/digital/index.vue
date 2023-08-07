@@ -120,7 +120,7 @@
     <section id="ContactSection" class="contact-section text-white pb-32">
        <div class="theme-container">
          <div class="bg-gray-100 rounded-2xl overflow-hidden px-10 lg:px-0 py-32">
-          <FormsContactUs
+          <FormsContactUs type="digital page"
             :data="{
               title: 'have an',
               title2: 'impact',
@@ -141,6 +141,19 @@
 <script>
   export default {
     name: 'home',
+
+    head: {
+      title: 'Digital Marketing Services | ICON',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: `Discover our digital marketing solutions at ICON in Dubai, U.A.E. Drive online success with data-driven strategies, content creation social media management services.`
+        } 
+      ],
+    },
 
     layout: 'digital',
 

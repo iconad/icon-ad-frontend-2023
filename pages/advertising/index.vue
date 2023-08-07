@@ -91,7 +91,7 @@
     <section id="ContactSection" class="contact-section text-white py-32">
        <div class="theme-container">
          <div class="bg-gray-100 rounded-2xl overflow-hidden px-5 md:px-10 lg:px-0 py-32">
-          <FormsContactUs
+          <FormsContactUs type="advertising page"
             :data="{
               title: 'have an',
               title2: 'impact',
@@ -127,6 +127,19 @@ import Atos from '~/utils/Atos'
 export default {
 
   layout: 'advertising',
+
+  head: {
+    title: 'Effective Advertising Services in Dubai | ICON',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `ICON Plus offers enhanced advertising solutions in Metavers for future advertising to amplify your brand's reach. Benefit from our expertise in driving  campaigns.`
+      } 
+    ],
+  },
 
   data() {
     return {

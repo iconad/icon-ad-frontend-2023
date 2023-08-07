@@ -11,7 +11,7 @@
         </div>
 
         <div class="w-full lg:w-1/2 mx-auto">
-          <FormsForm />
+          <FormsForm :type="type"/>
         </div>
 
       </div>
@@ -24,7 +24,7 @@
 
   export default {
 
-    props: ['data'],
+    props: ['data', 'type'],
 
   }
 </script>

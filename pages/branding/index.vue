@@ -88,8 +88,20 @@
   export default {
 
     name: 'BrandingHome',
-
     layout: 'branding',
+
+    head: {
+      title: 'Trusted Clients of ICON Advertising',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: `Build a strong brand identity with ICON's branding services. From logo design to brand strategy, we help businesses leave a lasting impression on their audience.`
+        } 
+      ],
+    },
 
     methods: {
 

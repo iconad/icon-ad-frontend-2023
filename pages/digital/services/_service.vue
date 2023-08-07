@@ -65,7 +65,7 @@
     <section id="ContactSection" class="contact-section text-white">
        <div class="theme-container">
          <div class="bg-gray-100 rounded-2xl overflow-hidden px-10 lg:px-0 py-32">
-          <FormsContactUs
+          <FormsContactUs :type="expertise.page_title ? expertise.page_title : expertise.title"
             :data="{
               title: 'have an',
               title2: 'impact',

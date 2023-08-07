@@ -2,7 +2,7 @@
   <div>
     <section id="ContactSection" class="contact-section bg-black text-white py-32">
        <div class="theme-container">
-         <FormsContactUsBlack
+         <FormsContactUsBlack type="contact page"
           :data="{
             title: 'have an',
             title2: 'impact',

@@ -23,7 +23,6 @@
       ></vue-easy-lightbox>
     </client-only>
 
-    {{ projectsImages }}
 
     <div id="DigitalNumbers2" class="theme-container-lg mt-16 sm:mt-32" v-if="project.numbers">
       <DigitalNumbers v-if="project.new_design === 1" :numbers="project.numbers" :image="project.phone_grid_image" />
@@ -128,7 +127,7 @@
     <section id="ContactSection" class="contact-section text-white mb-10 md:mb-16">
        <div class="theme-container">
          <div class="bg-gray-100 rounded-2xl overflow-hidden px-10 lg:px-0 py-32">
-          <FormsContactUs
+          <FormsContactUs :type="project.title"
             :data="{
               title: 'have an',
               title2: 'impact',
@@ -353,9 +352,13 @@ import Atos from '~/utils/Atos'
       ).then(res => res.json())
     },
 
-    async asyncData({ $axios, params }) {
+    async asyncData({ $axios, params, redirect }) {
 
     const project = await $axios.$get(`/projects/slug/${params.project}`)
+
+    if (!project[0]) {
+      return redirect('/digital/projects')
+    }
 
     return {
       project: project[0],
