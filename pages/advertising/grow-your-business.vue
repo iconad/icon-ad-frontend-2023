@@ -8,33 +8,19 @@
                     <div class="space-y-10 py-5 h-full flex flex-col justify-center lg:pr-16">
                         <div class="space-y-5">
                             <div class="space-y-4">
-                                <h1 class="text-3xl 3xl:text-5xl font-semibold">Maximize Your Brand's Reach with Strategic, <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink">Creative Advertising Campaigns. </span>   </h1>
-                                <!-- <h2 class="text-3xl font-semibold">Our Expertise, Your Success.</h2> -->
+                                <h1 class="text-3xl 3xl:text-5xl font-semibold">Looking for Advertising Solutions in Dubai? <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink">Explore ICON Advertising</span>   </h1>
+                                <h2 class="font-semibold bg-gray-100 text-lg p-3 rounded-2xl">Supercharge Your Campaigns with ICON: Dubai's Advertising Powerhouse</h2>
                             </div>
                             <div class="text-base lg:text-sm xl:text-base space-y-3">
                                 <p>
-                                    Icon Advertising: Your Premier Advertising Agency in Dubai Icon Advertising is a dynamic advertising agency and a leader in the Dubai market. As a team of industry professionals, we are dedicated to delivering results-driven advertising solutions for your business. Our comprehensive range of services includes strategic planning, creative design, media buying, digital advertising, and more. With our extensive experience and proven track record, we ensure that your brand stands out and excels in the competitive Dubai market.
+                                    In the realm of digital marketing, we shine as the best digital marketing agency in the UAE. With an emphasis on innovation and strategy, we transcend the ordinary, charting a course to amplify your brand's presence. Among the advertising agencies in the UAE, Icon Advertising is a trailblazer. Our collaboration with clients is a journey, where your brand becomes our brand and your success, our mission.
                                 </p>
-                                <!-- <p>
-                                    By partnering with us, we assure enhanced engagement with your brand’s target audiences, strengthened customer loyalties, and most importantly, a higher return on investment (ROI) within Dubai and the wider region.
-                                </p> -->
                             </div>                            
                         </div>
                         <div class="space-y-5 ">
-                            <p class="font-semibold bg-gray-100 text-lg p-3 rounded-2xl"> 
-                                Choose Icon Advertising as your trusted partner for advertising success. Contact us today to discuss your advertising needs and let us create memorable campaigns that elevate your brand to new heights.                            </p>
+                            
                             <div class="flex items-center space-x-2 text-sm lg:text-base">
                                 <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                                <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 py-2 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                    </svg>
-                                    <span>Call</span>
-                                </a> -->
-                                <!-- <a href="https://wa.me/+971502529223" class="svg-color-white px-4 lg:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2 whitespace-nowrap">
-                                    <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                    <span>Whatsapp</span> 
-                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -101,21 +87,11 @@
                             </h2> -->
                         </div>
                         <div class="space-y-4">
-                            <p>Let ICON be your guide. See the difference a partnership can make when you work with a team that prioritizes results and creativity. Our mission at Iconic Digital Agency is simple: develop unforgettable advertising campaigns that drive growth for your brand. Choose us as your trusted partner in carving out your space in the advertising world. Boost your brand with ICON – where creativity and results come together.</p>
+                            <p>Are you searching for one of the top-notch advertising companies in Dubai and the UAE? Look no further than ICON Advertising Agency. As a prominent marketing agency, we specialize in crafting impactful advertising campaigns that resonate with your target audience. Among the numerous advertising agencies in Dubai, we stand out by consistently delivering exceptional results that align with your business goals.</p>
                         </div>
                         <div>
                             <div class="flex items-center space-x-2 ">
                                 <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                                <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                    </svg>
-                                    <span>Call</span>
-                                </a>
-                                <a href="https://wa.me/+971502529223" class="whitespace-nowrap svg-color-white px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                    <span class="whitespace-nowrap block">Whatsapp</span>
-                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -216,38 +192,251 @@
 
         </div>
 
+
+
+        <!-- ====== FAQ Section Start -->
+        <section class="relative z-20 overflow-hidden bg-white py-20"
+        >
+        <div class="container mx-auto">
+            <div class="-mx-4 flex flex-wrap">
+            <div class="w-full px-4">
+                <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
+                <p  class="mb-4 text-2xl lg:text-3xl font-bold" >
+                    FAQs
+                </p>
+                </div>
+            </div>
+            </div>
+            <div class="-mx-4 flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8" >
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq1 = !openFaq1"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            What sets ICON Advertising apart from other advertising companies in Dubai?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq1" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            ICON Advertising stands out due to its innovative approach, experienced team of marketers, and a proven track record of successful campaigns. Our commitment to delivering exceptional results and creative excellence makes us the top choice.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                <button
+                    class="faq-btn flex w-full text-left"
+                    @click="openFaq4 = !openFaq4"
+                >
+                    <div
+                    class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                    >
+                    <svg
+                        width="17"
+                        height="10"
+                        viewBox="0 0 17 10"
+                        class="icon fill-current"
+                    >
+                        <path
+                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                        fill="#3056D3"
+                        stroke="#3056D3"
+                        />
+                    </svg>
+                    </div>
+                    <div class="w-full">
+                    <h4 class="text-lg font-semibold text-black">
+                        What expertise does ICON Advertising offer in Print and Outdoor Advertising?
+                    </h4>
+                    </div>
+                </button>
+                <div v-show="openFaq4" class="faq-content pl-[62px]">
+                    <p class="py-3 text-base leading-relaxed text-body-color">
+                        Our agency recognizes the enduring value of print and outdoor advertising. With a keen eye for design and an understanding of the local market, we craft visually appealing and strategically placed print and outdoor ads that leave a lasting impression.
+                    </p>
+                </div>
+                </div>
+                    
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq2 = !openFaq2"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            What advantages does ICON Advertising's experience in Dubai offer?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq2" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            As a prominent Dubai-based agency, ICON understands the local culture, consumer behavior, and market dynamics. This expertise enables us to create campaigns that resonate with the target audience, resulting in higher engagement and conversion rates.
+                        </p>
+                    </div>
+                    </div>
+                
+                <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq5 = !openFaq5"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            How does ICON Advertising leverage its association with Abu Dhabi and the UAE?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq5" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            Our expertise extends beyond Dubai, encompassing Abu Dhabi and the UAE. We are a leading digital marketing agency in Abu Dhabi, allowing us to tap into a wider market and provide seamless services across the Emirates.
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div class="w-full px-4">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                        <button
+                            class="faq-btn flex w-full text-left"
+                            @click="openFaq3 = !openFaq3"
+                        >
+                            <div
+                            class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                            >
+                            <svg
+                                width="17"
+                                height="10"
+                                viewBox="0 0 17 10"
+                                class="icon fill-current"
+                            >
+                                <path
+                                d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                                fill="#3056D3"
+                                stroke="#3056D3"
+                                />
+                            </svg>
+                            </div>
+                            <div class="w-full">
+                            <h4 class="text-lg font-semibold text-black">
+                                How can I get in touch with ICON Advertising to discuss my marketing needs?
+                            </h4>
+                            </div>
+                        </button>
+                        <div v-show="openFaq3" class="faq-content pl-[62px]">
+                            <p class="py-3 text-base leading-relaxed text-body-color">
+                                Getting in touch is easy! You can reach out to us through our website, give us a call, or visit our office. Our team is ready to understand your requirements and provide tailored solutions to elevate your brand through our expertise in creative campaign development, digital advertising, print and outdoor advertising, media planning, and buying.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 right-0 z-[-1]">
+            <svg
+            width="1440"
+            height="886"
+            viewBox="0 0 1440 886"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+                opacity="0.5"
+                d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+                fill="url(#paint0_linear)"
+            />
+            <defs>
+                <linearGradient
+                id="paint0_linear"
+                x1="1308.65"
+                y1="1142.58"
+                x2="602.827"
+                y2="-418.681"
+                gradientUnits="userSpaceOnUse"
+                >
+                <stop stop-color="#3056D3" stop-opacity="0.36" />
+                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        </section>
+        <!-- ====== FAQ Section End -->
+
+
         <div id="contact" class="pt-24"></div>
-
-
         <div class="w-full px-[5%] mb-10">
             <div class="flex flex-wrap lg:flex-nowrap lg:space-x-10 space-y-5 lg:space-y-0">
                 <div class="w-full flex items-center">
                     <div class="space-y-10 pb-5 w-full lg:w-4/5">
                         <div class="space-y-4">
-                            <h1 class="text-3xl 3xl:text-4xl font-semibold">Why Choose ICON for Advertising Services?</h1>
+                            <p class="text-3xl 3xl:text-4xl font-semibold">Why Choose ICON for Advertising Services?</p>
                             <!-- <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2> -->
                         </div>
                         <div class="space-y-4 text-base lg:text-sm xl:text-base">
                             <ul class="list-disc space-y-2 ml-5">
-                                <li>Experienced team: Our team consists of seasoned advertising professionals with a proven track record of delivering successful campaigns across diverse industries.</li>
-                                <li>Creativity and innovation: We pride ourselves on our creative approach, constantly pushing boundaries to develop unique and engaging advertising concepts.</li>
-                                <li>Results-driven approach: Our focus is on achieving tangible results for our clients, whether it's increased brand awareness, higher conversion rates, or improved customer engagement.</li>
-                                <li>Personalized attention: We value strong client relationships and provide personalized attention to understand your specific needs, ensuring our strategies align with your business objectives.</li>
+                                <li><b>Experienced team:</b> Our team consists of seasoned advertising professionals with a proven track record of delivering successful campaigns across diverse industries.</li>
+                                <li><b>Creativity and innovation:</b> We pride ourselves on our creative approach, constantly pushing boundaries to develop unique and engaging advertising concepts.</li>
+                                <li><b>Results-driven approach:</b> Our focus is on achieving tangible results for our clients, whether it's increased brand awareness, higher conversion rates, or improved customer engagement.</li>
+                                <li><b>Personalized attention:</b> We value strong client relationships and provide personalized attention to understand your specific needs, ensuring our strategies align with your business objectives.</li>
                             </ul>
 
                         </div>
                         <div class="flex items-center space-x-2">
                             <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                            <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                </svg>
-                                <span>Call</span>
-                            </a>
-                            <a href="https://wa.me/+971502529223" class="svg-color-white px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2 whitespace-nowrap">
-                                <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                <span>Whatsapp</span>
-                            </a> -->
                         </div>
                     </div>
 
@@ -280,14 +469,125 @@
             layout: "landing",
 
             components: { carousel },
-            head: {
-                htmlAttrs: {
-                    class: 'scroll-smooth-html'
-                },
+            head() {
+                return {
+                    htmlAttrs: {
+                        class: 'scroll-smooth-html'
+                    },
+                    title: 'Top Advertising Design & Marketing Agency in Dubai & Abu Dhabi | ICON',
+                    meta: [
+                        { charset: 'utf-8' },
+                        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                        {
+                            hid: 'description',
+                            name: 'description',
+                            content: 'Leading Dubai Advertising Agency delivering top-tier digital marketing solutions Expertise in branding, design, social media, and performance-driven marketing strategies.'
+                        }
+                    ],
+                    link: [
+                        {
+                        rel: 'canonical',
+                        href: 'https://icon-ad.com/advertising/grow-your-business',
+                        ref: 'noopener noreferrer'
+                        }
+                    ],
+                    script: [
+                        {
+                            type: 'application/ld+json',
+                            json: {
+                                "@context": "https://schema.org",
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "What sets ICON Advertising apart from other advertising companies in Dubai?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ICON Advertising stands out due to its innovative approach, experienced team of marketers, and a proven track record of successful campaigns. Our commitment to delivering exceptional results and creative excellence makes us the top choice."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "What expertise does ICON Advertising offer in Print and Outdoor Advertising?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Our agency recognizes the enduring value of print and outdoor advertising. With a keen eye for design and an understanding of the local market, we craft visually appealing and strategically placed print and outdoor ads that leave a lasting impression."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "What advantages does ICON Advertising's experience in Dubai offer?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "As a prominent Dubai-based agency, ICON understands the local culture, consumer behavior, and market dynamics. This expertise enables us to create campaigns that resonate with the target audience, resulting in higher engagement and conversion rates."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "How does ICON Advertising leverage its association with Abu Dhabi and the UAE?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Our expertise extends beyond Dubai, encompassing Abu Dhabi and the UAE. We are a leading digital marketing agency in Abu Dhabi, allowing us to tap into a wider market and provide seamless services across the Emirates."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "How can I get in touch with ICON Advertising to discuss my marketing needs?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Getting in touch is easy! You can reach out to us through our website, give us a call, or visit our office. Our team is ready to understand your requirements and provide tailored solutions to elevate your brand through our expertise in creative campaign development, digital advertising, print and outdoor advertising, media planning, and buying."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        type: 'application/ld+json',
+                        json: {
+                                "@context": "https://schema.org",
+                                "@type": "Organization",
+                                "url": "https://www.icon-ad.com",
+                                "logo": "https://icon-ad.com/logo.png"
+                            }
+                        },
+                        {
+                            type: 'application/ld+json',
+                            json: {
+                                "@context": "https://schema.org",
+                                "@type": "LocalBusiness",
+                                "name": "ICON",
+                                "address": {
+                                    "@type": "PostalAddress",
+                                    "streetAddress": "Office 306, Spectrum Building",
+                                    "addressLocality": "Oud Metha",
+                                    "addressRegion": "AE",
+                                    "postalCode": "236013",
+                                    "addressCountry": "UAE"
+                                },
+                                "telephone": "+97142636550",
+                                "priceRange": "AED",
+                                "image": "https://icon-ad.com/logo.png",
+                                "description": "A 360° Integrated Creative, Branding, Marketing and Communications Agency Based in Dubai, UAE.",
+                                "openingHours": "Mo-Fr 09:00-18:00",
+                                "geo": {
+                                    "@type": "GeoCoordinates",
+                                    "latitude": 25.232636127422968,
+                                    "longitude": 55.31103999267581
+                                },
+                            }
+                        }
+                    ]
+                }
             },
 
             data() {
                 return {
+                    openFaq1: false, 
+                    openFaq2: false, 
+                    openFaq3: false, 
+                    openFaq4: false, 
+                    openFaq5: false, 
+                    openFaq6: false,   
                     isNuxtReady: false,
                     options1: {
                         muted: true,

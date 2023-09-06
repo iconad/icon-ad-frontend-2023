@@ -1,6 +1,6 @@
 <template>
     <div id="topnavbar" class="bg-black text-white top-navbar fixed w-full left-0 top-0 z-50">
-        <div class="theme-container">
+        <div class="home-container">
             <div class="flex items-center justify-end lg:justify-between">
 
               <div class="join-us tracking-widest space-x-3 hidden lg:flex items-start text-sm lg:text-xs 2xl:text-sm">

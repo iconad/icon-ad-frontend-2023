@@ -1,21 +1,24 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-1 border-4 border-l-0 border-r-0 border-black">
-    <div v-for="(item,i) in expertises" :key="item.id" class="expertises-grid h-64 md:h-screen-50 bg-white group flex items-center justify-center transition-all relative">
+  <div class="grid grid-cols-1 gap-[1.5px] border-b">
 
-
-        <nuxt-link :to="item.link" :class='`block hover:bg-black hover:text-theme-${colors[i]} space-y-10 h-full w-full flex flex-col justify-center select-none`'>
-          <h3 class="text-3xl md:text-4xl 3xl:text-5xl font-bold text-center transition-all">
-            <span class="block mx-auto w-5/6 xl:w-4/5 3xl:w-1/2">
-              <span class="block" v-for="(text, i) in breakText(item.name)" :key="i" v-html="text"> </span>
-            </span>
-            <span class="hover:text-theme-red hover:text-theme-sky hover:text-theme-pink hover:text-theme-purple hover:text-theme-sky-dark hover:text-theme-purple"></span>
+    <div v-for="(item,i) in expertises" :key="item.id" class="expertises-grid bg-white group py-10 flex items-end justify-between transition-all relative">
+        <nuxt-link :to="item.link" :class='`flex items-center space-x-8 icon-rainbow-text-on-hover w-full select-none`'>
+          <UtilsProjectImage :options="`w-16`" :mini="item.icon_mini" :image="item.icon" />
+         
+          <h3 class="text-3xl md:text-[2.5rem] 3xl:text-5xl font-bold transition-all -space-y-px">
+            <span class="block" v-for="(text, i) in breakText(item.name)" :key="i" v-html="text"> </span>
           </h3>
-          <span class="bg-transparent block opacity-90">
-            <AssetsRightArrowWhite options="w-6 lg:w-8 3xl:w-10 h-6 lg:h-8 3xl:h-10 mx-auto" />
-          </span>
         </nuxt-link>
+        <span class="block bg-black w-7 h-7 rounded-full text-white flex items-center justify-center transition-all duration-500 group-hover:-translate-x-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+
     </div>
     <!-- item -->
+
+
   </div>
 </template>
 

@@ -1,41 +1,61 @@
 <template>
   <div>
+
+      <div class="space-y-3 mb-10">
+        <div class="text-3xl sm:text-5xl md:text-6xl font-bold icon-rainbow-text semibold flex flex-col -space-y-3">
+          <span class="block">Have</span>
+          <span class="block">an Impact</span>
+        </div>
+        <p class="font-medium">Join the most powerful brands in the world.</p>
+      </div>
+
       <form @submit.prevent="submitForm" class="form">
 
-        <div class="form-element">
-          <input type="text" class="form-input" v-model="form.name" required placeholder="Full Name">
-          <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.name">{{ errors.name }}</span>
-        </div>
-        <!-- form element -->
+        <div class="grid grid-cols-2 gap-12">
+          <div>
+            <div class="form-element">
+              <input type="text" class="form-input-line h-12" v-model="form.name" required placeholder="Full Name">
+              <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.name">{{ errors.name }}</span>
+            </div>
+            <!-- form element -->
+          </div>
+          <div>
+            <div class="form-element border-b border-gray-300">
+              <client-only>
+                <vue-tel-input
+                  class="form-element"
+                  :valid-characters-only="true"
+                  @input="onInput"
+                  v-bind="bindProps"
+                  v-model="form.phone"
+                ></vue-tel-input>
+              </client-only>
+              <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.phone">{{ errors.phone }}</span>
+            </div>
+            <!-- form element -->
+          </div>
+        
+          <div>
+            <div class="form-element">
+              <input type="text" v-model="form.email" class="form-input-line h-12" required placeholder="Email">
+              <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.email">{{ errors.email }}</span>
+            </div>
+            <!-- form element -->
+          </div>
+          <div>
+            
+            <div class="form-element">
+              <textarea type="text" v-model="form.message" class="form-input-line h-12" required placeholder="Message" ></textarea>
+              <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.message">{{ errors.message }}</span>
+            </div>
 
-        <div class="form-element">
-          <client-only>
-            <vue-tel-input
-              class="form-element"
-              :valid-characters-only="true"
-              @input="onInput"
-              v-bind="bindProps"
-              v-model="form.phone"
-            ></vue-tel-input>
-          </client-only>
-          <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.phone">{{ errors.phone }}</span>
+          </div>
         </div>
-        <!-- form element -->
-
-        <div class="form-element">
-          <input type="text" v-model="form.email" class="form-input" required placeholder="Email">
-          <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.email">{{ errors.email }}</span>
-        </div>
-        <!-- form element -->
-
-        <div class="form-element">
-          <textarea type="text" v-model="form.message" class="form-input" required placeholder="Message" rows="5"></textarea>
-          <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.message">{{ errors.message }}</span>
-        </div>
+        
 
         <!-- Captcha Start -->
         <div class="select-none transition-all duration-100 focus:outline-none active:outline-none active:border-none group flex flex-wrap items-center h-full">
-          <span :class="captcha.status ? 'bg-green-200' : 'bg-gray-300'" class="bg-opacity-75 px-4 py-2 transition-all rounded-xl block mr-3 flex items-center justify-between space-x-2 w-[50%] md:w-[30%] mb-3 md:mb-0">
+          <span :class="captcha.status ? 'bg-green-200' : 'bg-gray-200'" class="bg-opacity-75 px-4 py-2 transition-all rounded-xl block mr-3 flex items-center justify-between space-x-2 w-[50%] md:w-48 mb-3 md:mb-0">
             <span class="block">
               {{captcha.num1}}
               {{captcha.opreator}}
@@ -45,7 +65,7 @@
               =
             </span>
             <span>
-              <input type="text" v-model="input" :disabled="captcha.status" @input="checkCaptcha" class="w-10 rounded-full text-center focus:outline-none" :class="captcha.status ? 'select-none bg-green-200' : 'bg-gray-50'" placeholder="?">
+              <input type="text" max="2" v-model="input" :disabled="captcha.status" @input="checkCaptcha" class="w-10 rounded-full text-center focus:outline-none" :class="captcha.status ? 'select-none bg-green-200' : 'bg-white'" placeholder="?">
             </span>
           </span>
           <div v-if="captcha" class="w-full md:w-4/6 select-none font-medium right-0 text-sm text-left" :class=" captcha.success ? 'text-green-500' : captcha.error ? 'text-theme-red' : 'text-gray-600'">
@@ -54,9 +74,9 @@
         </div>
         <!-- Captcha End -->
           
-        <div v-if="!isLoading" class="form-element">
-          <span v-if="captcha && !captcha.status" class="text-center select-none form-button block rainbow-gray w-full cursor-not-allowed hover:bg-opacity-100"> Submit </span>
-          <input v-else type="submit" class="form-button rainbow w-full cursor-pointer hover:bg-opacity-100" value="Submit">
+        <div v-if="!isLoading" class="form-element pt-10">
+          <span v-if="captcha && !captcha.status" class="w-24 h-24 rounded-full text-sm font-medium flex items-center justify-center select-none cursor-not-allowed bg-gray-200"> Submit </span>
+          <input v-else type="submit" class="text-white w-24 h-24 icon-rainbow-bg-1 rounded-full text-sm font-medium flex items-center justify-center cursor-pointer hover:bg-opacity-100" value="Submit">
         </div>
         <!-- form element -->
 
@@ -86,7 +106,7 @@
           placeholder: "Phone number",
           required: true,
           autocomplete: "on",
-          styleClasses:"form-input"
+          styleClasses:"form-input-line h-12"
         },
         phone: {
           number: "",
@@ -181,7 +201,8 @@
   }
 
   .vti__input {
-    /* color: white!important; */
+    color: black!important;
+    /* border-bottom: 1px solid lightgray!important; */
   }
 
   .vti__input-exclude {
@@ -189,7 +210,7 @@
   }
 
   .vue-tel-input {
-    border: none !important;
+    border: none!important;
   }
 
   .vti__dropdown-list, .vti__dropdown.disabled, .vti__dropdown.open {
@@ -201,7 +222,7 @@
   }
   .vti__dropdown-list, .vti__dropdown.disabled, .vti__dropdown.open::-webkit-scrollbar-thumb {
     background-color: rgba(209, 213, 219, 1)!important;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 2px 4px 8px rgba(209, 213, 219, 0.5)!important;;
   }
 
@@ -211,7 +232,7 @@
   }
 
   .vti__dropdown {
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
 
   .vti__dropdown:hover, .vti__dropdown:focus, .vti__dropdown:active {

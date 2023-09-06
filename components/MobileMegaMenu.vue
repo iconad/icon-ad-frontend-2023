@@ -1,11 +1,11 @@
 <template>
-    <div class="bg-black text-white top-navbar fixed w-full left-0 top-0 z-10">
+    <div class="bg-white text-black top-navbar fixed w-full left-0 top-0 z-10">
       <div class="theme-container main-navbar relative z-10">
           <div class="flex items-center justify-between h-16">
 
               <div class="main-logo text-xxxs tracking-widest space-x-1 flex items-start font-medium">
                   <nuxt-link to="/">
-                    <AssetsLogoWhite options="w-[6rem] h-12"/>
+                    <AssetsLogo options="w-[6rem] h-12"/>
                   </nuxt-link>
               </div>
               <!-- Logo -->
@@ -14,13 +14,13 @@
                 <AssetsMenu options="w-8 h-8" />
               </div>
 
-              <div v-if="isMenu" class="absolute left-0 top-0 bg-theme-gray-1 w-full h-screen p-5 z-20 border-b-2 border-gray-500 md:static md:bg-transparent md:w-auto md:h-auto md:p-0 md:border-0 flex items-center justify-center md:block text-right md:text-left md:text-base">
+              <div v-if="isMenu" class="absolute left-0 top-0 bg-white w-full h-screen p-5 z-20 border-b-2 border-gray-500 md:static md:bg-transparent md:w-auto md:h-auto md:p-0 md:border-0 flex items-center justify-center md:block text-right md:text-left md:text-base">
 
-                <div class="block md:hidden absolute right-5 top-5 cursor-pointer text-gray-300 hover:text-theme-red"  @click="isMenu = !isMenu">
+                <div class="block md:hidden absolute right-5 top-5 cursor-pointer text-gray-500 hover:text-theme-red"  @click="isMenu = !isMenu">
                   <AssetsClose options="w-8 h-8" />
                 </div>
 
-                <ul v-if="isMenu" class="md:flex items-end uppercase tracking-wider space-x-0 md:space-x-10 space-y-5 md:space-y-0 text-gray-100 md:text-black">
+                <ul v-if="isMenu" class="md:flex items-end uppercase tracking-wider space-x-0 md:space-x-10 space-y-5 md:space-y-0 text-gray-900 md:text-black">
                     <li class="text-2xl md:text-base" @click="menuStatus(menu)" v-for="(menu, i) in nav" :key="i">
 
                         <div class="flex items-center justify-end space-x-3 cursor-pointer relative">
@@ -29,7 +29,7 @@
                           <span v-else class="font-bold">{{menu.name}}</span>
                           <template v-if="menu.nested">
                               <div class="absolute -right-10 top-1">
-                                <AssetsUpArrowWhite options="w-8" v-if="menu.active" />
+                                <AssetsUpArrowWh options="w-8" v-if="menu.active" />
                                 <AssetsDownArrowWhite options="w-8" v-else />
                               </div>
                           </template>
@@ -75,10 +75,6 @@ data() {
         active: false,
         nested: [
           {
-            name: 'home',
-            link: '/advertising',
-          },
-          {
             name: 'work',
             link: '/advertising/projects',
           },
@@ -93,11 +89,6 @@ data() {
         link: false,
         active: false,
         nested: [
-          {
-            name: 'home',
-            external: false,
-            link: '/digital',
-          },
           {
             name: 'work',
             external: false,
@@ -116,11 +107,6 @@ data() {
         active: false,
         nested: [
           {
-            name: 'home',
-            external: false,
-            link: '/branding',
-          },
-          {
             name: 'work',
             external: false,
             link: '/branding/projects',
@@ -129,18 +115,6 @@ data() {
             name: 'expertise',
             external: false,
             link: '/branding/expertise',
-          }
-        ]
-      },
-      {
-        name: 'plus',
-        link: false,
-        active: false,
-        nested: [
-          {
-            name: 'join the waiting list',
-            external: false,
-            link: '/plus',
           }
         ]
       },

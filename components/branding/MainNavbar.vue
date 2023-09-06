@@ -1,5 +1,5 @@
 <template>
-    <div class="main-navbar fixed top-[3rem] bg-white left-0 w-full z-50">
+    <div class="main-navbar fixed top-0 bg-white left-0 w-full z-50">
         <div class="theme-container main-navbar relative z-10">
             <div class="flex items-center justify-between h-16">
 

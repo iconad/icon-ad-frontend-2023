@@ -1,337 +1,435 @@
 <template>
-  <div class="bg-black">
+  <div>
 
-    <div class="w-full">
-      <div class="home-container relative space-y-10">
-
-        <div class="w-full pt-6 md:pt-16 flex items-center justify-center bg-black md:bg-transparent rounded-2xl overflow-hidden">
-          <div class="w-full h-auto bg-white box-shadow overflow-hidden rounded-2xl overflow-hidden">
-            <client-only>
-              <vimeo-player
-                v-cloak
-                @ready="onReady"
-                ref="player"
-                :options="options"
-                :video-id="`766097376`"
-              ></vimeo-player>
-            </client-only>
-          </div>
-        </div>
-        <!-- video -->
-
-
-
-        <div class="w-full text-white pt-10 py-20">
-
-          <div class="flex flex-wrap lg:flex-nowrap justify-between space-x-0 lg:space-x-10 space-y-10 lg:space-y-0">
-              <div class="w-full lg:w-1/2">
-
-                <div class="text-white space-y-5">
-                  <h1 data-aos="fade-in" data-aos-duration="500" data-aos-delay="100" class="text-3xl md:text-4xl font-bold font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-pink to-theme-pink">Creativity & Brand <br class="hidden lg:block"> Experience  Reimagined!</h1>
-                  <h2 data-aos="fade-in" data-aos-duration="500" data-aos-delay="200" class="text-xl leading-lose">A 360° Integrated Creative, Branding, Marketing and Communications Agency Based in Dubai, UAE.</h2>
-                </div>                
-
-              </div>
-              <div class="w-full lg:w-1/2">
-
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="w-full space-y-2 lg:ml-auto">
-                          <h2 class="text-lg font-semibold">We Actively Listen</h2>        
-                          <div class="text-sm">
-                              <p>
-                                Listening to our clients as well as the target audience, we see conversations as a chance to discover, understand, evaluate, and implement successful projects with results that positively impact the audience’s life our partners' brand perception.
-                              </p>
-                          </div>            
-                      </div>
-                      <!-- #item -->
-                      
-                      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" class="w-full space-y-2 lg:mr-auto">
-                          <h2 class="text-lg font-semibold">We're Creative and Data-driven</h2>        
-                          <div class="text-sm">
-                              <p>
-                                We challenge stereotypes in every aspect of our work, while our creatives seamlessly collaborate with our strategy and planning teams, with the ultimate goal of conceptualizing, executing and delivering award-winning campaigns.
-                              </p>
-                          </div>            
-                      </div>
-                      <!-- #item -->
-
-                      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="w-full space-y-2 lg:ml-auto">
-                          <h2 class="text-lg font-semibold">We're In It Together</h2>        
-                          <div class="text-sm">
-                              <p>
-                                We’re at our best when we work together, with our clients, partners and colleagues, our work environment is diverse, creative-oriented and most importantly people centric agency.
-                              </p>
-                          </div>            
-                      </div>
-                      <!-- #item -->
-
-                      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" class="w-full space-y-2 lg:mr-auto">
-                          <h2 class="text-lg font-semibold">We're Positive</h2>        
-                          <div class="text-sm">
-                              <p>
-                                We seek solutions to problems and always find a way forward, we bring passion and energy to every situation we encounter.
-                              </p>
-                          </div>            
-                      </div>
-                      <!-- #item -->
-
-                  </div>
-              </div>
+    <section class="first-section bg-white pt-10 md:pt-20 pb-16 md:pb-32 rounded-b-[50px] relative z-10 border-t border-b overflow-hidden">
+      <div class="home-container">
+        <div class="flex flex-col">
+          
+          <div class="flex flex-wrap md:flex-nowrap">
+            <div class="w-full">
+              <h1 class="icon-rainbow-text text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold -space-y-2 md:-space-y-3 -tracking-[1px] md:-tracking-[3px]">
+                <span class="block md:h-[77px]">Creativity &</span>
+                <span class="block md:h-[77px]">Brand Experience</span>
+                <span class="block md:h-[77px]">Reimagined!</span>
+              </h1> 
+            </div>
+            <div class="w-1/2 h-full hidden md:block">
+              <div class="h-full"></div>
+            </div> 
           </div>
 
+          <div class="flex flex-wrap md:flex-nowrap items-end">
+            <div class="order-2 md:order-1 w-full">
+
+              <div class="flex items-center justify-start space-x-1 mt-10">
+              
+                <AssetsAnimatedButtonOne 
+                  text="Our case studies" 
+                  target="projects" 
+                  backgroundcolor="bg-gray-900" 
+                  backgroundcoloronhover="transparent" 
+                  textcolor="text-gray-900"
+                  textcoloronhover="text-gray-900"
+                  bordercolor="border-gray-900" />
+
+              </div>
+            </div>
+
+            <div class="order-1 md:order-2 w-full md:w-1/3">
+              <div class="h-auto pt-5 md:pt-10">
+                <p class="font-medium">
+                  A 360° Integrated Creative, <br class="hidden md:block"> 
+                  Branding, Marketing and <br class="hidden md:block"> 
+                  Communications Agency Based <br class="hidden md:block">
+                  in Dubai, UAE. </p>
+              </div>
+            </div> 
+          </div>
+
+
         </div>
-        <!-- Profile -->
       </div>
-
-      <section id="Clients" class="clients-section py-32 3xl:py-64 bg-[#1A1A1A] text-white relative z-10">
-        <AdvertisingClientClientsWhite />
-      </section>
-      <!-- clients -->
-
-      <div class="home-container">
-        
-        <div class="pt-10">
-
-          <h3 data-aos="fade-in" data-aos-duration="500" data-aos-delay="100" class="text-3xl pt-10 lg:text-4xl 3xl:text-5xl uppercase text-white text-center font-bold w-5/6 lg:w-auto mx-auto"> our services </h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-white w-full py-20">
-
-            <nuxt-link to="/advertising" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="100" class="block hover:shadow-2xl hover:shadow-theme-red/30 transition-all px-6 py-10 space-y-10 bg-theme-gray-dark rounded-2xl">
-              <div class="md:h-10 2xl:h-20 flex items-start justify-center">
-                <img src="https://drupal.icon-ad.com/sites/default/files/styles/large/public/2023-06/ad.png?itok=ziE4tbWs" class="w-1/3 md:w-1/2 mx-auto" alt="icon advertising">
-              </div>
-              <span class="block text-center">
-                <span class="text-sm md:text-base font-semibold text-center text-theme-red">Advertising & Creative arm of ICON</span>
-                <!-- <span class="text-xs">
-                  ICON's Advertising division possesses a diverse range of creative abilities in various fields such as advertising, design, content creation, conceptualization, media production, storytelling, and public relations. This broad range of skills enables us to stand out and lead the industry in the MENA region by utilizing our vision, imagination, and creativity along with practical B2C & B2B marketing insights and audience findings.
-                </span> -->
-              </span>
-            </nuxt-link>
-
-            <nuxt-link to="/digital" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="100" class="block hover:shadow-2xl hover:shadow-theme-pink/30 transition-all px-6 py-10 space-y-10 bg-theme-gray-dark rounded-2xl">
-              <div class="md:h-10 2xl:h-20 flex items-start justify-center">
-                <img src="https://drupal.icon-ad.com/sites/default/files/styles/large/public/2023-06/digital.png?itok=jFgqlzxo" class="w-1/3 md:w-1/2 mx-auto" alt="icon digital">
-              </div>
-              <span class="block text-center">
-                <span class="text-sm md:text-base font-semibold text-center text-theme-pink">Digital Planning & Marketing</span>
-                <!-- <span class="text-xs">
-                  ICON's Digital division is equipped with a profound comprehension of the modern-day competitive digital landscape, enabling brands to establish a powerful digital footprint with a complete range of data-driven digital services, from the initial stages such as strategy development, platform management, and design to media buying, engagement, and content creation specifically customized for all industry platforms and committed to staying up to date with the most recent tools and trends and measurable performance.                </span> -->
-              </span>
-            </nuxt-link>
-
-            <nuxt-link to="/branding" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" class="block hover:shadow-2xl hover:shadow-theme-purple/30 transition-all px-6 py-10 space-y-10 bg-theme-gray-dark rounded-2xl">
-              <div class="md:h-10 2xl:h-20 flex items-start justify-center">
-                <img src="https://drupal.icon-ad.com/sites/default/files/styles/large/public/2023-06/branding.png?itok=MOYP4UwI" class="w-1/3 md:w-1/2 mx-auto" alt="icon branding">
-              </div>
-              <span class="block text-center">
-                <span class="text-sm md:text-base font-semibold text-center text-theme-purple">Branding & Brand Strategy Solutions </span>
-                <!-- <span class="text-xs">
-                  ICON's Branding division is committed to helping brands enhance their influence and distinctiveness by differentiating themselves from competitors and offering compelling reasons for their target audience to choose them. We adopt a comprehensive approach to Sonic, motion, and sensory branding, covering everything from creating brand strategies to establishing positioning and propositions. Whether we are developing a new branding concept or designing and launching an integrated branding campaign, our goal is to collaborate with brands to create a lasting impact on their audience.                </span> -->
-              </span>
-            </nuxt-link>
-
-            <nuxt-link to="/plus" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" class="block hover:shadow-2xl hover:shadow-theme-sky/30 transition-all px-6 py-10 space-y-10 bg-theme-gray-dark rounded-2xl">
-              <div class="md:h-10 2xl:h-20 flex items-start justify-center">
-                <img src="https://drupal.icon-ad.com/sites/default/files/styles/large/public/2023-06/plus.png?itok=Ao979LCP" class="w-1/3 md:w-1/2 mx-auto" alt="plus logo">
-              </div>
-              <span class="block text-center">
-                <span class="text-sm md:text-base font-semibold text-center text-theme-sky">Tech, Metaverse, Web3, VR , AR +</span>
-                <!-- <span class="text-xs">
-                  ICON's digital transformation division is proficient in UI, UX, web development, web3, platform design, Metaverse, and app integrations, which empowers us to deliver captivating and immersive brand experiences for global brands. By creating engaging and interactive digital experiences, we bring brands to life and establish lasting connections between companies and their target audience. Our expertise extends to designing experiences for various applications, whether it's a mobile app, an augmented reality solution, or a retailer's journey.                </span> -->
-              </span>
-            </nuxt-link>
-
-          </div>
-
-        </div>
-        <!-- services -->
-        </div>
-
-
-        <section class="py-32 3xl:py-64 bg-[#1A1A1A] text-white relative z-10 px-4 lg:px-0">
-
-          <h3 data-aos="fade-in" data-aos-duration="500" data-aos-delay="100" class="text-3xl lg:text-4xl 3xl:text-5xl uppercase text-white text-center font-bold w-5/6 lg:w-auto mx-auto pb-10"> ICON at a Glance </h3>
-
-          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 justify-center pt-10 w-full lg:w-3/4 2xl:w-2/3 mx-auto">
-
-            <!-- hover:shadow-2xl hover:shadow-theme-red/30 -->
-            <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="100" class="w-full transition-all duration-400 md:w-[16rem] mx-auto bg-[#1A1A1A] rounded-lg text-white px-5 py-10 space-y-8 text-left">
-              <div class="text-2xl md:text-3xl leading-none">
-                <span class="block text-5xl mb-3 font-semibold rainbow-text-more-red">15+</span>
-                <span class="block font-semibold">YEARS</span>
-                <span class="block font-semibold">EXPERIENCE</span>
-              </div>
-              <div class="text-lg uppercase hidden">
-                <span class="block">Reached with our</span>
-                <span class="block">BTL, ATL, & TTL</span>
-                <span class="block">campaigns</span>
-              </div>
-            </div>
-            <!-- glance box -->
-
-            <!-- hover:shadow-2xl hover:shadow-theme-sky/30 -->
-            <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="200" class="w-full transition-all duration-400 md:w-[16rem] mx-auto bg-[#1A1A1A] rounded-lg text-white px-5 py-10 space-y-8 text-left">
-              <div class="text-2xl md:text-3xl leading-none">
-                <span class="block text-5xl mb-3 font-semibold rainbow-text-more-red">16+</span>
-                <span class="block font-semibold">GLOBAL</span>
-                <span class="block font-semibold">BRANDS</span>
-              </div>
-              <div class="text-lg uppercase hidden">
-                <span class="block">Worked with us</span>
-                <span class="block">during the the first</span>
-                <span class="block">two quarters</span>
-              </div>
-            </div>
-            <!-- glance box -->
-
-            <!-- hover:shadow-2xl hover:shadow-theme-red/30 -->
-            <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" class="w-full transition-all duration-400 md:w-[16rem] mx-auto bg-[#1A1A1A] rounded-lg text-white px-5 py-10 space-y-8 text-left">
-              <div class="text-2xl md:text-3xl leading-none">
-                <span class="block text-5xl mb-3 font-semibold rainbow-text-more-red">45+</span>
-                <span class="block font-semibold">IN-HOUSE</span>
-                <span class="block font-semibold">TEAM</span>
-              </div>
-              <div class="text-lg uppercase hidden">
-                <span class="block">Positively impacted</span>
-                <span class="block">by our CTAs</span>
-              </div>
-            </div>
-            <!-- glance box -->
-
-            <!-- hover:shadow-2xl hover:shadow-theme-sky/30 -->
-            <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" class="w-full transition-all duration-400 md:w-[16rem] mx-auto bg-[#1A1A1A] rounded-lg text-white px-5 py-10 space-y-8 text-left">
-              <div class="text-2xl md:text-3xl leading-none">
-                <span class="block text-5xl mb-3 font-semibold rainbow-text-more-red">500+</span>
-                <span class="block font-semibold">CLIENTS</span>
-              </div>
-              <div class="text-lg uppercase hidden">
-                <span class="block">Worked with us</span>
-                <span class="block">during the the first</span>
-                <span class="block">two quarters</span>
-              </div>
-            </div>
-            <!-- glance box -->
-
-          </div>
-        </section>
-        <!-- clients -->
-
-      <div class="home-container">
-
-        <section id="projectsSection" class="relative">
-
-          <h3 data-aos="fade-in" data-aos-duration="500" data-aos-delay="100" class="pb-20 lg:pb-0 text-3xl pt-20 lg:text-4xl 3xl:text-5xl uppercase text-white text-center font-bold w-5/6 lg:w-auto mx-auto"> Recent Projects </h3>
-
-          <div class="front-projects px-0 md:px-5 pb-10">
-              <AdvertisingProjectProjects page="home" mode="dark" :from="0" :to="8" />
-          </div>
-        </section>
-        <!-- projects -->
-
-      </div>      
-    </div>
-
-
-        <!-- <section 
-        data-aos="fade-in" 
-        data-aos-delay="500" 
-        data-aos-duration="200"
-        data-aos-easing="ease-in-out-cubic"
-        class="text-white text-5xl">This should fade in</section> -->
-
-    <section id="ContactSection" class="contact-section bg-theme-gray-dark bg-opacity-50 text-white py-32">
-       <div class="theme-container">
-         <FormsContactUsBlack type="home page"
-          :data="{
-            title: 'have an',
-            title2: 'impact',
-            subtitle: '',
-            subtitle2: ''
-         }"
-          />
-       </div>
+      <!-- cover container -->
     </section>
-    <!-- contact section end -->
 
-    <section class="pb-20 bg-theme-gray-dark bg-opacity-50 text-white">
+    <section class="video-section h-auto md:h-screen overflow-hidden w-full">
+      <div class="w-full h-auto -z-[1]">
+        <client-only>
+          <vimeo-player
+            v-cloak
+            @ready="onReady"
+            ref="player"
+            :options="options"
+            :video-id="`853339800`"
+          ></vimeo-player>
+        </client-only>
+      </div>
+      <!-- video -->      
+    </section>
+    <!-- video section -->
+    <!-- <div class="md:h-screen"></div> -->
+
+    <section class="services-section py-20 md:py-32 bg-white border-t">
+
       <div class="home-container">
+        <div class="text-4xl md:text-4xl tracking-title leading-none">
+          <span class="block">Experience our</span>
+          <span class="inline-block font-bold icon-rainbow-text">Cutting-edge Services</span>
+        </div>
+      </div>        
 
-        <h3 data-aos="fade-in" data-aos-duration="500" data-aos-delay="100" class="text-3xl pb-20 lg:text-4xl 3xl:text-5xl uppercase text-white text-center font-bold w-5/6 lg:w-auto mx-auto"> Blogs </h3>
+        <div class="mt-10 pl-[5%] md:pl-[10%]" id="carousel-services">
+          <CarouselHomeServices />
+        </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-5 w-full">
-          <div class="border border-theme-gray-dark hover:bg-transparent transition-all bg-theme-gray-dark rounded-xl overflow-hidden w-full" v-for="(blog, i) in blogs" :key="i" data-aos="zoom-in" data-aos-duration="500" :data-aos-delay="i*150" >
-            <AdvertisingBlogBlockFeatured :blog="blog"/>
+    </section>
+    <!-- services -->
+
+    <section class="pt-20 md:pt-32 py-32 featured-projects advertising-projects featured-advertising-projects bg-black border-t text-white">
+
+      <div class="home-container relative">
+        <div class="md:flex items-end md:space-x-10 space-y-2 md:space-y-0">
+          <span class="text-3xl md:text-4xl block font-bold">Advertising</span>
+          <p class="text-sm">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
+        </div>
+
+        <nuxt-link to="/advertising" class="w-full md:w-40 h-10 block absolute right-0 -bottom-16 md:top-1 icon-rainbow-bg-1 p-1 group rounded-full overflow-hidden">
+          <span class="flex items-center justify-center absolute bg-black text-white top-[2.5%] md:top-[2.5%] left-[0.5%] md:left-[1%] group-hover:text-white group-hover:bg-transparent transition-all text-sm rounded-full w-[99%] md:w-[98%] h-[95%]">View all cases</span>
+        </nuxt-link>
+
+        <div class="mt-10">
+          <CarouselFeaturedProjects :projects="advertisingProjects" />
+        </div>
+
+      </div>
+      <!-- container -->
+
+    </section>
+    <!-- advertising projects -->
+
+
+    <section class="pt-20 md:pt-32 py-32 featured-projects featured-digital-projects border-t border-gray-600 bg-black text-white">
+
+      <div class="home-container relative">
+        <div class="md:flex items-end md:space-x-10 space-y-2 md:space-y-0">
+          <span class="text-3xl md:text-4xl block font-bold">Digital</span>
+          <p class="text-sm">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
+        </div>
+
+        <nuxt-link to="/advertising" class="w-full md:w-40 h-10 block absolute right-0 -bottom-16 md:top-1 icon-rainbow-bg-1 p-1 group rounded-full overflow-hidden">
+          <span class="flex items-center justify-center absolute bg-black text-white top-[2.5%] left-[0.5%] md:left-[1%] group-hover:text-white group-hover:bg-transparent transition-all text-sm rounded-full w-[99%] md:w-[98%] h-[95%]">View all cases</span>
+        </nuxt-link>
+
+        <div class="mt-10">
+          <CarouselFeaturedProjects :projects="digitalProjects" />
+        </div>
+
+      </div>
+      <!-- container -->
+
+    </section>
+    <!-- digital projects -->
+
+
+    <section class="scroll-section pt-20 md:pt-32 py-32 featured-projects featured-branding-projects bg-black border-t border-gray-600 text-white">
+
+      <div class="home-container relative">
+        <div class="md:flex items-end md:space-x-10 space-y-2 md:space-y-0">
+          <span class="text-3xl md:text-4xl block font-bold">Branding</span>
+          <p class="text-sm">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
+        </div>
+
+        <nuxt-link to="/advertising" class="w-full md:w-40 h-10 block absolute right-0 -bottom-16 md:top-1 icon-rainbow-bg-1 p-1 group rounded-full overflow-hidden">
+          <span class="flex items-center justify-center absolute bg-black text-white top-[2.5%] left-[0.5%] md:left-[1%] group-hover:text-white group-hover:bg-transparent transition-all text-sm rounded-full w-[99%] md:w-[98%] h-[95%]">View all cases</span>
+        </nuxt-link>
+
+        <div class="mt-10">
+          <CarouselFeaturedProjects :projects="brandingProjects" />
+        </div>
+
+      </div>
+      <!-- container -->
+
+    </section>
+    <!-- branding projects -->        
+
+
+    <section class="about-icon bg-white border-t ">
+        <div class="h-20"></div>
+
+          <div class="home-container">
+            <div class="flex flex-col md:flex-row items-center justify-between py-10 md:py-20 md:h-screen relative">
+              
+              <div class="order-2 md:order-1 flex flex-col justify-between space-y-20 relative z-[10]">
+                <div class="space-y-5">
+                  <div class="font-medium icon-rainbow-text text-lg">About ICON</div>
+                  <h3 class="font-bold text-4xl md:text-5xl -space-y-px -tracking-[1px]"> 
+                    <span class="block">We are not just a</span>
+                    <span class="block">360 Integrated</span> 
+                    <span class="block">Marketing,</span> 
+                    <span class="block">Branding and </span> 
+                    <span class="block">Communications</span>
+                    <span class="block">Agency</span>
+                  </h3>
+                </div>
+                <div class="flex items-center space-x-5">
+                  
+                  <AssetsAnimatedButtonOne 
+                  text="More About Us" 
+                  target="projects" 
+                  backgroundcolor="bg-gray-900" 
+                  backgroundcoloronhover="transparent" 
+                  textcolor="text-gray-900"
+                  textcoloronhover="text-gray-900"
+                  bordercolor="border-gray-900" />
+
+
+                  <nuxt-link to="/contact" class="rainbow-border rounded-full p-[2px] group overflow-hidden inline-block">
+                    <span class="inline-block bg-white text-black rounded-full px-8 md:px-12 py-2 group-hover:text-white group-hover:bg-transparent">Contact Us</span>
+                  </nuxt-link>       
+                         
+                </div>
+              </div>
+
+              <img src="https://icon-ad.com/assets/donut.png" alt="donug image" class="order-1 md:order-2 mb-16 w-[40rem] md:absolute right-[0%] md:-right-[14%] -bottom-[60%] md:top-[12%] md:top-[8%] z-1">
+
+            </div>
+          </div>
+          <!-- container -->
+
+          <div class="h-32"></div>
+
+
+          <div class="bg-white border-t  relative z-[1]">
+
+            <HomeCounterNumbers />
+
+          </div>
+          <!-- numbers -->        
+
+
+    </section>
+    <!-- about icon -->
+
+
+    <section class="clients-section bg-black text-white py-24 md:py-48">
+
+      <div class="home-container">
+        <HomeFeaturedClients />
+      </div>
+      <!-- container -->
+
+    </section>
+    <!-- clients -->
+
+
+    <section class="makes-us-different-section py-32 bg-white border-t">
+
+      <div class="home-container space-y-10">
+
+        <div class="text-3xl md:text-4xl block font-bold">What makes us <br class="hidden md:block"> different</div>
+
+        <CarouselMakesUsDifferent />
+
+      </div>
+      <!-- container -->
+
+    </section>
+    <!-- what makes us different -->
+
+
+    <section class="blogs-section pt-32 bg-white border-t">
+
+      <div class="home-container space-y-10 relative">
+
+        <div class="text-3xl md:text-4xl block font-bold">Blogs</div>
+
+        <CarouselFeaturedBlogs :blogs="blogs" />          
+
+      </div>
+      <!-- container -->        
+
+    </section>
+    <!-- blogs -->
+
+
+    <!-- contact section below -->
+    <section class="h-[45vh] md:h-[80vh] md:py-0 relative bg-white mt-32 md:mt-0">
+        <div class="flex flex-wrap md:flex-nowrap items-center absolute inset-0 overflow-hidden select-none">
+          <div class="order-2 md:order-1 w-full md:w-1/2 flex self-start pt-10 md:pt-40">
+            <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1693306590/image5_pzofqx.png" alt="image" class="select-none">
+          </div>
+          <div class="order-1 md:order-2 w-full md:w-1/2 flex justify-center md:block">
+              <div class="space-y-5">
+                <div class="text-4xl md:text-3xl md:text-6xl font-bold icon-text icon-rainbow-text -space-y-3 md:-space-y-1">
+                  <span class="h-12 md:h-14 block">Embrace the</span> 
+                  <span class="h-12 md:h-16 block">Digital Era with Us</span>
+                </div>
+
+                <div class="flex items-center space-x-5">
+                  <AssetsAnimatedButtonsmOne 
+                  text="More About Us" 
+                  target="projects" 
+                  backgroundcolor="bg-gray-900" 
+                  backgroundcoloronhover="transparent" 
+                  textcolor="text-gray-900"
+                  textcoloronhover="text-gray-900"
+                  bordercolor="border-gray-900" />
+
+
+                  <nuxt-link to="/contact" class="rainbow-border rounded-full p-[2px] group overflow-hidden inline-block">
+                    <span class="inline-block bg-white text-black rounded-full px-8 md:px-12 py-2 group-hover:text-white group-hover:bg-transparent">Contact Us</span>
+                  </nuxt-link> 
+                </div>  
+
+              </div>
           </div>
         </div>
-        <!-- grid -->
-      </div>
-  </section>
-
+    </section>
 
   </div>
 </template>
 
 <script>
 
-import setupSplits from '~/utils/setupSplits'
-
 export default {
+    layout: 'default',
+    data() {
+        return {
+            isNuxtReady: true,
+            projectsLimit: 4,
+            isVideoLoading: true,
+            options: {
+                muted: true,
+                autoplay: true,
+                background: true,
+                loop: true,
+                responsive: true,
+                controls: true,
+                portrait: false,
+                byline: false,
+                color: "000000",
+                title: false
+            },
+        };
+    },
+    mounted() {
+      
+      // this.initParallaxEffect();
+      // this.firstSection();
 
-  layout: 'default',
+      // this.$lenis.on('scroll', this.scrollTrigger.update);
 
-  data() {
-    return {
-      projectsLimit: 4,
-      isVideoLoading: true,
-      options: {
-        muted: true,
-        autoplay:true,
-        responsive:true,
-        controls:true,
-        portrait:false,
-        byline:false,
-        color:"000000",
-        title:false
+      // this.gsap.ticker.add((time) => {
+        // this.$lenis.raf(time * 1000);
+      // });
+
+      // this.gsap.ticker.lagSmoothing(0);
+
+    },
+    methods: {
+
+      firstSection () {
+
+        let q = this.gsap.utils.selector(this.$el);
+        const serSection = q(".services-section");
+        const videoSec = q(".video-section");
+
+        this.gsap.to(videoSec, {
+          y: "100%",
+          scrollTrigger: {
+            trigger: serSection,
+            start: "center center",
+            end: "bottom bottom",
+            scrub: true
+          }
+        })
+
+
+        
+
       },
-    }
-  },
 
-  methods: {
+      initParallaxEffect() {
+        const sections = this.gsap.utils.toArray('.scroll-section');
 
-    onReady () {
-      this.isVideoLoading = false
-    }
+        sections.forEach((element, index) => {
+          const startCondition = element.offsetHeight < window.innerHeight ? "top top" : "bottom+=20% bottom";
 
-    // setupSplits(element)
+          this.gsap.to(element, {
+            y: '-50vh',  // Adjust this value for the desired upward movement.
+            scrollTrigger: {
+              trigger: element,
+              start: () => startCondition,
+              end: () => {
+                  // Extend the scroll distance by the height we're moving the section up
+                const endValue = startCondition === "top top" ? "bottom+=50vh top" : "bottom top+=50vh";
+                return endValue;
+              },
+              pin: true,
+              pinSpacing: false,
+              scrub: 1,
+              // markers: true,
+            }
+          });          
+        });
 
-  },
 
-  computed: {
-    video: {
-      get: function () {
-        return this.$store.state.isCoverVideo
+        let q = this.gsap.utils.selector(this.$el);
+        const scrollSectionLast = q(".scroll-section-last");
+
+          this.gsap.to(scrollSectionLast, {
+            y: '-5vh',  // Adjust this value for the desired upward movement.
+            scrollTrigger: {
+              trigger: scrollSectionLast,
+              start: "bottom bottom",
+              end: "bottom top",
+              scrub: 1
+            }
+        });
+
       },
-      set: function (value) {
-        this.$store.commit('setIsCoverVideo', value)
+    
+      onReady() {
+          this.isVideoLoading = false;
       }
-    }
-  },
+      // setupSplits(element)
+    },
+    computed: {
+        video: {
+            get: function () {
+                return this.$store.state.isCoverVideo;
+            },
+            set: function (value) {
+                this.$store.commit('setIsCoverVideo', value);
+            }
+        }
+    },
+    async asyncData({ $axios, store }) {
+      try {
+          const [blogs, projects, clients] = await Promise.all([
+              $axios.$get(`/blogs/featured?_format=json&page=0`),
+              $axios.$get(`/projects/homefeatured`),
+          ]);
 
+          store.commit('project/setFeaturedProjects', projects);
 
-  async asyncData({ $axios, store }) {
+          const advertisingProjects = projects.filter(project => project.subsidiary.includes('Advertising'));
+          const brandingProjects = projects.filter(project => project.subsidiary.includes('Brand'));
+          const digitalProjects = projects.filter(project => project.subsidiary.includes('Digital'));
 
-    const blogs = await $axios.$get(`/blogs/featured?_format=json&page=0`)
-    const projects = await $axios.$get(`/projects/homefeatured`)
-    const clients = await $axios.$get(`/all-clients`)
-
-      store.commit('project/setFeaturedProjects', projects)
-
-
-      return {
-        blogs,
-        projects,
-        clients
+          return {
+              blogs,
+              projects,
+              advertisingProjects,
+              brandingProjects,
+              digitalProjects,
+          };
+      } catch (error) {
+          console.error("Error fetching data: ", error);
+          throw error;
       }
-    }
+    },
 
 }
 

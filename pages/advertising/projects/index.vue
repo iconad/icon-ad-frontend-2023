@@ -1,77 +1,35 @@
 <template>
   <div>
 
-    <section class="projects-carousel relative" v-if="carousel.length != 0">
-      <ProjectsSelectedProjectsCarousel link="advertising" :projects="carousel" />
+    <section id="coverSection">
+        <ProjectsPageCover 
+          :button="false"
+          buttontext="" 
+          tline1="Some of" 
+          tline2="our finest work"
+          :carousel="carousel"
+          link="advertising"
+          :about="null"  />
     </section>
-    <!-- projects carousel -->
+    <!-- cover section -->
 
-    <div class="projects-main" :class="carousel.length != 0 ? 'mt-20 mb-20 lg:mb-32' : 'mt-[11rem] mb-20 lg:mb-32' ">
+    <div class="projects-main bg-black text-white pb-32 rounded-3xl pt-[35rem]">
 
-      <div class="theme-container">
-
-        <div class="projects-filter lg:flex items-center justify-center space-y-3 lg:space-y-0 lg:space-x-10 bg-gray-100 w-full rounded-xl mx-auto p-5">
-
-
-
-          <div class="text-lg w-full border-b border-gray-300 pb-3">
-            <select @change="onFilterUpdate()" v-model="selectedExpertie" class="bg-transparent w-full focus:outline-none">
-              <option value="0" selected> Expertise </option>
-              <option v-for="(expert, i) in expertise" :key="i" :value="expert.name" v-html="removeHash(expert.name)"></option>
-
-            </select>
-          </div>
-
-
-          <div class="text-lg w-full lg:border-b border-gray-300 lg:pb-3">
-            <select @change="onFilterUpdate()" v-model="selectedIndustry" class="bg-transparent w-full focus:outline-none">
-              <option value="0" selected> Industry </option>
-              <option v-for="(industry, i) in industries" :key="i" :value="industry.name" v-html="industry.name"></option>
-            </select>
-          </div>
-
-          <div class="cursor-pointer hidden">
-            <AssetsLayoutOne options="w-6 h-6 text-gray-500" />
-          </div>
-
-        </div>
-        <!-- projects filter -->
+      <div class="home-container">
 
         <div v-if="projects.length != 0" class="projects mt-20">
-          <!-- <div class="projects-masonry-grid gap-16 grid grid-cols-2 grid-flow-row"> -->
-            <client-only>
-              <masonry :cols="{default: 2, 920: 1}" :gutter="{default: '50px', 1120: '20px', 880: '50px'}" >
-              <div class="mb-10" v-for="(project, i) in projects" :key="i">
-
-
-                <div @click="goTo(project.slug)">
-                  <UtilsProjectImage data-aos="fade-up" data-aos-duration="600" options="cursor-pointer bg-gray-100 w-full object-cover rounded-2xl overflow-hidden" :mini="project.image_mini" :image="project.large_thumb" />
-                </div>
-
-                <div class="mt-5 space-y-3 px-5 pt-3 pb-8 w-full lg:w-3/4">
-                  <span data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" @click="goTo(project.slug)" class="cursor-pointer inline-block px-4 py-1 text-sm border rounded-full tracking-wide capitalize font-medium">
-
-                    <span v-if="project.client" v-html="project.client"></span>
-                    <span v-else v-html="project.custom_client"></span>
-
-                  </span>
-                  <h2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" class="text-xl md:text-2xl 2xl:text-3xl font-semibold uppercase">
-                    <nuxt-link :to="`/advertising/projects${project.slug}`" v-html="project.title"> </nuxt-link>
-                  </h2>
-                  <ReadLessMore data-aos="fade-up" data-aos-duration="600" data-aos-delay="400" :text="project.body"  />
-                </div>
-
-              </div>
-              </masonry>
-            </client-only>
-          <!-- </div> -->
-          <!-- projects-masonry-grid -->
+          <div class="grid grid-cols-2 gap-10" >
+            <div class="mb-10" v-for="(project, i) in projects" :key="i">
+              <ProjectsProject mode="dark" link="advertising" height="h-80" :project="project" class="project"/>
+            </div>
+          </div>
         </div>
         <!-- projects -->
 
         <div v-else class="h-[40vh] flex items-center justify-center">
           <p class="text-lg font-semibold opacity-50">0 Projects found!</p>
         </div>
+
 
         <client-only>
           <infinite-loading v-if="projects.length" @infinite="infiniteScroll">
@@ -87,6 +45,15 @@
     </div>
     <!-- projects main  -->
 
+
+    <section class="pt-20 pb-32" id="GetAQuote">
+
+      <div class="home-container">
+        <FormsForm />
+      </div>
+
+    </section>
+
   </div>
 </template>
 
@@ -94,8 +61,6 @@
 <script>
 
 export default {
-
-  layout: 'advertising',
 
   head: {
     title: 'Advertising Portfolio: Take a Look at some of our work',

@@ -6,115 +6,77 @@
     </section>
     <!-- cover section -->
 
-
-    <section id="secondSection" class="bg-black text-white relative">
-
-      <div class="absolute bottom-0 right-0 w-full lg:w-[70%]">
-        <AssetsIconWhiteBig options="w-full h-full" />
+    <section id="projectsSection" class="relative bg-black rounded-2xl overflow-hidden py-32">
+      <div class="front-projects home-container">
+          <Projects height="h-80" columns="2" :from="0" :to="12" />
       </div>
-
-
-      <div class="flex items-center theme-container h-[70vh] lg:h-screen-90 3xl:h-screen-70 justify-center text-center">
-        <div class="space-y-5">
-          <h2 class="text-2xl md:text-3xl lg:text-4xl uppercase font-semibold">
-            <span class="block-span">Building brands for</span>
-            <span class="block-span">more than 15 years</span>
-          </h2>
-          <p class="w-full lg:w-[60%] mx-auto text-sm md:text-lg lg:text-xl font-light">We are a creative user (consumer, human beings) experience agency with 360 marketing services, providing high-end data-driven advertising campaigns, strategies, and storytelling that impact today’s consumers and different target audiences in a great level of understanding across the globe and MENA region.</p>
-        </div>
-      </div>
-    </section>
-    <!-- second section -->
-
-    <section id="projectsSection" class="relative">
-      <div class="front-projects theme-container px-0 md:px-5 pt-16 md:pt-48">
-          <AdvertisingProjectProjects :from="0" :to="projectsLimit" />
-      </div>
-      <!-- front projects -->
-
-      <div class="get-front-project md:py-24 theme-container">
-          <AdvertisingProjectGetRandomProject />
-      </div>
-      <!-- front projects -->
-
-      <div class="front-projects theme-container pt-24 lg:pt-0">
-          <AdvertisingProjectProjects :from="4" :to="2" />
-      </div>
-      <!-- front projects -->
-
-      <div class="absolute w-full h-96 pointer-events-none bg-gradient-to-t from-white to-transparent bottom-0 left-0 z-[3]"></div>
-
     </section>
     <!-- projects section -->
 
 
 
-    <section id="creativityUnlock" class="bg-white creativity-unlock overflow-hidden relative section-screen-height section-screen-height_100 flex items-center justify-center">
+    <section id="creativityUnlock" class="bg-white py-32">
 
-      <div class="absolute w-full h-32 bg-gradient-to-b from-white to-transparent top-0 left-0 z-[3]"></div>
-      <div class="absolute w-full h-32 bg-gradient-to-t from-white to-transparent bottom-0 left-0 z-[3]"></div>
+      <div class="theme-container">
 
-      <img src="~assets/images/rainbowlines.svg" alt="image" id="rainbowlines" class="w-full absolute top-[1rem] lg:inset-0 left-[36rem] lg:left-32 2xl:left-10 h-full transform scale-x-[3.8] scale-y-[4.8] lg:scale-125 2xl:scale-150 ">
-
-      <div class="theme-container unloak-creativity relative z-1 text-black text-center space-y-20">
-          <div class="lock-icon flex justify-center">
-            <AssetsLock options="w-10 h-10 transform text-black hover:scale-125 transition-all duration-300" />
-          </div>
-          <!-- icon -->
-          <div class="space-y-3">
-            <h3 class="text-4xl 2xl:text-6xl uppercase font-bold"> Unlock Creativity </h3>
-            <p class="2xl:text-xl">
-               <span class="block-span">Check more projects, unlock full case studies, and</span>
-               <span class="block-span">showcase how we tackle projects</span>
+        <div class="flex items-center">
+          <div class="w-full space-y-3">
+            
+            <div class="text-9xl font-semibold -space-y-8 flex flex-col">
+              <span class="leading-none icon-rainbow-text pr-2 -tracking-[5px] h-[8.5rem]">Unlock</span>
+              <span class="leading-none icon-rainbow-text pr-2 -tracking-[5px] h-[8.5rem]">Creativity</span>
+            </div>
+            <p class="font-medium">
+              Check more projects, unlock full case studies, and <br class="hidden md:block"> showcase how we tackle projects
             </p>
+
           </div>
-          <div>
-            <nuxt-link to="/advertising/projects" class="text-white bg-black uppercase font-medium rounded-full px-16 py-4 border-2 border-transparent hover:bg-white hover:border-black hover:text-black hover:font-bold"> our work </nuxt-link>
+
+          <div class="w-[30rem]">
+            <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692278795/head_gsr0yv.png" alt="unloack creativity">
           </div>
+
+        </div>
+
+
+          
+        <div class="w-full md:w-4/5 expertises-section icon-rainbow-bg-3-stops">
+            <AdvertisingExpertiseExpertises :expertises="expertises" />
+        </div>
+        <!-- expertises section end -->          
+          
       </div>
-      <!-- unloak the creativity -->
+      <!-- Container -->
 
     </section>
     <!-- creativity section end -->
 
 
-    <section id="Expertises" class="expertises-section bg-theme-gray-dark">
-        <AdvertisingExpertiseExpertises :expertises="expertises" />
-    </section>
-    <!-- expertises section end -->
 
-    <section id="Clients" class="clients-section py-32 3xl:py-64">
-        <AdvertisingClientClients :clients="clients" />
-    </section>
-    <!-- expertises section end -->
+    <section class="clients-section bg-black text-white py-48">
 
-    <section id="ContactSection" class="contact-section text-white py-32">
-       <div class="theme-container">
-         <div class="bg-gray-100 rounded-2xl overflow-hidden px-5 md:px-10 lg:px-0 py-32">
-          <FormsContactUs type="advertising page"
-            :data="{
-              title: 'have an',
-              title2: 'impact',
-              subtitle: 'Join the most powerful',
-              subtitle2: 'brands in the world.'
-          }"
-            />
-         </div>
-       </div>
-    </section>
-    <!-- contact section end -->
-
-
-    <section id="newletterSection" class="newsletter-section py-20 3xl:py-32 bg-theme-sky-dark relative">
-
-      <div class="theme-container">
-
-      <FormsNewsLetter />
-
+      <div class="home-container">
+        <HomeFeaturedClients />
       </div>
+      <!-- container -->
 
     </section>
-    <!-- new letter section -->
+    <!-- clients -->
+
+
+    <section class="pt-[15vh] space-y-[10vh]">
+
+      <div class="translate-x-[50rem] text-[9rem] h-[12rem] font-bold icon-rainbow-text whitespace-nowrap -tracking-[10px]">Building brands for more tha 15</div>
+
+      <div class="home-container">
+        <div class="pb-[15vh] flex items-end justify-end">
+          <div class="w-full md:w-1/3">
+            <p>We are a creative user (consumer, human beings) experience agency with 360 marketing services, providing high-end data-driven advertising campaigns, strategies, and storytelling that impact today’s consumers and different target audiences in a great level of understanding across the globe and MENA region.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
   </div>
 </template>
@@ -126,7 +88,7 @@ import Atos from '~/utils/Atos'
 
 export default {
 
-  layout: 'advertising',
+  // layout: 'advertising',
 
   head: {
     title: 'Effective Advertising Services in Dubai | ICON',

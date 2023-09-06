@@ -86,6 +86,8 @@ export default {
     { src: "~/plugins/vue-easy-lightbox", mode: "client" },
     { src: "~/plugins/vue-masonry", mode: "client" },
     { src: "~/plugins/vue-aos", mode: "client" },
+    { src: '~/plugins/vue-owl-carousel', mode: 'client' },
+    { src: '~/plugins/lenis', mode: 'client' },
   ],
 
   purgeCSS: {
@@ -142,6 +144,7 @@ export default {
   },
 
   server: {
+    host: '0.0.0.0',
     port: 4600 // default: 3000
   },
 

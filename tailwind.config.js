@@ -20,9 +20,9 @@ module.exports = {
         'ibm': ['IBM Plex Sans Arabic']
       },
       colors: {
-        'theme-purple': '#A97DEC',
+        'theme-purple': '#CC69A8',
         'theme-purple-dark': '#400A9E',
-        'theme-sky': '#19BEE9',
+        'theme-sky': '#56B7DF',
         'theme-sky-dark': '#049DEC',
         'theme-pink': '#DB62AB',
         'theme-red': '#F4505F',

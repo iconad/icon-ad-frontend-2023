@@ -148,9 +148,7 @@ import Atos from '~/utils/Atos'
 
 
   export default {
-    
-    layout: 'advertising',
-
+  
     scrollToTop: true,
     head() {
     return {

@@ -1,27 +1,27 @@
 <template>
   <div>
       <client-only>
-        <siema ref="siema" :draggable="true" :autoplay="true" :loop="true" @init="init" :autoplay-duration="15000" @change="onSlideChange()">
+        <siema ref="siema" :draggable="true" :autoplay="true" :loop="false" @init="init" :autoplay-duration="15000" @change="onSlideChange()">
 
-            <div v-for="(project, i) in projects" :key="i" class="h-screen-50 lg:h-screen">
+            <div v-for="(project, i) in projects" :key="i" class="h-auto">
 
-              <UtilsProjectImage options="w-full object-cover h-screen-50 lg:h-screen" :mini="project.image_mini" :image="project.cover" />
+              <UtilsProjectImage options="w-full object-cover h-auto" :mini="project.image_mini" :image="project.cover" />
 
               <div class="relative slide-info">
 
-                <div class="absolute w-full h-screen-50 lg:h-screen bg-black bg-opacity-60 text-white bottom-0 left-0 z-10 flex items-start items-center">
+                <div class="absolute w-full h-auto bg-black bg-opacity-60 text-white bottom-0 left-0 z-10 flex items-start items-center hidden">
 
                   <div class="theme-container w-full mb-16 md:mb-24 lg:mb-32">
 
-                    <div class="w-full">
-                      <h1 class="text-2xl md:text-3xl 2xl:text-4xl font-semibold mb-3 lg:mb-5 w-full lg:w-1/3" v-html="project.title"></h1>
+                    <!-- <div class="w-full"> -->
+                      <!-- <h1 class="text-2xl md:text-3xl 2xl:text-4xl font-semibold mb-3 lg:mb-5 w-full lg:w-1/3" v-html="project.title"></h1> -->
 
-                      <nuxt-link :to="`/${link}/projects${project.slug}`" class="flex items-center space-x-3">
+                      <!-- <nuxt-link :to="`/${link}/projects${project.slug}`" class="flex items-center space-x-3">
                         <AssetsRightAngleArrowWhite options="w-4 lg:w-6 h-4 lg:w-6" />
                         <span class="text-lg lg:text-2xl font-light">Read Case Study</span>
-                      </nuxt-link>
+                      </nuxt-link> -->
 
-                    </div>
+                    <!-- </div> -->
 
                   </div>
 
@@ -35,8 +35,16 @@
         </siema>
       </client-only>
 
-      <div class="absolute w-full bottom-0 lg:bottom-32 lg:left-3 text-white">
-        <div class="theme-container">
+      <div class="absolute w-full bottom-10 lg:left-3 text-white">
+
+        <div class="flex items-center justify-center space-x-3">
+
+          <div v-for="(project, i) in projects" :key="i" class="h-4 w-4 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 cursor-pointer" @click="goToSlide(i)"></div>
+          <!-- project -->
+
+        </div>
+
+        <div class="theme-container hidden">
           <div class="w-full lg:w-1/2">
             <div class="carousel-thumbs lg:mt-16">
               <div class="flex items-center space-x-5">

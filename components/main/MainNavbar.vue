@@ -1,6 +1,6 @@
 <template>
     <div class="fixed top-[2.40rem] lg:top-10 left-0 bg-white w-full z-10">
-        <div class="theme-container main-navbar relative z-10">
+        <div class="home-container main-navbar relative z-10">
             <div class="flex items-center justify-between h-auto lg:h-16">
 
                 <div class="main-logo text-xxxs tracking-widest space-x-1 flex items-start font-medium">

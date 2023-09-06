@@ -1,18 +1,12 @@
 <template>
-  <div class="startformhere">
-    <client-only>
-      <masonry :cols="{default: 2, 920: 1}" :gutter="{default: page == 'home' ? '100px' : '50px' , 1120: '20px', 880: '50px'}" >
+  <div>
+      <div class="grid grid-cols-2 gap-12">
         <div v-for="(project, i) in projects" :key="i" class="w-full">
 
-          <ProjectsProject :mode="mode" link="advertising" :project="project" class="project"
-            :class="[
-              i == 1 ? page == 'home' ? 'lg:mt-64' : 'lg:mt-32' : page == 'home' ? 'lg:mt-20' : '' ,
-            ]"
-          />
+          <ProjectsProject :mode="mode" link="advertising" height="h-80" :project="project" class="project"/>
 
         </div>
-      </masonry>
-    </client-only>
+      </div>
   </div>
 </template>
 

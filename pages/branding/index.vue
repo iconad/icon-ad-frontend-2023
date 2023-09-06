@@ -1,84 +1,74 @@
 <template>
-  <div class="bg-gray-50">
+  <div>
 
     <BrandingFrontCover />
 
-    <div class="relative">
-    <section class="brand-projects theme-container relative z-[3]">
 
-      <div class="grid cols-1 gap-8">
-        <div v-for="(project, i) in projects" :key="i">
-          <nuxt-link :to="`/branding/projects${project.slug}`">
-            <UtilsProjectImage options="bg-gray-100 w-full h-auto md:h-[40rem] object-cover rounded-2xl overflow-hidden" :mini="project.image_mini" :image="project.large_thumb" />
-          </nuxt-link>
-        </div>
+    <section id="projectsSection" class="relative bg-black rounded-2xl overflow-hidden py-32">
+      <div class="front-projects home-container">
+          <Projects columns="1" :from="0" :to="4" height="h-[30rem]" />
       </div>
-
-
     </section>
-    <!-- brand projects -->
+    <!-- projects section -->
 
-    <div class="absolute w-full h-96 pointer-events-none bg-gradient-to-t from-white to-transparent bottom-0 left-0"></div>
 
-    </div>
 
-    <section id="creativityUnlock" class="bg-white creativity-unlock overflow-hidden relative section-screen-height section-screen-height_100 flex items-center justify-center">
 
-      <div class="absolute w-full h-32 bg-gradient-to-b from-white to-transparent top-0 left-0 z-[3]"></div>
-      <div class="absolute w-full h-32 bg-gradient-to-t from-white to-transparent bottom-0 left-0 z-[3]"></div>
+    <section id="creativityUnlock" class="bg-white py-32">
 
-      <img src="~assets/images/rainbowlines.svg" alt="image" id="rainbowlines" class="w-full absolute top-[1rem] lg:inset-0 left-[36rem] lg:left-32 2xl:left-10 h-full transform scale-x-[3.8] scale-y-[4.8] lg:scale-125 2xl:scale-150 ">
+      <div class="theme-container">
 
-      <div class="theme-container unloak-creativity relative z-1 text-black text-center space-y-20">
-          <div class="lock-icon flex justify-center">
-            <AssetsLock options="w-10 h-10 transform text-black hover:scale-125 transition-all duration-300" />
+        <div class="flex items-center">
+          <div class="w-full space-y-3">
+            
+            <div class="text-9xl font-semibold -space-y-8">
+              <span class="block leading-none icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more -tracking-[5px] h-[8.5rem]">Unlock</span>
+              <span class="block leading-none icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more -tracking-[5px] h-[8.5rem]">Creativity</span>
+            </div>
+
           </div>
-          <!-- icon -->
-          <div class="space-y-3">
-            <h3 class="text-4xl 2xl:text-6xl uppercase font-bold"> Unlock Creativity </h3>
-            <p class="2xl:text-xl">
-              <span class="block-span">Check more projects, unlock full case studies, and</span>
-              <span class="block-span">showcase how we tackle projects</span>
-            </p>
-          </div>
-          <div>
-            <nuxt-link to="/branding/projects" class="text-white bg-black uppercase font-medium rounded-full px-16 py-4 border-2 border-transparent hover:bg-white hover:border-black hover:text-black hover:font-bold"> our work </nuxt-link>
-          </div>
+
+
+        </div>
+
+
+          
+        <div class="w-full md:w-4/5 expertises-section icon-rainbow-bg-3-stops mt-32">
+            <AdvertisingExpertiseExpertises :expertises="expertises" />
+        </div>
+        <!-- expertises section end -->          
+          
       </div>
-      <!-- unloak the creativity -->
+      <!-- Container -->
 
       </section>
       <!-- creativity section end -->
 
-    <section id="digitalExperie" class="bg-black">
-      <BrandingExpertiseExpertises :expertise="expertise" />
-    </section>
-    <!-- our digital experience -->
 
 
-    <section id="Clients" class="clients-section py-32 3xl:py-64 space-y-16">
+      <section class="clients-section bg-black text-white py-48">
 
-        <BrandingClientClients :clients="clients" />
+      <div class="home-container">
+        <HomeFeaturedClients />
+      </div>
+      <!-- container -->
 
-    </section>
-    <!-- expertises section end -->
+      </section>
+      <!-- clients -->
 
-    <section id="ContactSection" class="contact-section text-white pb-32">
-       <div class="theme-container">
-         <div class="bg-gray-100 rounded-2xl overflow-hidden px-10 lg:px-0 py-32">
-          <FormsContactUs
-            :data="{
-              title: 'have an',
-              title2: 'impact',
-              subtitle: 'Join the most powerful',
-              subtitle2: 'brands in the world.'
-          }"
-            />
-         </div>
-       </div>
-    </section>
-    <!-- contact section end -->
 
+      <section class="pt-[15vh] space-y-[10vh]">
+
+      <div class="translate-x-[50rem] text-[9rem] h-[12rem] font-bold icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more-1 whitespace-nowrap -tracking-[5px]">Building brands for more tha 15</div>
+
+      <div class="home-container">
+        <div class="pb-[15vh] flex items-end justify-end">
+          <div class="w-full md:w-1/3">
+            <p>We are a creative user (consumer, human beings) experience agency with 360 marketing services, providing high-end data-driven advertising campaigns, strategies, and storytelling that impact today’s consumers and different target audiences in a great level of understanding across the globe and MENA region.</p>
+          </div>
+        </div>
+      </div>
+      </section>
 
 
   </div>
@@ -88,7 +78,7 @@
   export default {
 
     name: 'BrandingHome',
-    layout: 'branding',
+    // layout: 'branding',
 
     head: {
       title: 'Trusted Clients of ICON Advertising',
@@ -117,16 +107,20 @@
 
     async asyncData({ $axios, store }) {
 
-    const projects = await $axios.$get(`/projects/brand-home`)
-    const expertise = await $axios.$get(`/home-brand-expertises`)
-    const clients = await $axios.$get(`/clients-brand`)
+      const projects = await $axios.$get(`/projects/brand-home`)
+      const expertises = await $axios.$get(`/home-brand-expertises`)
+      const clients = await $axios.$get(`/clients`)
 
-      return {
-        projects,
-        expertise,
-        clients
+        store.commit('project/setFeaturedProjects', projects)
+
+
+        return {
+          projects,
+          expertises,
+          clients
+        }
       }
-    }
+
 
   }
 </script>

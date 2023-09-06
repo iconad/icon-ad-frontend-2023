@@ -29,7 +29,14 @@
         <!-- form element -->
 
         <div class="form-element" v-if="isBudget">
-          <input type="text" class="form-input" v-model="form.budget" required placeholder="What is your monthly budget?">
+          <!-- <input type="text" class="form-input" v-model="form.budget" required placeholder="What is your monthly budget?"> -->
+          <span class="font-medium block mb-3">What is your monthly budget? </span>
+          <div class="space-y-1" v-for="bgt in budgets" :key="bgt">
+            <div class="flex items-center space-x-2 font-medium text-gray-800 tracking-wide">
+              <input type="radio" required class="w-4 h-4" name="budget" :value="bgt" :id="bgt" v-model="form.budget">
+              <label :for="bgt"> {{ bgt }}  </label>
+            </div>
+          </div>
           <span class="text-sm text-red-500 font-semibold flex justify-start mt-1" v-if="errors && errors.budget">{{ errors.budget }}</span>
         </div>
         <!-- form element -->
@@ -85,6 +92,7 @@
       return {
         input: null,
         isLoading: false,
+        budgets: ['10K - 30K AED', '31K - 50K', '> 50k AED'],
         data: {},
         bindProps: {
           mode: "international",
@@ -190,7 +198,7 @@
   }
 
   .vti__input {
-    /* color: white!important; */
+    color: black!important;
   }
 
   .vti__input-exclude {

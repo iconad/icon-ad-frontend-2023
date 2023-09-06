@@ -8,34 +8,21 @@
                     <div class="space-y-10 py-5 h-full flex flex-col justify-center lg:pr-16">
                         <div class="space-y-5">
                             <div class="space-y-4">
-                                <h1 class="text-3xl 3xl:text-5xl font-semibold">Maximize Your Digital Reach with Expert  <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink">Web Design & Development Solutions. </span>   </h1>
-                                <!-- <h2 class="text-3xl font-semibold">Our Expertise, Your Success.</h2> -->
-                            </div>
+                                <h1 class="text-3xl 3xl:text-5xl font-semibold">Looking for Website Developers in Dubai? <br>  <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink">Explore ICON Web Development </span></h1>
+                                <h2 class="font-semibold bg-gray-100 text-lg p-3 rounded-2xl"> 
+                                    Elevate Online Presence with ICON: Dubai's Premier Web Development Company
+                                </h2>                            
+                                </div>
                             <div class="text-base lg:text-sm xl:text-base space-y-3">
                                 <p>
-                                    Partner with Iconic Web Solutions for Digital Excellence Experience the difference of working with a web design company that prioritizes your success. At Iconic Web Solutions, we deliver websites that combine complexity with user-friendliness, ensuring your target audience gains real value from their online experience. Trust us to create an iconic online presence that sets your business apart.
+                                    Experience Digital Excellence with Iconic Web Solutions, Your Trusted Dubai Web Development Partner. Crafting Websites That Blend Aesthetics and User-Friendliness, Elevating Your Online Presence Dubai's Premier Web Developer, Delivering Excellence in Website Design and E-Commerce Solutions From Internet Design to User Testing, We Build Iconic Websites That Drive Success.
                                 </p>
-                                <!-- <p>
-                                    By partnering with us, we assure enhanced engagement with your brand’s target audiences, strengthened customer loyalties, and most importantly, a higher return on investment (ROI) within Dubai and the wider region.
-                                </p> -->
                             </div>                            
                         </div>
                         <div class="space-y-5 ">
-                            <p class="font-semibold bg-gray-100 text-lg p-3 rounded-2xl"> 
-                                Contact us today to embark on a transformative digital journey with Iconic Web Solutions. Let us unlock the full potential of your brand in the digital realm.
-                            </p>
+                            
                             <div class="flex items-center space-x-2 text-sm lg:text-base">
                                 <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                                <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 py-2 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                    </svg>
-                                    <span>Call</span>
-                                </a> -->
-                                <!-- <a href="https://wa.me/+971564034019" class="svg-color-white px-4 lg:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2 whitespace-nowrap">
-                                    <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                    <span>Whatsapp</span> 
-                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -44,12 +31,6 @@
                 <div class="w-full">
                     
                     <div class="relative w-full group">
-
-                        <!-- <a href="https://www.adsoftheworld.com/campaigns/develop-a-powerful-tomorrow-today" target="_blank">
-                            <img src="https://icon-ad.com/assets/ads.svg" class="absolute -top-8 right-10 w-[180px] z-[1]" alt="ads">
-                            <span class="font-medium">Our Digital Campaign Featured on AdsOfTheWorld!</span>
-                        </a> -->
-
                         <div class="rounded-2xl overflow-hidden">
                             <client-only>
                                 <vimeo-player
@@ -94,29 +75,16 @@
                 <div class="w-full lg:w-1/2 3xl:w-1/3">
                     <div class="space-y-10 py-5">
                         <div class="space-y-3">
-                            <h2 class="text-3xl font-semibold">
+                            <p class="text-3xl font-semibold">
                                 Looking for comprehensive web solutions in Dubai and UAE?
-                            </h2>
-                            <!-- <h2 class="text-2xl font-semibold">
-                                Catering to all your digital marketing needs
-                            </h2> -->
+                            </p>
                         </div>
                         <div class="space-y-4">
-                            <p>Transform Your Online Presence with Icon Digital Agency :  Experience the difference of working with a digital agency that delivers tangible results. Iconic Digital Agency is committed to crafting websites that not only impress but also achieve measurable business objectives. Let us be your partner in unleashing the full potential of your brand in the digital landscape.</p>
+                            <p>Enhance Your Online Presence with Icon Digital: Dubai's Premier Web Development Solution. Crafted by experts in Dubai web development, our websites achieve measurable business goals. Let's create your digital success story together!</p>
                         </div>
                         <div>
                             <div class="flex items-center space-x-2 ">
                                 <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                                <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                    </svg>
-                                    <span>Call</span>
-                                </a>
-                                <a href="https://wa.me/+971564034019" class="whitespace-nowrap svg-color-white px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                    <span class="whitespace-nowrap block">Whatsapp</span>
-                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -126,40 +94,40 @@
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                         <div label="Trumpet" class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-red/30 transition-all">
-                            <h2 class="text-lg font-semibold group-hover:text-theme-red">Web Design & Development</h2>        
+                            <p class="text-lg font-semibold group-hover:text-theme-red">Web Design & Development</p>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    The web is more than just building a website these days. You can find a lot of brick ‘n mortar companies that will offer you a website for peanuts but that will be just a website.
+                                    Navigating the digital landscape requires precision. From building visually stunning websites to optimizing page speed and user testing, we create web solutions that captivate and convert. As a leading web development company in Dubai, our expertise spans e-commerce, lead generation, and business websites, ensuring aesthetics meet functionality flawlessly. Elevate your online presence with us, where the development of the web translates into digital success.
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
                         
                         <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-purple/30 transition-all">
-                            <h2 class="text-lg font-semibold  group-hover:text-theme-purple">E-Commerce & Payment</h2>        
+                            <p class="text-lg font-semibold  group-hover:text-theme-purple">E-Commerce & Payment</p>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    We at ICON provide quality web solutions for your ecommerce needs. We can help give you an easy-to-navigate online store that serves.
+                                    At our web development company in Dubai, we excel at building websites that redefine online experiences. From creating user-friendly e-commerce platforms to seamless CMS integration, our digital agency in Abu Dhabi and design agency in Dubai collaborate to ensure stunning aesthetics, efficient page speed, and rigorous user testing.
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
 
                         <div class="w-full lg:w-72 xl:w-96 lg:ml-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-sky/30 transition-all">
-                            <h2 class="text-lg font-semibold group-hover:text-theme-sky">Mobile Application</h2>        
+                            <p class="text-lg font-semibold group-hover:text-theme-sky">Mobile Application</p>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Over the last few years, mobile applications have become much more complex and increasingly popular. They are created with the main goal of user-centered experience.
+                                    Harnessing the power of React and other cutting-edge technologies, we engineer web platforms that transcend aesthetics and functionality. As a top design and digital agency in Dubai, our journey involves more than just building websites; we engineer online experiences that captivate and convert. With meticulous attention to detail, we streamline page speed and perform rigorous user testing, ensuring flawless performance across various browsers and devices.
                                 </p>
                             </div>            
                         </div>
                         <!-- #item -->
 
                         <div class="w-full lg:w-72 xl:w-96 lg:mr-auto group space-y-3 border p-5 rounded-2xl duration-400 hover:shadow-2xl hover:shadow-theme-pink/30 transition-all">
-                            <h2 class="text-lg font-semibold group-hover:text-theme-pink">Content Managment System (CMS)</h2>        
+                            <p class="text-lg font-semibold group-hover:text-theme-pink">Content Managment System (CMS)</p>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    The aesthetics and the functionality of your webpage might meet and even exceed your biggest expectations, but are you truly pleased about its content? Is it truly informative, useful, well-organized and updated regularly?
+                                    Our expertise spans creating websites, eCommerce platforms, and even WordPress sites with optimal page speed and user testing. By seamlessly integrating CMS and content management, we not only create websites but also empower your e-commerce business through backlinks and SE ranking. Elevate your online store's aesthetics and functionality with us, the definitive web developer in Dubai.
                                 </p>
                             </div>            
                         </div>
@@ -180,7 +148,6 @@
 
             <div class="space-y-4 text-center ">
                 <h3 class="text-2xl lg:text-3xl font-bold">A Look at Our Impressive <br> Achievements</h3>
-                <!-- <P>In this section, we'll highlight some of our most notable achievements in social <br> media marketing and how we can help your business thrive in this crucial channel.</P> -->
             </div>
 
 
@@ -219,6 +186,260 @@
 
         </div>
 
+        <!-- ====== FAQ Section Start -->
+        <section class="relative z-20 overflow-hidden bg-white py-20">
+        <div class="container mx-auto">
+            <div class="-mx-4 flex flex-wrap">
+            <div class="w-full px-4">
+                <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
+                <p  class="mb-4 text-2xl lg:text-3xl font-bold" >
+                    FAQs
+                </p>
+                </div>
+            </div>
+            </div>
+            <div class="-mx-4 flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8" >
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq1 = !openFaq1"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            What sets ICON apart among Dubai web development companies?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq1" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            ICON stands out with its holistic approach to web development, encompassing aspects like user-centered internet design, seamless CMS integration, and efficient page speed optimization. Our team of skilled web developers in Dubai brings to life not just websites, but dynamic online experiences that engage and convert.                        </p>
+                    </div>
+                    </div>
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                <button
+                    class="faq-btn flex w-full text-left"
+                    @click="openFaq4 = !openFaq4"
+                >
+                    <div
+                    class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                    >
+                    <svg
+                        width="17"
+                        height="10"
+                        viewBox="0 0 17 10"
+                        class="icon fill-current"
+                    >
+                        <path
+                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                        fill="#3056D3"
+                        stroke="#3056D3"
+                        />
+                    </svg>
+                    </div>
+                    <div class="w-full">
+                    <h4 class="text-lg font-semibold text-black">
+                        What benefits do businesses gain from ICON's web development services?
+                    </h4>
+                    </div>
+                </button>
+                <div v-show="openFaq4" class="faq-content pl-[62px]">
+                    <p class="py-3 text-base leading-relaxed text-body-color">
+                        ICON's comprehensive web development services extend from creating websites to eCommerce platforms, catering to diverse business needs. With our expertise in WordPress websites, e-commerce setups, and content management, we help businesses establish a robust online presence and drive growth.                    </p>
+                </div>
+                </div>
+                    
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq2 = !openFaq2"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            Can ICON help boost my e-commerce <br> business?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq2" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            Absolutely. Our expertise in e-commerce websites and effective backlinking strategies can help elevate your e-commerce business. We optimize for SEO ranking (Search Engine ranking), ensuring your online store garners visibility and attracts the right audience.
+                        </p>
+                    </div>
+                    </div>
+                
+                <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq5 = !openFaq5"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            How does ICON ensure a smooth content management process?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq5" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            We leverage advanced CMS (content management system) solutions, offering intuitive interfaces for easy content updates. Whether it's WordPress or other CMS platforms, our focus on user-friendly content management ensures your website remains current and engaging.
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                        <button
+                            class="faq-btn flex w-full text-left"
+                            @click="openFaq3 = !openFaq3"
+                        >
+                            <div
+                            class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                            >
+                            <svg
+                                width="17"
+                                height="10"
+                                viewBox="0 0 17 10"
+                                class="icon fill-current"
+                            >
+                                <path
+                                d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                                fill="#3056D3"
+                                stroke="#3056D3"
+                                />
+                            </svg>
+                            </div>
+                            <div class="w-full">
+                            <h4 class="text-lg font-semibold text-black">
+                                How does ICON's web development enhance SEO performance?
+                            </h4>
+                            </div>
+                        </button>
+                        <div v-show="openFaq3" class="faq-content pl-[62px]">
+                            <p class="py-3 text-base leading-relaxed text-body-color">
+                                ICON's web development integrates SEO best practices from the ground up. Our Dubai website design company focuses on optimal pagespeed, effective content management, and intuitive navigation – all contributing to improved search engine rankings and organic visibility.                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                        <button
+                            class="faq-btn flex w-full text-left"
+                            @click="openFaq6 = !openFaq6"
+                        >
+                            <div
+                            class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                            >
+                            <svg
+                                width="17"
+                                height="10"
+                                viewBox="0 0 17 10"
+                                class="icon fill-current"
+                            >
+                                <path
+                                d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                                fill="#3056D3"
+                                stroke="#3056D3"
+                                />
+                            </svg>
+                            </div>
+                            <div class="w-full">
+                            <h4 class="text-lg font-semibold text-black">
+                                Why should I trust ICON as my web developer in Dubai?
+                            </h4>
+                            </div>
+                        </button>
+                        <div v-show="openFaq6" class="faq-content pl-[62px]">
+                            <p class="py-3 text-base leading-relaxed text-body-color">
+                                ICON combines years of experience, technical expertise, and a commitment to creating exceptional online experiences. We've established ourselves as a reputable Dubai web development company by consistently delivering websites that not only meet expectations but exceed them.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 right-0 z-[-1]">
+            <svg
+            width="1440"
+            height="886"
+            viewBox="0 0 1440 886"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+                opacity="0.5"
+                d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+                fill="url(#paint0_linear)"
+            />
+            <defs>
+                <linearGradient
+                id="paint0_linear"
+                x1="1308.65"
+                y1="1142.58"
+                x2="602.827"
+                y2="-418.681"
+                gradientUnits="userSpaceOnUse"
+                >
+                <stop stop-color="#3056D3" stop-opacity="0.36" />
+                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        </section>
+        <!-- ====== FAQ Section End -->        
+
         <div id="contact" class="pt-24"></div>
 
 
@@ -227,33 +448,25 @@
                 <div class="w-full flex items-center">
                     <div class="space-y-10 pb-5 w-full lg:w-4/5">
                         <div class="space-y-4">
-                            <h1 class="text-3xl 3xl:text-4xl font-semibold">ICON Digital Agency <br> Your Premier Web Design Company in Dubai</h1>
+                            <p class="text-3xl 3xl:text-4xl font-semibold">Why choose ICON for Website Development?</p>
                             <!-- <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2> -->
                         </div>
                         <div class="space-y-4 text-base lg:text-sm xl:text-base">
-                            <p>
-                                Icon is a dynamic web design company and leading digital agency located in Dubai. As an expert team of professionals, we are committed to delivering results-driven solutions for your business. Our comprehensive range of services includes website development, e-commerce, mobile applications,  and SEO services. With our extensive experience and proven track record, we ensure that your website effectively connects with your target audience.
-                            </p>
-
+                            <ul class="list-disc space-y-2 ml-5">
+                                <li><b>Expertise in Web Solutions:</b> ICON Web Development Company in Dubai boasts a diverse skill set, covering everything from the development of the web to creating e-commerce and lead generation websites.  </li>
+                                <li><b>Proven Track Record:</b> With years of experience in the industry, we have a long history of successfully building websites and providing web development services. Our portfolio showcases our expertise.</li>
+                                <li><b>Optimized Performance:</b> We prioritize pagespeed and user testing in our web development process. This dedication ensures that the websites we create perform flawlessly, delivering a seamless user experience.</li>
+                                <li><b>Complete Web Solutions:</b> We offer services ranging from SEO, backlinks, and SE ranking to app making and content management systems (CMS). We create online stores, WordPress websites, and other e-commerce solutions.</li>
+                            </ul>
                         </div>
                         <div class="flex items-center space-x-2">
                             <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                            <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                </svg>
-                                <span>Call</span>
-                            </a>
-                            <a href="https://wa.me/+971564034019" class="svg-color-white px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2 whitespace-nowrap">
-                                <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                <span>Whatsapp</span>
-                            </a> -->
                         </div>
                     </div>
 
                 </div>
                 <div class="w-full relative ">
-                    <FormsLandingForm type="Web Development Landing Page" />
+                    <FormsLandingForm type="Web Development Landing Page" :isBudget="true" />
                 </div>
             </div>
         </div>
@@ -280,14 +493,133 @@
             layout: "landing",
 
             components: { carousel },
-            head: {
-                htmlAttrs: {
-                    class: 'scroll-smooth-html'
-                },
+            head() {
+                return {
+                    htmlAttrs: {
+                        class: 'scroll-smooth-html'
+                    },
+                    title: 'Website Development & Design Company in Dubai & Abu Dhabi | ICON',
+                    meta: [
+                        { charset: 'utf-8' },
+                        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                        {
+                            hid: 'description',
+                            name: 'description',
+                            content: 'Top Dubai Web Development: Create, Design & Build Websites - E-commerce, SEO, User Testing, CMS & More!'
+                        }
+                    ],
+                    link: [
+                        {
+                        rel: 'canonical',
+                        href: 'https://icon-ad.com/website-development',
+                        ref: 'noopener noreferrer' // Added ref attribute
+                        }
+                    ],
+                    script: [
+                        {
+                            type: 'application/ld+json',
+                            json: {
+                                "@context": "https://schema.org",
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": " What sets ICON apart among Dubai web development companies?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ICON stands out with its holistic approach to web development, encompassing aspects like user-centered internet design, seamless CMS integration, and efficient page speed optimization. Our team of skilled web developers in Dubai brings to life not just websites, but dynamic online experiences that engage and convert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "What benefits do businesses gain from ICON's web development services?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ICON's comprehensive web development services extend from creating websites to eCommerce platforms, catering to diverse business needs. With our expertise in WordPress websites, e-commerce setups, and content management, we help businesses establish a robust online presence and drive growth."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Can ICON help boost my e-commerce business?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Absolutely. Our expertise in e-commerce websites and effective backlinking strategies can help elevate your e-commerce business. We optimize for SEO ranking (Search Engine ranking), ensuring your online store garners visibility and attracts the right audience."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "How does ICON ensure a smooth content management process?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "We leverage advanced CMS (content management system) solutions, offering intuitive interfaces for easy content updates. Whether it's WordPress or other CMS platforms, our focus on user-friendly content management ensures your website remains current and engaging."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "How does ICON's web development enhance SEO performance?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ICON's web development integrates SEO best practices from the ground up. Our Dubai website design company focuses on optimal pagespeed, effective content management, and intuitive navigation - all contributing to improved search engine rankings and organic visibility."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Why should I trust ICON as my web developer in Dubai?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ICON combines years of experience, technical expertise, and a commitment to creating exceptional online experiences. We've established ourselves as a reputable Dubai web development company by consistently delivering websites that not only meet expectations but exceed them."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                        type: 'application/ld+json',
+                        json: {
+                                "@context": "https://schema.org",
+                                "@type": "Organization",
+                                "url": "https://www.icon-ad.com",
+                                "logo": "https://icon-ad.com/logo.png"
+                            }
+                        },
+                        {
+                            type: 'application/ld+json',
+                            json: {
+                                "@context": "https://schema.org",
+                                "@type": "LocalBusiness",
+                                "name": "ICON",
+                                "address": {
+                                    "@type": "PostalAddress",
+                                    "streetAddress": "Office 306, Spectrum Building",
+                                    "addressLocality": "Oud Metha",
+                                    "addressRegion": "AE",
+                                    "postalCode": "236013",
+                                    "addressCountry": "UAE"
+                                },
+                                "telephone": "+97142636550",
+                                "priceRange": "AED",
+                                "image": "https://icon-ad.com/logo.png",
+                                "description": "A 360° Integrated Creative, Branding, Marketing and Communications Agency Based in Dubai, UAE.",
+                                "openingHours": "Mo-Fr 09:00-18:00",
+                                "geo": {
+                                    "@type": "GeoCoordinates",
+                                    "latitude": 25.232636127422968,
+                                    "longitude": 55.31103999267581
+                                },
+                            }
+                        }
+                    ]
+                }
             },
 
             data() {
                 return {
+                    openFaq1: false, 
+                    openFaq2: false, 
+                    openFaq3: false, 
+                    openFaq4: false, 
+                    openFaq5: false, 
+                    openFaq6: false,                    
                     isNuxtReady: false,
                     options1: {
                         muted: true,

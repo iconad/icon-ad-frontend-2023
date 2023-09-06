@@ -8,33 +8,21 @@
                     <div class="space-y-10 py-5 h-full flex flex-col justify-center lg:pr-16">
                         <div class="space-y-5">
                             <div class="space-y-4">
-                                <h1 class="text-3xl 3xl:text-5xl font-semibold">Make your Brand Stand-out in Dubai’s Competitive Marketplace with our <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink"> Branding services. </span>   </h1>
-                                <!-- <h2 class="text-3xl font-semibold">Our Expertise, Your Success.</h2> -->
+                                <h1 class="text-3xl 3xl:text-5xl font-semibold">Looking for Branding & Design Agency In Dubai? <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-theme-sky via-theme-purple to-theme-pink"> Explore ICON Branding </span></h1>
+                                <h2 class="font-semibold bg-gray-100 text-lg p-3 rounded-2xl"> 
+                                    Boost Your Brand with ICON: Dubai's Leading Branding and Design Agency
+                                </h2>
                             </div>
                             <div class="text-base lg:text-sm xl:text-base space-y-3">
                                 <p>
-                                    As a leading branding agency in Dubai, we specialize in crafting captivating brand experiences that resonate with Dubai’s vibrant market, tailored specifically for your brand. Our team of experts combine strategic thinking, creative excellence, and in-depth market knowledge, enabling your brand to stand out from the crowd and leave a lasting impression on your target audiences.                                 </p>
-                                <!-- <p>
-                                    By partnering with us, we assure enhanced engagement with your brand’s target audiences, strengthened customer loyalties, and most importantly, a higher return on investment (ROI) within Dubai and the wider region.
-                                </p> -->
+                                    At ICON Branding Agency in Dubai, we don't just create logos; we sculpt brand identities that thrive. Our mastery lies in designing for branding, bringing your company's essence to life through captivating visuals. With expertise in company profile design in Dubai, we're not just a design agency; we're your brand's creative partner.
+                                </p>
                             </div>                            
                         </div>
                         <div class="space-y-5 ">
-                            <p class="font-semibold bg-gray-100 text-lg p-3 rounded-2xl"> 
-                                Reach out to us and discover the immense benefits and positive impact to your ROI when developing branding strategies with us.
-                            </p>
+                            
                             <div class="flex items-center space-x-2 text-sm lg:text-base">
                                 <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                                <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 py-2 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                    </svg>
-                                    <span>Call</span>
-                                </a> -->
-                                <!-- <a href="https://wa.me/+971564034019" class="svg-color-white px-4 lg:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2 whitespace-nowrap">
-                                    <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                    <span>Whatsapp</span> 
-                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -43,11 +31,6 @@
                 <div class="w-full">
                     
                     <div class="relative w-full group">
-
-                        <!-- <a href="https://www.adsoftheworld.com/campaigns/develop-a-powerful-tomorrow-today" target="_blank">
-                            <img src="https://icon-ad.com/assets/ads.svg" class="absolute -top-8 right-10 w-[180px] z-[1]" alt="ads">
-                            <span class="font-medium">Our Digital Campaign Featured on AdsOfTheWorld!</span>
-                        </a> -->
 
                         <div class="rounded-2xl overflow-hidden">
                             <client-only>
@@ -93,32 +76,19 @@
                 <div class="w-full lg:w-1/2 3xl:w-1/3">
                     <div class="space-y-10 py-5">
                         <div class="space-y-3">
-                            <h2 class="text-3xl font-semibold">
+                            <p class="text-3xl font-semibold">
                                 Looking for comprehensive Branding solutions in Dubai and UAE?
-                            </h2>
-                            <!-- <h2 class="text-2xl font-semibold">
-                                Catering to all your digital marketing needs
-                            </h2> -->
+                            </p>
                         </div>
                         <div class="space-y-4">
                             <p>
-                                Look no further. We are a leading Branding agency with over 15 years of industry expertise, offering a wide range of services to cater to all your Branding needs.
+                                Are you ready to take your brand to the next level? Look no further than ICON Branding Agency, your partner in creating impactful brand identities that resonate. With a focus on branding with a logo and design for branding, we are your gateway to success in the competitive business landscape.
                             </p>
                         </div>
                         <div>
                             <div class="flex items-center space-x-2 ">
                                 <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                                <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                    </svg>
-                                    <span>Call</span>
-                                </a>
-                                <a href="https://wa.me/+971564034019" class="whitespace-nowrap svg-color-white px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                    <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                    <span class="whitespace-nowrap block">Whatsapp</span>
-                                </a> -->
-                            </div>
+                           </div>
                         </div>
                     </div>
 
@@ -130,7 +100,7 @@
                             <h2 class="text-lg font-semibold group-hover:text-theme-red">Brand Strategy</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Boost your brand's potential with our exceptional brand strategy services. We excel in crafting strategic plans that align with your business goals, enhancing visibility, and promoting sustainable growth. Connect with us to unlock your brand's potential.
+                                    At ICON Branding Agency, we meticulously craft brand strategies that resonate. Our experts leverage market insights to create strategic pathways that elevate your brand above the competition. We turn visions into roadmaps for success, ensuring your brand stands strong and captures your audience's attention.
                                 </p>
                             </div>            
                         </div>
@@ -140,7 +110,7 @@
                             <h2 class="text-lg font-semibold  group-hover:text-theme-purple">Brand Identity</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Leave a lasting impression with a strong brand identity. Our team specializes in creating compelling and unique brand identities that resonate with your target audience, ensuring your brand stands out in the competitive market.                                    
+                                    Unveil your brand's essence through our unparalleled design expertise. We specialize in breathing life into brands with captivating logos, designs, and company profiles. Our Dubai-based design agency crafts visual identities that leave a lasting impact, aligning your business with innovation and recognition.
                                 </p>
                             </div>            
                         </div>
@@ -150,7 +120,7 @@
                             <h2 class="text-lg font-semibold group-hover:text-theme-sky">PR Services</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Amplify your brand's voice with our top-tier PR services. We offer comprehensive solutions, from media outreach to crisis management, ensuring your brand's reputation remains untarnished. Let us help your brand build strong, meaningful relationships with your audience.
+                                    Amplify your brand's voice with our comprehensive PR services. We understand that brand perception is key. Our Dubai team crafts compelling narratives, fosters media relationships, and ensures your brand story resonates across platforms. Let us shape perceptions and build connections that propel your brand forward.
                                 </p>
                             </div>            
                         </div>
@@ -160,7 +130,7 @@
                             <h2 class="text-lg font-semibold group-hover:text-theme-pink">Brand Management</h2>        
                             <div class="space-y-4 text-sm">
                                 <p>
-                                    Harness the power of effective brand management with our expert services. We meticulously manage your brand's image, perception, and positioning, reinforcing your presence in the market. Trust us to help you navigate your brand towards success.
+                                    Trust us to safeguard and elevate your brand's reputation. Our brand management services in Dubai encompass meticulous monitoring, proactive strategies, and adaptable solutions. From crisis management to brand evolution, we're the guardians of your brand's integrity, ensuring it thrives in an ever-evolving market.
                                 </p>
                             </div>            
                         </div>
@@ -210,6 +180,194 @@
 
         </div>
 
+
+
+        <!-- ====== FAQ Section Start -->
+        <section class="relative z-20 overflow-hidden bg-white py-20"
+        >
+        <div class="container mx-auto">
+            <div class="-mx-4 flex flex-wrap">
+            <div class="w-full px-4">
+                <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
+                <p  class="mb-4 text-2xl lg:text-3xl font-bold" >
+                    FAQs
+                </p>
+                </div>
+            </div>
+            </div>
+            <div class="-mx-4 flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8" >
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq1 = !openFaq1"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            Why should I choose ICON for my branding <br> needs?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq1" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            ICON Branding Agency stands out as a leading design agency in Dubai with a strong reputation for creating captivating brand identities. Our skilled team crafts unique logos, designs for branding, and company profiles that resonate with your target audience, giving your brand a competitive edge in the market.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                <button
+                    class="faq-btn flex w-full text-left"
+                    @click="openFaq4 = !openFaq4"
+                >
+                    <div
+                    class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                    >
+                    <svg
+                        width="17"
+                        height="10"
+                        viewBox="0 0 17 10"
+                        class="icon fill-current"
+                    >
+                        <path
+                        d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                        fill="#3056D3"
+                        stroke="#3056D3"
+                        />
+                    </svg>
+                    </div>
+                    <div class="w-full">
+                    <h4 class="text-lg font-semibold text-black">
+                        How does ICON approach branding and <br> marketing?
+                    </h4>
+                    </div>
+                </button>
+                <div v-show="openFaq4" class="faq-content pl-[62px]">
+                    <p class="py-3 text-base leading-relaxed text-body-color">
+                        At ICON, we believe in the power of holistic branding and marketing strategies. We offer comprehensive solutions that integrate branding, design, and marketing to create a cohesive and effective brand presence. This approach ensures that your brand communicates a consistent message across various platforms.
+                    </p>
+                </div>
+                </div>
+                    
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq2 = !openFaq2"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            What sets ICON apart from other design agencies in Dubai?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq2" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            ICON Branding Agency boasts a team of creative experts with deep industry knowledge and a proven track record. We've successfully delivered top-notch branding, design, and marketing solutions to numerous clients. Our commitment to excellence and innovative thinking makes us a preferred choice.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="single-faq mb-8 w-full rounded-lg border border-gray-200 bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+                    <button
+                        class="faq-btn flex w-full text-left"
+                        @click="openFaq5 = !openFaq5"
+                    >
+                        <div
+                        class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-500"
+                        >
+                        <svg
+                            width="17"
+                            height="10"
+                            viewBox="0 0 17 10"
+                            class="icon fill-current"
+                        >
+                            <path
+                            d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                            fill="#3056D3"
+                            stroke="#3056D3"
+                            />
+                        </svg>
+                        </div>
+                        <div class="w-full">
+                        <h4 class="text-lg font-semibold text-black">
+                            Can ICON help with digital marketing in Abu Dhabi and other UAE regions?
+                        </h4>
+                        </div>
+                    </button>
+                    <div v-show="openFaq5" class="faq-content pl-[62px]">
+                        <p class="py-3 text-base leading-relaxed text-body-color">
+                            Certainly! While we're based in Dubai, our digital marketing services extend across the UAE. We have experience working with clients in various regions, including Abu Dhabi. Our goal is to amplify your brand's online presence and drive tangible results.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 right-0 z-[-1]">
+            <svg
+            width="1440"
+            height="886"
+            viewBox="0 0 1440 886"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+                opacity="0.5"
+                d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+                fill="url(#paint0_linear)"
+            />
+            <defs>
+                <linearGradient
+                id="paint0_linear"
+                x1="1308.65"
+                y1="1142.58"
+                x2="602.827"
+                y2="-418.681"
+                gradientUnits="userSpaceOnUse"
+                >
+                <stop stop-color="#3056D3" stop-opacity="0.36" />
+                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+                <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        </section>
+        <!-- ====== FAQ Section End -->
+
         <div id="contact" class="pt-24"></div>
 
 
@@ -218,39 +376,24 @@
                 <div class="w-full flex items-center">
                     <div class="space-y-10 pb-5">
                         <div class="space-y-4">
-                            <h1 class="text-3xl 3xl:text-4xl font-semibold">We have Mastered Building Strong Brands that Captivate Audiences and Drive Engagement.</h1>
-                            <!-- <h2 class="text-3xl font-semibold">Partner with Us for Tailored <br> Strategies and Results!</h2> -->
+                            <p class="text-3xl 3xl:text-4xl font-semibold">Why Choose ICON for Branding Services?</p>
                         </div>
                         <div class="space-y-4 text-base lg:text-sm xl:text-base">
-                            <p>
-                                At our agency, we understand the power of effective branding in making a lasting impact. Our dedicated team leaves no stone unturned when it comes to optimizing your online presence and delivering unparalleled, measurable results. With a strategic approach, we focus on enhancing your brand's visibility, building a strong identity, and creating meaningful connections with your target audience.
-                            </p>
-                            <p>
-                                From crafting compelling brand stories to designing visually stunning assets, we have the skills and experience to ensure your brand stands out from the crowd. Our team leverages cutting-edge strategies and industry insights to create a brand that resonates with your audience and drives engagement.
-                            </p>
-                            <p>
-                                Partner with us to unlock the true potential of your brand in the digital landscape. Get in touch with our experts today and let us show you how our branding services can help you achieve your marketing goals and set your brand apart from the competition.
-                            </p>
-
+                            <ul class="list-disc space-y-2 ml-5">
+                                <li><b>Cutting-Edge Marketing Integration:</b> At ICON we make it the go-to choice for clients looking to merge traditional branding with the digital landscape. </li>
+                                <li><b>Strategic Collaborations with Agencies:</b> We have established strong partnerships with renowned advertising agencies in the UAE, creating a synergy that receives maximum exposure.</li>
+                                <li><b>Expert Logo and Design</b> ICON's dedicated team of logo and design experts specializes in creating captivating and memorable brand assets. </li>
+                                <li><b>Trendsetting Branding Strategies:</b> ICON continuously adapts to emerging trends and incorporates them into your branding strategy. We stay ahead of the curve.</li>
+                            </ul>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>
-                            <!-- <a href="tel:+97142636550" class="px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                </svg>
-                                <span>Call</span>
-                            </a>
-                            <a href="https://wa.me/+971564034019" class="svg-color-white px-4 lg:px-5 3xl:px-8 py-3 border-2 border-gray-800 rounded-lg bg-gray-800 hover:bg-transparent text-gray-100 hover:text-gray-900 transition-all flex items-center space-x-2 whitespace-nowrap">
-                                <svg class="w-5 h-5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308 308" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_468_"> <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156 c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687 c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887 c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153 c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348 c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802 c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922 c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0 c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458 C233.168,179.508,230.845,178.393,227.904,176.981z"></path> <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716 c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396 c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188 l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677 c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867 C276.546,215.678,222.799,268.994,156.734,268.994z"></path> </g> </g></svg>                                
-                                <span>Whatsapp</span>
-                            </a> -->
+                            <a href="#contact" class="bg-gradient-to-r from-theme-purple to-theme-red py-2 md:py-2.7 px-5 text-white capitalize font-semibold rounded-lg flex items-center justify-center inline-block">Let's Connect</a>                            
                         </div>
                     </div>
 
                 </div>
                 <div class="w-full relative ">
-                    <FormsLandingForm type="Branding Landing Page" />
+                    <FormsLandingForm type="Branding Landing Page" :isBudget="true" />
                 </div>
             </div>
         </div>
@@ -277,14 +420,117 @@
             layout: "landing",
 
             components: { carousel },
-            head: {
-                htmlAttrs: {
-                    class: 'scroll-smooth-html'
-                },
+            head() {
+                return {
+                    htmlAttrs: {
+                        class: 'scroll-smooth-html'
+                    },
+                    title: `Creative Branding & Communication Agency In Dubai & Abu Dhabi - ICON`,
+                    meta: [
+                        { charset: 'utf-8' },
+                        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                        {
+                            hid: 'description',
+                            name: 'description',
+                            content: 'Uplift your brand with ICON, a Dubai-based agency specializing in logo design, company profiles, and effective brand marketing strategies.'
+                        }
+                    ],
+                    link: [
+                        {
+                        rel: 'canonical',
+                        href: 'https://icon-ad.com/branding/make-your-brand-stand-out',
+                        ref: 'noopener noreferrer' // Added ref attribute
+                        }
+                    ],
+                    script: [
+                        {
+                            type: 'application/ld+json',
+                            json: {
+                                "@context": "https://schema.org",
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Why should I choose ICON for my branding needs?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ICON Branding Agency stands out as a leading design agency in Dubai with a strong reputation for creating captivating brand identities. Our skilled team crafts unique logos, designs for branding, and company profiles that resonate with your target audience, giving your brand a competitive edge in the market."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "What sets ICON apart from other design agencies in Dubai?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ICON Branding Agency boasts a team of creative experts with deep industry knowledge and a proven track record. We've successfully delivered top-notch branding, design, and marketing solutions to numerous clients. Our commitment to excellence and innovative thinking makes us a preferred choice."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "How does ICON approach branding and marketing?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "At ICON, we believe in the power of holistic branding and marketing strategies. We offer comprehensive solutions that integrate branding, design, and marketing to create a cohesive and effective brand presence. This approach ensures that your brand communicates a consistent message across various platforms."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Can ICON help with digital marketing in Abu Dhabi and other UAE regions?",
+                                        "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Certainly! While we're based in Dubai, our digital marketing services extend across the UAE. We have experience working with clients in various regions, including Abu Dhabi. Our goal is to amplify your brand's online presence and drive tangible results."
+                                        }
+                                    }                                    
+                                ]
+                            }
+                        },
+                        {
+                        type: 'application/ld+json',
+                        json: {
+                                "@context": "https://schema.org",
+                                "@type": "Organization",
+                                "url": "https://www.icon-ad.com",
+                                "logo": "https://icon-ad.com/logo.png"
+                            }
+                        },
+                        {
+                            type: 'application/ld+json',
+                            json: {
+                                "@context": "https://schema.org",
+                                "@type": "LocalBusiness",
+                                "name": "ICON",
+                                "address": {
+                                    "@type": "PostalAddress",
+                                    "streetAddress": "Office 306, Spectrum Building",
+                                    "addressLocality": "Oud Metha",
+                                    "addressRegion": "AE",
+                                    "postalCode": "236013",
+                                    "addressCountry": "UAE"
+                                },
+                                "telephone": "+97142636550",
+                                "priceRange": "AED",
+                                "image": "https://icon-ad.com/logo.png",
+                                "description": "A 360° Integrated Creative, Branding, Marketing and Communications Agency Based in Dubai, UAE.",
+                                "openingHours": "Mo-Fr 09:00-18:00",
+                                "geo": {
+                                    "@type": "GeoCoordinates",
+                                    "latitude": 25.232636127422968,
+                                    "longitude": 55.31103999267581
+                                },
+                            }
+                        }
+                    ]
+                }
             },
 
             data() {
                 return {
+                    openFaq1: false, 
+                    openFaq2: false, 
+                    openFaq3: false, 
+                    openFaq4: false, 
+                    openFaq5: false, 
+                    openFaq6: false,                    
                     isNuxtReady: false,
                     options1: {
                         muted: true,

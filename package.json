@@ -13,6 +13,7 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/sitemap": "^2.4.0",
+    "@studio-freight/lenis": "^1.0.19",
     "aos": "^2.3.4",
     "core-js": "^3.30.2",
     "gsap": "./gsap-bonus.tgz",
@@ -20,6 +21,7 @@
     "install": "^0.13.0",
     "libphonenumber-js": "^1.10.38",
     "nuxt": "^2.16.3",
+    "nuxt-lenis": "^1.0.1",
     "nuxt-ssr-cache": "^1.5.2",
     "sass": "^1.62.1",
     "simple-masonry": "^1.0.6",
@@ -39,7 +41,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.6.7",
-    "@nuxtjs/pwa": "^3.3.5"
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/tailwindcss": "^6.6.7"
   }
 }

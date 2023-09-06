@@ -1,21 +1,18 @@
 <template>
   <div>
-  <section class="about-black-cover bg-black text-white pb-20">
-    <div class="cover-map theme-container text-center">
-      <div class="pb-20 pt-48">
-        <h1 class="my-4 text-6xl font-bold">
-          <span class="block rainbow-text-ad md:h-16">BLOGS</span>
-        </h1>
-        <p class="text-lg">We share inspiration and creative insights for businesses and individuals. From marketing strategies to design inspiration, our team of experts has you covered with a variety of topics to help spark your imagination.</p>
-      </div>
-    </div>
-    <!-- cover map -->
-
+  <section id="coverSection">
+      <PageCover 
+        :button="true" 
+        buttontext="Our latest posts" 
+        tline1="Blogs" 
+        tline2=""
+        about="We share inspiration and creative insights for businesses and individuals. From marketing strategies to design inspiration, our team of experts has you covered with a variety of topics to help spark your imagination."  />
   </section>
-<!-- about black cover -->
+  <!-- cover section -->
 
 
-  <div class="section section-blogs py-32">
+
+  <div class="section section-blogs pb-32">
     <div class="max-w-6xl xxl:max-w-screen-xl mx-auto px-5 lg:px-0 w-full">
       <div class="section-header w-full">
 
@@ -31,11 +28,7 @@
       <div class="inner w-full">
         <div class="clients-wrapper w-full">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-5 w-full">
-            <div
-              class="border rounded-xl overflow-hidden w-full"
-              v-for="(blog, i) in blogs"
-              :key="i"
-            >
+            <div class="border rounded-xl overflow-hidden w-full" v-for="(blog, i) in blogs" :key="i">
               <AdvertisingBlogBlock :blog="blog" />
             </div>
             <!-- client -->

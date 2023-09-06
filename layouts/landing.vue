@@ -19,7 +19,18 @@
 
 
 <script>
+  export default {
+    mounted() {
 
-export default {
-}
+      this.$lenis.on('scroll', (e) => {
+      });
+
+      const raf = (time) => {
+        this.$lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    }
+  }
 </script>
