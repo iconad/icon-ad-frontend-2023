@@ -1,51 +1,72 @@
 <template>
-  <div>
+  <main class="icon-wrapper">
+    <div class="icon-content">
+      <!-- <Chatbot /> -->
+      <HomeTopNavbar class="hidden md:block relative z-50 bg-white" />
+      <MobileMegaMenu class="relative z-50 block md:hidden" />
 
-        <!-- <Chatbot /> -->
-        <HomeTopNavbar class="hidden md:block relative z-50 bg-white" />
-        <MobileMegaMenu class="relative z-50 block md:hidden" />
+      <div>
+        <Nuxt />
+      </div>
 
-        <div>
-          <Nuxt />
-        </div>
-
-        <footer id="FooterSection" class="footer-section bg-black text-white rounded-t-3xl">
+      <footer
+        id="FooterSection"
+        class="footer-section bg-black text-white rounded-t-3xl"
+      >
         <div class="home-container">
           <Footer />
         </div>
         <div class="bg-white text-black">
           <div class="home-container">
-            <div class="flex flex-col md:flex-row items-center justify-between py-5 md:py-3">
-              <p class="order-last md:order-first text-center md:text-left">© All rights reserved by ICON 2023. </p>
+            <div
+              class="flex flex-col md:flex-row items-center justify-between py-5 md:py-3"
+            >
+              <p class="order-last md:order-first text-center md:text-left">
+                © All rights reserved by ICON 2023.
+              </p>
               <ul class="font-medium order-first md:order-last">
                 <li>
-                  <nuxt-link to="/privacy-policy" class="theme-link"> Privacy & Policy </nuxt-link>
+                  <nuxt-link to="/privacy-policy" class="theme-link">
+                    Privacy & Policy
+                  </nuxt-link>
                 </li>
               </ul>
-            </div>    
+            </div>
           </div>
         </div>
       </footer>
-
-      
-  </div>
+    </div>
+  </main>
 </template>
 
 
 <script>
-  export default {
-    mounted() {
+export default {
+  mounted() {
+    const $wrapper = document.getElementById("icon-wrapper");
+    const $content = document.getElementById("icon-content");
 
-      this.$lenis.on('scroll', (e) => {
-        // console.log(e);
-      });
+    this.scrollSmoother.create({
+      wrapper: $wrapper,
+      content: $content,
+      smooth: 1.5,
+      effects: true,
+      smoothTouch: 0,
+      preventDefault: true,
+      normalizeScroll: { allowNestedScroll: true },
+      ignoreMobileResize: true,
+    });
 
-      const raf = (time) => {
-        this.$lenis.raf(time);
-        requestAnimationFrame(raf);
-      }
+    // this.$lenis.on('scroll', (e) => {
+    //   // console.log(e);
+    // });
 
-      requestAnimationFrame(raf);
-    }
-  }
+    // const raf = (time) => {
+    //   this.$lenis.raf(time);
+    //   requestAnimationFrame(raf);
+    // }
+
+    // requestAnimationFrame(raf);
+  },
+};
 </script>
