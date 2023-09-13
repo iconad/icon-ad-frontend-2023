@@ -134,8 +134,6 @@ import Atos from '~/utils/Atos'
 
 
   export default {
-    scrollToTop: true,
-    layout: 'branding',
     head() {
     return {
        title: this.project ? `${this.project.title} | Icon Advertising LLC` : "Icon Advertising LLC.",

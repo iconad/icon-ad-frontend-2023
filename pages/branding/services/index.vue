@@ -2,7 +2,7 @@
   <div>
 
     <section id="coverSection">
-        <PageCover 
+        <ServicesPageCover 
           :button="true" 
           buttontext="Our Case Studies" 
           tline1="Your Brand" 
@@ -12,41 +12,66 @@
     <!-- cover section -->
 
 
-
-    <section class="bg-black py-32">
+    <section class="bg-black py-32" id="down">
       <div class="home-container">
-       
+
+      
         <div class="space-y-10">
           
-          <div class="text-3xl text-white">
-            <span class="font-light">Our</span>
-            <span class="font-bold icon-rainbow-text">Expertise</span>
-          </div>
 
-          <div class="grid grid-cols-2 gap-20">
+          <div class="grid grid-cols-1 gap-32 md:gap-64 pt-16 md:pt-32">
 
-            <div v-for="(expertise, i) in page[0].content" :key="i" v-if="!expertise.image" class="border border-[#2D2D2D] text-white p-32 rounded-2xl space-y-10">
+            <div v-for="(expertise, i) in expertises" :key="i" class="flex flex-wrap md:flex-nowrap text-white rounded-2xl md:space-x-24">
 
-              <div class="img">
-                <div class="w-32 h-32 bg-gray-400 opacity-50 rounded-xl"></div>
+              <div class="w-full md:w-1/2 relative space-y-5 md:space-y-0 ">
+
+                <span class="font-semibold md:h-20 md:absolute left-0 -top-[117px] -tracking-[3px] md:-tracking-[5px]">
+                  <span class="rainbow-strock text-black text-5xl md:text-[100px] relative z-10 md:whitespace-nowrap pr-1" v-html="breakText(expertise.name)[0]"> </span>
+
+                    <span class="font-semibold md:h-20 md:absolute left-[50%] top-[140%] z-10">
+                      <span class="text-white text-5xl md:text-[100px] md:whitespace-nowrap pr-1" v-html="breakText(expertise.name)[1]"> </span>
+                    </span>
+
+                </span>
+
+
+                <div class="img">
+                  <UtilsProjectImage :options="`w-full h-[20rem] md:h-[40rem] rounded-2xl overflow-hidden object-cover`" :mini="expertise.mini" :image="expertise.image" />                  
+                </div>
+                <!-- image -->
               </div>
-              <!-- image -->
 
-              <h2 class="text-4xl font-semibold h-20">
-                <span v-for="(text, b) in breakText(expertise.title)" :key="b" v-html="text"> </span>
-              </h2>
-              <p class="text-sm" v-html="expertise.details"> </p>
+              <div class="w-full md:w-1/3 pt-10 md:pt-32 space-y-12">
 
-              <div>
-                
-                <div class="flex items-center space-x-3">
-                  
-                  <nuxt-link to="#GetAQuote" class="rainbow-border rounded-full p-[1px] group overflow-hidden inline-block ">
-                      <span class="inline-block bg-black text-sm rounded-full h-7 w-32 group-hover:text-white group-hover:bg-transparent flex items-center justify-center">Get a Quote</span>
-                  </nuxt-link>     
 
+                  <div>
+                    <client-only>
+                      <p class="md:text-sm" v-html="expertise.details"> </p>
+                    </client-only>
+                  </div>
+
+
+                <div>
+                  <ul class="space-y-1">
+                    <li v-for="(child, ch) in expertise.children" :key="ch" class="flex items-center space-x-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><circle cx="8" cy="8" r="6.5" stroke="url(#a)" stroke-width="3"/><defs><linearGradient id="a" x1="-.19" x2="16.463" y1="17.424" y2="15.906" gradientUnits="userSpaceOnUse"><stop stop-color="#56B7DF"/><stop offset=".331" stop-color="#9E7FE0"/><stop offset=".628" stop-color="#C769A3"/><stop offset="1" stop-color="#DD5C63"/></linearGradient></defs></svg>
+                      <span class="font-medium text-[21px]" v-html="child.name"></span>
+                    </li>
+                  </ul>
                 </div>
 
+
+                <div>
+                  
+                  <div class="flex items-center space-x-3">
+
+                    <nuxt-link to="#GetAQuote" class="rainbow-border rounded-full p-[1px] group overflow-hidden inline-block ">
+                        <span class="inline-block bg-black text-sm rounded-full h-7 w-32 group-hover:text-white group-hover:bg-transparent flex items-center justify-center">Get a Quote</span>
+                    </nuxt-link>     
+
+                  </div>
+
+                </div>
               </div>
 
             </div>
@@ -61,30 +86,8 @@
     </section>
     <!-- expertise -->
 
-    <section class="h-screen flex items-center relative overflow-hidden">
 
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_44_rynpo5.png" class="w-[10rem] absolute left-0 top-[50%] z-[6]" alt="ring">
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_48_vrl8fk.png" class="w-[20rem] absolute left-[50%] -top-[10%] " alt="ring">
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_49_xnzw9a.png" class="w-[9rem] absolute right-0 top-[50%]" alt="ring">
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626056/shape_image_46_uevanl.png" class="w-56 absolute left-[40%] top-[60%] z-[6]" alt="ring">
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626056/shape_image_47_kfaayw.png" class="w-32 absolute left-[10%] top-[20%]" alt="ring">
-
-      <div class="home-container relative z-[5]">
-        <div class="text-5xl font-bold">
-          <span class="block">Effective synergy between</span>
-          <span class="block">advertising and</span>
-          <span class="block">production is essential for</span>
-          <span class="block">driving sales and</span>
-          <span class="block">delivering customer</span>
-          <span class="block">satisfaction.</span>
-        </div>
-      </div>
-
-    </section>
-    <!-- shapes -->
-
-
-    <section class="pt-20 pb-32" id="GetAQuote">
+    <section class="pt-16 md:pt-20 pb-16 md:pb-32" id="GetAQuote">
 
       <div class="home-container">
         <FormsForm />
@@ -94,25 +97,21 @@
 
 
 
-
-
   </div>
 </template>
 
 <script>
   export default {
 
-    layout: 'branding',
-
     head: {
-      title: 'Branding Services for Effective Communication | ICON',
+      title: 'Comprehensive Advertising Services | ICON',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
           name: 'description',
-          content: `As a top Branding Agency in Dubai, we offer creative brand strategy & design services helping businesses grow through distinctive branding & inspiring design.`
+          content: 'We offer a wide range of advertising services in Dubai from creative design, motion graphics to 2d & 3d animation to help your brand stand out among competitors.'
         }
       ],
     },
@@ -135,12 +134,45 @@
     },
 
     async asyncData({ $axios, store }) {
+      // Fetch the expertises data
+      const expertises = await $axios.$get(`/branding-all-expertises`);
 
-    const page = await $axios.$get(`/pages/brand-expertise`)
+
+      const objectById = {};
+      const parents = [];
+      const children = [];
+
+      expertises.forEach((obj) => {
+        objectById[obj.id] = obj;
+        if (obj.parent) {
+          children.push(obj);
+        } else {
+          parents.push(obj);
+        }
+      });
+
+      function nestUnderParent(parent, children) {
+        parent.children = children
+          .filter((child) => child.parent === parent.name && child.name !== parent.name) // Filter out items with the same name as their parent
+          .map((child) => {
+            nestUnderParent(child, children);
+            return child;
+          });
+      }
+
+
+
+
+      const result = {};
+      parents.forEach((parent) => {
+        nestUnderParent(parent, children);
+        result[parent.name] = parent;
+      });
+
 
       return {
-        page,
-      }
+        expertises: result
+      };
     }
 
 

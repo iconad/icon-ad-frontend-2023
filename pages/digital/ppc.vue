@@ -375,7 +375,7 @@
 
                 </div>
                 <div class="w-full relative ">
-                    <FormsLandingForm type="PPC Landing Page" :isBudget="true" />
+                    <FormsLandingForm thankyou="/digital/thank-you" type="PPC Landing Page" :isBudget="true" />
                 </div>
             </div>
         </div>

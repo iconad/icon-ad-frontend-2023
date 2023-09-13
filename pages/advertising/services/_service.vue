@@ -12,56 +12,56 @@
     </section>
     <!-- cover section -->
 
-    <div ref="popupwrapper"  class="-z-[1] opacity-0 fixed inset-0 bg-black backdrop-blur-md bg-opacity-50 flex items-center justify-center">
+    <div ref="popupwrapper"  class="-z-[1] opacity-0 fixed inset-0 bg-black backdrop-blur bg-opacity-50 flex items-center justify-center">
       
       <span class="absolute right-5 md:right-10 top-5 md:top-10 text-white opacity-50 cursor-pointer hover:opacity-90" @click="closePopup()">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 md:w-20 h-10 md:h-20">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 md:w-12 h-10 md:h-12">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </span>
 
-
+      
       <div ref="popup" data-lenis-prevent class="relative scale-0 max-h-[70vh] md:max-h-[60vh] w-[90%] md:w-2/3 bg-black rounded-2xl border border-stone-800 shadow-2xl bg-opacity-50 p-32 text-white space-y-5 popup-scroll shadow-theme-sky/20">
         <div class="text-4xl font-semibold" v-if="service.title" v-html="service.title" ></div>
         <div class="text-gray-200 space-y-5" v-if="service.body" v-html="service.body"></div>
       </div>
     </div> 
 
-    <section class="bg-black py-32">
+    <section class="bg-black py-16 md:py-32">
       <div class="home-container">
        
-        <div class="space-y-10">
+        <div class="space-y-3 md:space-y-1">
           
-          <div class="text-3xl text-white">
+          <div class="text-4xl md:text-[65px] text-white flex flex-col -space-y-2 md:space-y-3">
             <span class="font-light">Our</span>
-            <span class="font-bold icon-rainbow-text">Expertise</span>
+            <span class="font-bold w-48 md:w-96 pb-4 pt-2 icon-rainbow-text">Expertise</span>
           </div>
           <pre class="text-white">
           </pre>
-          <div class="grid gap-20" :class="accordionData.length == 1 ? 'grid-cols-1' : 'grid-cols-2' ">
+          <div class="grid gap-20" :class="accordionData.length == 1 ? 'grid-cols-1' : 'grid-cols-1 lg:grid-cols-2' ">
 
-            <div v-for="(accordion, i) in accordionData" :key="i" class="border border-[#2D2D2D] text-white p-32 rounded-2xl space-y-10">
+            <div v-for="(accordion, i) in accordionData" :key="i" class="border border-[#2D2D2D] text-white px-10 lg:px-16 md:px-32 pt-10 md:pt-24 pb-10 md:pb-48 rounded-2xl space-y-5 relative">
 
-              <div class="img">
-                <div class="w-32 h-32 bg-gray-400 opacity-50 rounded-xl"></div>
+              <div class="img text-white w-20">
+                <UtilsProjectImage :options="`w-full`" :mini="accordion.mini" :image="accordion.image" />                  
               </div>
               <!-- image -->
 
-              <h2 class="text-4xl font-semibold" :class="accordionData.length == 1 ? '' : 'h-24' ">
-                <span v-for="(text, b) in breakText(accordion.title)" :key="b" v-html="text"> </span>
+              <h2 class="text-[30px] md:text-[40px] font-semibold" :class="accordionData.length == 1 ? '' : 'h-auto' ">
+                <span class="block leading-none" v-for="(text, b) in breakText(accordion.title)" :key="b" v-html="text"> </span>
               </h2>
               <p class="text-sm" v-html="summary(accordion.body)"> </p>
 
-              <div>
+              <div  class="md:absolute bottom-24 left-0 w-full flex lg:px-16 md:px-32">
                 
-                <div class="flex items-center space-x-3" :class="accordionData.length == 1 ? '' : 'justify-center' ">
+                <div class="mt-8 md:mt-0 flex items-center space-x-3" :class="accordionData.length == 1 ? '' : 'justify-center' ">
 
                   <span @click="selectService(accordion)" class="cursor-pointer bg-[#2D2D2D] rounded-full p-[1px] group overflow-hidden inline-block ">
-                      <span class="inline-block bg-black text-sm rounded-full h-7 w-32 group-hover:text-white group-hover:bg-transparent flex items-center justify-center">Read More</span>
+                      <span class="inline-block bg-black text-sm rounded-full h-8 md:h-10 w-[8.5rem] group-hover:text-white group-hover:bg-transparent flex items-center justify-center">Read More</span>
                   </span>   
                   
                   <nuxt-link to="#GetAQuote" class="rainbow-border rounded-full p-[1px] group overflow-hidden inline-block ">
-                      <span class="inline-block bg-black text-sm rounded-full h-7 w-32 group-hover:text-white group-hover:bg-transparent flex items-center justify-center">Get a Quote</span>
+                      <span class="inline-block bg-black text-sm rounded-full h-8 md:h-10 w-[8.5rem] group-hover:text-white group-hover:bg-transparent flex items-center justify-center">Get a Quote</span>
                   </nuxt-link>     
 
                 </div>
@@ -80,22 +80,22 @@
     </section>
     <!-- expertise -->
 
-    <section class="h-screen flex items-center relative overflow-hidden">
+    <section class="h-[70vh] md:h-screen flex items-center relative overflow-hidden">
 
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_44_rynpo5.png" class="w-[10rem] absolute left-0 top-[50%] z-[6]" alt="ring">
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_48_vrl8fk.png" class="w-[20rem] absolute left-[50%] -top-[10%] " alt="ring">
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_49_xnzw9a.png" class="w-[9rem] absolute right-0 top-[50%]" alt="ring">
-      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626056/shape_image_46_uevanl.png" class="w-56 absolute left-[40%] top-[60%] z-[6]" alt="ring">
+      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_44_rynpo5.png" class="w-24 md:w-[10rem] absolute -left-[12%] md:left-0 top-[60%] md:top-[50%] z-[6]" alt="ring">
+      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_48_vrl8fk.png" class="w-[14rem] md:w-[20rem] absolute left-[50%] -top-[10%] " alt="ring">
+      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626057/shape_image_49_xnzw9a.png" class="w-[9rem] absolute -right-[15%] md:right-0 top-[50%]" alt="ring">
+      <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626056/shape_image_46_uevanl.png" class="w-32 md:w-72 absolute left-[55%] md:left-[62%] lg:left-[42%] top-[72%] md:top-[61%] z-[6]" alt="ring">
       <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692626056/shape_image_47_kfaayw.png" class="w-32 absolute left-[10%] top-[20%]" alt="ring">
 
       <div class="home-container relative z-[5]">
-        <div class="text-5xl font-bold">
-          <span class="block">Effective synergy between</span>
-          <span class="block">advertising and</span>
-          <span class="block">production is essential for</span>
-          <span class="block">driving sales and</span>
-          <span class="block">delivering customer</span>
-          <span class="block">satisfaction.</span>
+        <div class="text-4xl md:text-[50px] lg:text-[60px] -space-y-1 md:space-y-5 -tracking-[2px] font-bold">
+          <span class="md:block">Effective synergy between</span>
+          <span class="md:block">advertising and</span>
+          <span class="md:block">production is essential for</span>
+          <span class="md:block">driving sales and</span>
+          <span class="md:block">delivering customer</span>
+          <span class="md:block">satisfaction.</span>
         </div>
       </div>
 

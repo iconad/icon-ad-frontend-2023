@@ -12,7 +12,7 @@ export default function({ store, route, redirect, document }) {
     //   top: 0,
     //   behavior: "smooth"
     // });
-1
+    
     const queries = new Queries
     queries.mobile() ? store.commit("setIsMenu", false) : store.commit("setIsMenu", true)
 

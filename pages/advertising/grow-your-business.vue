@@ -442,7 +442,7 @@
 
                 </div>
                 <div class="w-full relative ">
-                    <FormsLandingForm type="Advertising Landing Page" :isBudget="true" />
+                    <FormsLandingForm thankyou="/advertising/thank-you" type="Advertising Landing Page" :isBudget="true" />
                 </div>
             </div>
         </div>

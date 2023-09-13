@@ -14,7 +14,7 @@
                 <AssetsMenu options="w-8 h-8" />
               </div>
 
-              <div v-if="isMenu" class="absolute left-0 top-0 bg-white w-full h-screen p-5 z-20 border-b-2 border-gray-500 md:static md:bg-transparent md:w-auto md:h-auto md:p-0 md:border-0 flex items-center justify-center md:block text-right md:text-left md:text-base">
+              <div v-if="isMenu" class="fixed left-0 top-0 bg-white w-full h-screen p-5 z-20 border-b-2 border-gray-500 md:static md:bg-transparent md:w-auto md:h-auto md:p-0 md:border-0 flex items-center justify-center md:block text-right md:text-left md:text-base">
 
                 <div class="block md:hidden absolute right-5 top-5 cursor-pointer text-gray-500 hover:text-theme-red"  @click="isMenu = !isMenu">
                   <AssetsClose options="w-8 h-8" />

@@ -149,7 +149,6 @@ import Atos from '~/utils/Atos'
 
   export default {
   
-    scrollToTop: true,
     head() {
     return {
        title: this.project ? `${this.project.title.replace(/&amp;/g, '&')} | Icon Advertising LLC` : "Icon Advertising LLC.",

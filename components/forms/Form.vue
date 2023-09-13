@@ -2,16 +2,16 @@
   <div>
 
       <div class="space-y-3 mb-10">
-        <div class="text-3xl sm:text-5xl md:text-6xl font-bold icon-rainbow-text semibold flex flex-col -space-y-3">
+        <div class="text-4xl sm:text-5xl md:text-[80px] font-bold icon-rainbow-text semibold flex flex-col -space-y-2 md:-space-y-4">
           <span class="block">Have</span>
           <span class="block">an Impact</span>
         </div>
-        <p class="font-medium">Join the most powerful brands in the world.</p>
+        <p class="font-semibold text-[21px]">Join the most powerful brands in the world.</p>
       </div>
 
       <form @submit.prevent="submitForm" class="form">
 
-        <div class="grid grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <div class="form-element">
               <input type="text" class="form-input-line h-12" v-model="form.name" required placeholder="Full Name">
@@ -74,7 +74,7 @@
         </div>
         <!-- Captcha End -->
           
-        <div v-if="!isLoading" class="form-element pt-10">
+        <div v-if="!isLoading" class="form-element pt-5 md:pt-10">
           <span v-if="captcha && !captcha.status" class="w-24 h-24 rounded-full text-sm font-medium flex items-center justify-center select-none cursor-not-allowed bg-gray-200"> Submit </span>
           <input v-else type="submit" class="text-white w-24 h-24 icon-rainbow-bg-1 rounded-full text-sm font-medium flex items-center justify-center cursor-pointer hover:bg-opacity-100" value="Submit">
         </div>

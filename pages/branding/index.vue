@@ -16,24 +16,30 @@
 
     <section id="creativityUnlock" class="bg-white py-32">
 
-      <div class="theme-container">
+      <div class="home-container">
 
-        <div class="flex items-center">
-          <div class="w-full space-y-3">
+        <div class="flex flex-col md:flex-row items-center space-y-10">
+          <div class="w-full md:-space-y-3">
             
-            <div class="text-9xl font-semibold -space-y-8">
-              <span class="block leading-none icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more -tracking-[5px] h-[8.5rem]">Unlock</span>
-              <span class="block leading-none icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more -tracking-[5px] h-[8.5rem]">Creativity</span>
+            <div class="text-[4.5rem] md:text-[120px] lg:text-[150px] font-semibold -space-y-3 md:-space-y-8 flex flex-col w-full md:w-[95%] -ml-3">
+              <span class="leading-none icon-rainbow-text inline-block -tracking-[4px] md:-tracking-[7px]">Unlock</span>
+              <span class="leading-none icon-rainbow-text inline-block -tracking-[4px] md:-tracking-[7px] pb-3">Creativity</span>
             </div>
+            <p class="font-medium font-[18px]">
+              Check more projects, unlock full case studies, and <br class="hidden md:block"> showcase how we tackle projects
+            </p>
 
           </div>
 
+          <div class="w-4/5 mx-auto md:w-[40rem]">
+            <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692278795/head_gsr0yv.png" alt="Unlock creativity">
+          </div>
 
         </div>
 
 
           
-        <div class="w-full md:w-4/5 expertises-section icon-rainbow-bg-3-stops mt-32">
+        <div class="w-full expertises-section icon-rainbow-bg mt-16 md:mt-0">
             <AdvertisingExpertiseExpertises :expertises="expertises" />
         </div>
         <!-- expertises section end -->          
@@ -46,7 +52,7 @@
 
 
 
-      <section class="clients-section bg-black text-white py-48">
+      <section class="clients-section bg-black text-white py-16 md:py-48">
 
       <div class="home-container">
         <HomeFeaturedClients />

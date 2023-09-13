@@ -1,7 +1,7 @@
 <template>
-    <div class="home-services">
+    <div class="home-services featured-projects">
       <client-only>
-        <carousel v-if="isNuxtReady" :nav="true" :dots="false" :items="2" :margin="50" :loop="false" :responsive="{0:{items:1},600:{items:2}}">
+        <carousel v-if="isNuxtReady" :touchDrag="true" :nav="true" :dots="false" :items="2" :margin="50" :loop="false" :responsive="{0:{items:1},600:{items:2}}">
 
             <div v-for="(project, i) in projects" :key="i" class="rounded-xl">
 

@@ -2,7 +2,7 @@
   <div>
     <client-only>
       <v-lazy-image
-        :class="options"
+        :class="`${options}`"
         :src="`https://drupal.icon-ad.com${image}`"
         :src-placeholder="`https://drupal.icon-ad.com${mini}`"
         alt="project image"

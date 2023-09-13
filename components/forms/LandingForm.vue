@@ -69,7 +69,7 @@
           
         <div v-if="!isLoading" class="form-element">
           <span v-if="captcha && !captcha.status" class="text-center select-none form-button block rainbow-gray w-full cursor-not-allowed hover:bg-opacity-100"> Submit </span>
-          <input v-else type="submit" class="form-button bg-gradient-to-r from-theme-red via-theme-pink to-theme-purple hover:from-theme-pink hover:via-theme-red hover:to-theme-pink text-white font-medium w-full cursor-pointer hover:bg-opacity-100" value="Submit">
+          <input v-else type="submit" class="form-button icon-rainbow-bg hover:from-theme-pink hover:via-theme-red hover:to-theme-pink text-white font-medium w-full cursor-pointer hover:bg-opacity-100" value="Submit">
         </div>
         <!-- form element -->
 
@@ -87,7 +87,7 @@
   import _ from 'lodash'
 
   export default {
-    props: ['isBudget', 'type'],
+    props: ['isBudget', 'type', 'thankyou'],
     data() {
       return {
         input: null,
@@ -171,7 +171,7 @@
             if (response.sid) {
               this.form = []
               this.$router.push({
-                path: "/thank-you"
+                path: this.thankyou ? this.thankyou : "/thank-you"
               });
             }
           })

@@ -5,8 +5,8 @@
         <PageCover 
           :button="false" 
           buttontext="Our Case Studies" 
-          tline1="Our" 
-          tline2="Clients!"
+          tline1="Our #Clients" 
+          :tline2=null
           about="Our presence in the market for 15 years has enabled us to work with global brands catering to their business objectives. Our strategic approach into building and growing these alliances has enabled us to be their partners for all their creative and marketing services."  />
     </section>
     <!-- cover section -->

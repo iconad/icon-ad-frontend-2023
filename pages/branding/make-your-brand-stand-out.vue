@@ -393,7 +393,7 @@
 
                 </div>
                 <div class="w-full relative ">
-                    <FormsLandingForm type="Branding Landing Page" :isBudget="true" />
+                    <FormsLandingForm thankyou="/branding/thank-you" type="Branding Landing Page" :isBudget="true" />
                 </div>
             </div>
         </div>

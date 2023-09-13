@@ -6,41 +6,41 @@
     </section>
     <!-- cover section -->
 
-    <section id="projectsSection" class="relative bg-black rounded-2xl overflow-hidden py-32">
+    <section id="projectsSection" class="relative bg-black rounded-2xl overflow-hidden py-16 md:py-32">
       <div class="front-projects home-container">
-          <Projects height="h-80" columns="2" :from="0" :to="12" />
+          <Projects height="h-auto md:h-80" columns="2" :from="0" :to="12" />
       </div>
     </section>
     <!-- projects section -->
 
 
 
-    <section id="creativityUnlock" class="bg-white py-32">
+    <section id="creativityUnlock" class="bg-white py-16 md:py-32">
 
-      <div class="theme-container">
+      <div class="home-container space-y-20">
 
-        <div class="flex items-center">
-          <div class="w-full space-y-3">
+        <div class="flex flex-col md:flex-row items-center space-y-10">
+          <div class="w-full md:-space-y-3">
             
-            <div class="text-9xl font-semibold -space-y-8 flex flex-col">
-              <span class="leading-none icon-rainbow-text pr-2 -tracking-[5px] h-[8.5rem]">Unlock</span>
-              <span class="leading-none icon-rainbow-text pr-2 -tracking-[5px] h-[8.5rem]">Creativity</span>
+            <div class="text-[4.5rem] md:text-[120px] lg:text-[150px] font-semibold -space-y-3 md:-space-y-7 flex flex-col w-full md:w-[95%] -ml-3">
+              <span class="leading-none icon-rainbow-text inline-block -tracking-[4px] md:-tracking-[10px]">Unlock</span>
+              <span class="leading-none icon-rainbow-text inline-block -tracking-[4px] md:-tracking-[10px] pb-3">Creativity</span>
             </div>
-            <p class="font-medium">
+            <p class="font-medium font-[18px]">
               Check more projects, unlock full case studies, and <br class="hidden md:block"> showcase how we tackle projects
             </p>
 
           </div>
 
-          <div class="w-[30rem]">
-            <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692278795/head_gsr0yv.png" alt="unloack creativity">
+          <div class="w-4/5 mx-auto md:w-[40rem]">
+            <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1692278795/head_gsr0yv.png" alt="Unlock creativity">
           </div>
 
         </div>
 
 
           
-        <div class="w-full md:w-4/5 expertises-section icon-rainbow-bg-3-stops">
+        <div class="w-full expertises-section icon-rainbow-bg">
             <AdvertisingExpertiseExpertises :expertises="expertises" />
         </div>
         <!-- expertises section end -->          
@@ -53,7 +53,7 @@
 
 
 
-    <section class="clients-section bg-black text-white py-48">
+    <section class="clients-section bg-black text-white py-16 md:py-48">
 
       <div class="home-container">
         <HomeFeaturedClients />
@@ -66,7 +66,7 @@
 
     <section class="pt-[15vh] space-y-[10vh]">
 
-      <div class="translate-x-[50rem] text-[9rem] h-[12rem] font-bold icon-rainbow-text whitespace-nowrap -tracking-[10px]">Building brands for more tha 15</div>
+      <div class="translate-x-[50rem] text-[160px] pb-2 font-bold icon-rainbow-text whitespace-nowrap -tracking-[10px]">Building brands for more tha 15</div>
 
       <div class="home-container">
         <div class="pb-[15vh] flex items-end justify-end">

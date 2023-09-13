@@ -9,16 +9,18 @@
           tline2="our finest work"
           :carousel="carousel"
           link="advertising"
+          :industries="industries"
+          :expertise="expertise"
           :about="null"  />
     </section>
     <!-- cover section -->
 
-    <div class="projects-main bg-black text-white pb-32 rounded-3xl pt-[35rem]">
+    <div class="projects-main bg-black text-white pb-16 md:pb-32 rounded-3xl pt-[8rem] sm:pt-[18rem] md:pt-[20rem] lg:pt-[35rem]">
 
       <div class="home-container">
 
         <div v-if="projects.length != 0" class="projects mt-20">
-          <div class="grid grid-cols-2 gap-10" >
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10" >
             <div class="mb-10" v-for="(project, i) in projects" :key="i">
               <ProjectsProject mode="dark" link="advertising" height="h-80" :project="project" class="project"/>
             </div>

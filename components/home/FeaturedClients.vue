@@ -4,21 +4,24 @@
             
         <div class="space-y-10">
 
-            <div class="text-4xl block font-semibold">Our Clients</div>
+            <div class="section-title font-bold">
+                <span class="block">Our</span>
+                <span class="block">Clients</span>
+            </div>
 
             <ul class="flex items-center gap-5 overflow-x-auto no-scroll-bar min-w-full">
                 <li v-for="(industry, i) in industries" :key="i" v-if="industry != ''">
-                    <button @click="selectIndustry(industry)" class="border border-gray-600 rounded-full p-[1px] group overflow-hidden inline-block">
-                        <span :class="{ 'rainbow-border': selectedIndustry === industry }" class="inline-block bg-black text-white rounded-full px-8 py-1 text-sm group-hover:text-white group-hover:bg-transparent whitespace-nowrap">{{ industry }}</span>
+                    <button @click="selectIndustry(industry)" :class="selectedIndustry !== industry ? 'bg-stone-700 bg-opacity-75' : 'rainbow-border-1'" class="rounded-full p-[1px] group overflow-hidden inline-block">
+                        <span class="bg-black inline-block text-white rounded-full px-8 py-1 text-sm group-hover:text-white group-hover:bg-transparent whitespace-nowrap">{{ industry }}</span>
                     </button>    
                 </li>
             </ul>
         </div>
 
-        <div class="flex flex-wrap items-center justify-center">
+        <div class="flex flex-wrap items-center">
             <!-- Only show clients from the selected industry -->
-            <div class="w-1/2 md:w-1/5" v-for="(client, i) in selectedClients" :key="i">
-                <UtilsProjectImage :options="`object-contain h-56 p-1 w-full`" :mini="client.image_mini_white" :image="client.white_logo" />
+            <div class="w-1/2 md:w-1/4" v-for="(client, i) in selectedClients" :key="i">
+                <UtilsProjectImage :options="`object-contain h-48 p-1 w-full`" :mini="client.image_mini_white" :image="client.white_logo" />
             </div>            
         </div>
 

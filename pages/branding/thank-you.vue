@@ -1,7 +1,7 @@
 <template>
   <div>
     <section
-      class="section contact-section h-screen-50 flex items-center"
+      class="section contact-section h-screen flex items-center"
     >
       <div
         class="px-5 xxl:px-0 mx-auto flex items-center justify-center w-full md:w-1/4 text-center"
@@ -42,7 +42,7 @@
 
 <script>
   export default {
-
+    layout: 'home',
   }
 </script>
 

@@ -3,31 +3,21 @@
       <client-only>
         <siema ref="siema" :draggable="true" :autoplay="true" :loop="false" @init="init" :autoplay-duration="15000" @change="onSlideChange()">
 
-            <div v-for="(project, i) in projects" :key="i" class="h-auto">
+            <div v-for="(project, i) in projects" :key="i" class="h-[90vh] overflow-hidden relative">
 
-              <UtilsProjectImage options="w-full object-cover h-auto" :mini="project.image_mini" :image="project.cover" />
+              <UtilsProjectImage options="w-full object-cover object-center h-full" :mini="project.image_mini" :image="project.cover" />
 
-              <div class="relative slide-info">
 
-                <div class="absolute w-full h-auto bg-black bg-opacity-60 text-white bottom-0 left-0 z-10 flex items-start items-center hidden">
+                <div class="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.9)] md:from-[rgba(0,0,0,0.4)] via-[rgba(0,0,0,0)]">
 
-                  <div class="theme-container w-full mb-16 md:mb-24 lg:mb-32">
+                  <div class="theme-container w-full mb-16 md:mb-24 lg:mb-32 bg-red-300">
 
-                    <!-- <div class="w-full"> -->
-                      <!-- <h1 class="text-2xl md:text-3xl 2xl:text-4xl font-semibold mb-3 lg:mb-5 w-full lg:w-1/3" v-html="project.title"></h1> -->
-
-                      <!-- <nuxt-link :to="`/${link}/projects${project.slug}`" class="flex items-center space-x-3">
-                        <AssetsRightAngleArrowWhite options="w-4 lg:w-6 h-4 lg:w-6" />
-                        <span class="text-lg lg:text-2xl font-light">Read Case Study</span>
-                      </nuxt-link> -->
-
-                    <!-- </div> -->
+                    <span class="opacity-0 md:opacity-80 absolute text-white left-5 md:left-10 z-5 bottom-10 md:bottom-10 text-sm md:text-bae" v-html="project.title"></span>
+                    <nuxt-link :to="`/${link}/projects${project.slug}`" class="opacity-80 hover:opacity-100 absolute text-white hover:underline right-5 md:right-10 z-5 bottom-10 md:bottom-16 text-sm md:text-bae"> Read Case Study</nuxt-link>
 
                   </div>
 
 
-                </div>
-                <!-- slide info -->
               </div>
 
             </div>
@@ -39,7 +29,7 @@
 
         <div class="flex items-center justify-center space-x-3">
 
-          <div v-for="(project, i) in projects" :key="i" class="h-4 w-4 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 cursor-pointer" @click="goToSlide(i)"></div>
+          <div v-for="(project, i) in projects" :key="i" class="h-2 md:h-4 w-2 md:w-4 rounded-full bg-white bg-opacity-50 hover:bg-opacity-100 cursor-pointer" @click="goToSlide(i)"></div>
           <!-- project -->
 
         </div>

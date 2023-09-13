@@ -72,9 +72,9 @@
     <section class="services-section py-20 md:py-32 bg-white border-t">
 
       <div class="home-container">
-        <div class="text-4xl md:text-4xl tracking-title leading-none">
-          <span class="block">Experience our</span>
-          <span class="inline-block font-bold icon-rainbow-text">Cutting-edge Services</span>
+        <div class="section-title w-full md:w-1/2">
+          <span class="inline-block">Experience our</span>
+          <span class="inline-block font-bold icon-rainbow-text pb-2">Cutting-edge Services</span>
         </div>
       </div>        
 
@@ -88,9 +88,9 @@
     <section class="pt-20 md:pt-32 py-32 featured-projects advertising-projects featured-advertising-projects bg-black border-t text-white">
 
       <div class="home-container relative">
-        <div class="md:flex items-end md:space-x-10 space-y-2 md:space-y-0">
-          <span class="text-3xl md:text-4xl block font-bold">Advertising</span>
-          <p class="text-sm">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
+        <div class="md:flex items-end md:space-x-5 space-y-2 md:space-y-0">
+          <span class="text-3xl md:text-[32px] block font-semibold">Advertising</span>
+          <p class="text-sm pb-1">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
         </div>
 
         <nuxt-link to="/advertising" class="w-full md:w-40 h-10 block absolute right-0 -bottom-16 md:top-1 icon-rainbow-bg-1 p-1 group rounded-full overflow-hidden">
@@ -108,12 +108,12 @@
     <!-- advertising projects -->
 
 
-    <section class="pt-20 md:pt-32 py-32 featured-projects featured-digital-projects border-t border-gray-600 bg-black text-white">
+    <section class="layer-pin-1 pt-20 md:pt-32 py-32 featured-projects featured-digital-projects border-t border-gray-600 bg-black text-white relative z-20">
 
       <div class="home-container relative">
-        <div class="md:flex items-end md:space-x-10 space-y-2 md:space-y-0">
-          <span class="text-3xl md:text-4xl block font-bold">Digital</span>
-          <p class="text-sm">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
+        <div class="md:flex items-end md:space-x-5 space-y-2 md:space-y-0">
+          <span class="text-3xl md:text-[32px] block font-semibold">Digital</span>
+          <p class="text-sm pb-1">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
         </div>
 
         <nuxt-link to="/advertising" class="w-full md:w-40 h-10 block absolute right-0 -bottom-16 md:top-1 icon-rainbow-bg-1 p-1 group rounded-full overflow-hidden">
@@ -131,12 +131,12 @@
     <!-- digital projects -->
 
 
-    <section class="scroll-section pt-20 md:pt-32 py-32 featured-projects featured-branding-projects bg-black border-t border-gray-600 text-white">
+    <section class="layer-pin-2 pt-20 md:pt-32 py-32 featured-projects featured-branding-projects bg-black border-t border-gray-600 text-white relative z-30">
 
       <div class="home-container relative">
-        <div class="md:flex items-end md:space-x-10 space-y-2 md:space-y-0">
-          <span class="text-3xl md:text-4xl block font-bold">Branding</span>
-          <p class="text-sm">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
+        <div class="md:flex items-end md:space-x-5 space-y-2 md:space-y-0">
+          <span class="text-3xl md:text-[32px] block font-semibold">Branding</span>
+          <p class="text-sm pb-1">Creativity & Brand Experience <br class="block md:hidden"> Reimagined!</p>
         </div>
 
         <nuxt-link to="/advertising" class="w-full md:w-40 h-10 block absolute right-0 -bottom-16 md:top-1 icon-rainbow-bg-1 p-1 group rounded-full overflow-hidden">
@@ -161,9 +161,9 @@
             <div class="flex flex-col md:flex-row items-center justify-between py-10 md:py-20 md:h-screen relative">
               
               <div class="order-2 md:order-1 flex flex-col justify-between space-y-20 relative z-[10]">
-                <div class="space-y-5">
-                  <div class="font-medium icon-rainbow-text text-lg">About ICON</div>
-                  <h3 class="font-bold text-4xl md:text-5xl -space-y-px -tracking-[1px]"> 
+                <div class="space-y-7">
+                  <div class="font-bold icon-rainbow-text text-[21px]">About ICON</div>
+                  <h3 class="font-bold text-4xl md:text-[60px] md:space-y-4 -tracking-[1px]" > 
                     <span class="block">We are not just a</span>
                     <span class="block">360 Integrated</span> 
                     <span class="block">Marketing,</span> 
@@ -227,9 +227,9 @@
 
       <div class="home-container space-y-10">
 
-        <div class="text-3xl md:text-4xl block font-bold">What makes us <br class="hidden md:block"> different</div>
+        <div class="section-title-noflex icon-rainbow-text font-bold">Testimonials</div>
 
-        <CarouselMakesUsDifferent />
+        <CarouselTestimonials />
 
       </div>
       <!-- container -->
@@ -238,11 +238,11 @@
     <!-- what makes us different -->
 
 
-    <section class="blogs-section pt-32 bg-white border-t">
+    <section class="blogs-section bg-white">
 
       <div class="home-container space-y-10 relative">
 
-        <div class="text-3xl md:text-4xl block font-bold">Blogs</div>
+        <div class="block section-title">Blogs</div>
 
         <CarouselFeaturedBlogs :blogs="blogs" />          
 
@@ -261,7 +261,7 @@
           </div>
           <div class="order-1 md:order-2 w-full md:w-1/2 flex justify-center md:block">
               <div class="space-y-5">
-                <div class="text-4xl md:text-3xl md:text-6xl font-bold icon-text icon-rainbow-text -space-y-3 md:-space-y-1">
+                <div class="-tracking-[3px] text-4xl md:text-3xl md:text-6xl font-bold icon-text icon-rainbow-text -space-y-3 md:-space-y-1">
                   <span class="h-12 md:h-14 block">Embrace the</span> 
                   <span class="h-12 md:h-16 block">Digital Era with Us</span>
                 </div>
@@ -313,7 +313,14 @@ export default {
             },
         };
     },
+    beforeRouteLeave(to, from, next) {
+      // Cancel GSAP animations and clear timelines or tweens here
+      this.cancelLayeredScrolling();
+      next();
+    },
     mounted() {
+
+      // this.initLayeredScrolling();
       
       // this.initParallaxEffect();
       // this.firstSection();
@@ -328,6 +335,34 @@ export default {
 
     },
     methods: {
+
+      cancelLayeredScrolling() {
+        // Cancel GSAP animations and clear timelines or tweens
+        // You can use GSAP's .kill() method to cancel animations
+        this.gsap.killTweensOf(".layer-pin-1");
+        this.gsap.killTweensOf(".layer-pin-2");
+      },
+
+      initLayeredScrolling() {
+      this.gsap.to(".layer-pin-1", {
+        marginTop: "-400px",
+        scrollTrigger: {
+          trigger: ".layer-pin-1",
+          start: "top bottom",
+          scrub: true,
+        },
+      });
+
+      this.gsap.to(".layer-pin-2", {
+        marginTop: "-300px",
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".layer-pin-1",
+          start: "top 50%",
+          scrub: true,
+        },
+      });
+    },
 
       firstSection () {
 

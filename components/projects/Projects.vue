@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="grid gap-12" :class="columns == 2 ? 'grid-cols-2' : 'grid-cols-1'">
+      <div class="grid gap-20" :class="columns == 2 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'">
         <div v-for="(project, i) in projects" :key="i" class="w-full">
 
           <ProjectsProject :mode="mode" link="advertising" :height="height" :project="project" class="project"/>

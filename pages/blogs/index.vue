@@ -5,7 +5,7 @@
         :button="true" 
         buttontext="Our latest posts" 
         tline1="Blogs" 
-        tline2=""
+        :tline2=null
         about="We share inspiration and creative insights for businesses and individuals. From marketing strategies to design inspiration, our team of experts has you covered with a variety of topics to help spark your imagination."  />
   </section>
   <!-- cover section -->

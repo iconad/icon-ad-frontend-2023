@@ -6,6 +6,7 @@ export const state = () => ({
   chooseSite: false,
   choice: null,
   isPopupOnce: false,
+  smoothEffects: false,
   isPopupActive: false
 })
 
@@ -15,6 +16,9 @@ export const getters = {
 
 export const mutations = {
 
+  smoothEffects: function(state, payload) {
+    state.smoothEffects = payload;
+  },
   isPopupOnce: function(state, payload) {
     state.isPopupOnce = payload;
   },

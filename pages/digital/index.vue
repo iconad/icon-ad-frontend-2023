@@ -12,39 +12,79 @@
     </section>
     <!-- projects section -->
 
+    <section id="creativityUnlock" class="bg-white py-16 md:py-32">
 
+      <div class="home-container">
 
-    <section id="creativityUnlock" class="bg-white py-32">
-
-      <div class="theme-container">
-
-        <div class="flex items-start">
+        <div class="flex flex-col lg:flex-row items-start lg:space-x-24 space-y-12 lg:space-y-0">
           <div class="w-full space-y-3">
             
-            <div class="text-9xl font-bold -space-y-8">
-              <span class="block leading-none icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more -tracking-[5px] h-[8.5rem]">Our</span>
-              <span class="block leading-none icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more -tracking-[5px] h-[8.5rem]">Results</span>
+            <div class="text-[90px] md:text-[140px] font-semibold leading-[35px] md:leading-[55px] lg:leading-[110px] py-7 pr-4 icon-rainbow-text">
+              <span class="inline-block -tracking-[5px]">Our</span>
+              <br class="block lg:hidden">
+              <span class="inline-block -tracking-[5px]">Results</span>
             </div>
 
           </div>
 
-          <div class="w-[40rem] space-y-48">
+          <div class="w-full space-y-16 pt-5">
 
-            <p class="font-medium">We deliver results through a combination of industry expertise, data-driven strategies and a keen focus on achieving measurable outcomes.</p>
+            <p class="font-bold text-[21px] leading-tight">We deliver results through a combination of industry expertise, data-driven strategies and a keen focus on achieving measurable outcomes.</p>
 
-            <div class="space-x-px text-9xl font-bold flex items-center icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more">
-              <span class="block leading-none -tracking-[5px]"> + </span>
-              <span class="block leading-none -tracking-[5px]"> 18 </span>
-              <span class="block leading-none -tracking-[5px]"> % </span>
+
+            <div class="space-y-16">
+              <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 items-center lg:items-end justify-between w-full pb-16 relative">
+
+                <div class="-space-x-[38px] text-[8rem] lg:text-[9rem] leading-[7rem] font-semibold flex items-center text-center lg:text-left icon-rainbow-text w-full whitespace-nowrap pr-2">
+                  <span class="inline-block"> + </span>
+                  <span class="inline-block -tracking-[4px]"> 18 </span>
+                  <span class="inline-block"> % </span>
+                </div>
+
+                <div class="font-bold text-[21px] w-auto whitespace-nowrap -tracking-[0.8px]">Growth Rate</div>
+
+                <div class="absolute bottom-0 left-0 h-px w-full icon-rainbow-bg"></div>
+
+                </div>
+                <!-- number -->
+
+                <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 items-center lg:items-end justify-between w-full pb-16 relative">
+
+                <div class="-space-x-[38px] text-[8rem] lg:text-[9rem] leading-[7rem] font-semibold flex items-center text-center lg:text-left icon-rainbow-text w-full whitespace-nowrap pr-2">
+                  <span class="inline-block"> + </span>
+                  <span class="inline-block -tracking-[4px]"> 25 </span>
+                  <span class="inline-block"> % </span>
+                </div>
+
+                <div class="font-bold text-[21px] w-auto whitespace-nowrap -tracking-[0.8px]">Conversation Rate</div>
+                <div class="absolute bottom-0 left-0 h-px w-full icon-rainbow-bg"></div>
+
+
+                </div>
+                <!-- number -->
+
+                <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 items-center lg:items-end justify-between w-full">
+
+                <div class="-space-x-[38px] text-[8rem] lg:text-[9rem] leading-[7rem] font-semibold flex items-center text-center lg:text-left icon-rainbow-text w-full whitespace-nowrap pr-2">
+                  <span class="inline-block"> 8 </span>
+                  <span class="inline-block"> % </span>
+                </div>
+
+                <div class="font-bold text-[21px] w-auto whitespace-nowrap -tracking-[0.8px]">Less Cost Per Lead</div>
+
+                </div>
+                <!-- number -->
             </div>
+
 
           </div>
 
         </div>
 
 
+
           
-        <div class="mt-56 w-full md:w-4/5 expertises-section icon-rainbow-bg-3-stops">
+        <div class="mt-32 md:mt-56 w-full expertises-section icon-rainbow-bg">
             <AdvertisingExpertiseExpertises :expertises="expertises" />
         </div>
         <!-- expertises section end -->          
@@ -57,7 +97,7 @@
 
 
 
-    <section class="clients-section bg-black text-white py-48">
+    <section class="clients-section bg-black text-white py-20 md:py-48">
 
       <div class="home-container">
         <HomeFeaturedClients />

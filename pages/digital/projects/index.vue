@@ -2,16 +2,20 @@
   <div>
 
     <section id="coverSection">
-        <PageCover 
-          :button="false" 
+        <ProjectsPageCover 
+          :button="false"
           buttontext="" 
           tline1="Some of" 
           tline2="our finest work"
-          about="We believe that creativity is the key to success. We leverage insights from culture, consumer, and audience findings along with our industry knowledge to create campaigns that not only impact people's decisions but also give us unmatched breadth & depth when it comes down to strategic planning techniques and designing long-running successful advertising campaigns or producing content for your brand!"  />
+          :carousel="carousel"
+          link="digital"
+          :industries="industries"
+          :expertise="expertise"
+          :about="null"  />
     </section>
     <!-- cover section -->
 
-    <div class="projects-main bg-black text-white py-32 rounded-3xl">
+    <div class="projects-main bg-black text-white pb-16 md:pb-32 rounded-3xl pt-[8rem] sm:pt-[18rem] md:pt-[20rem] lg:pt-[35rem]">
 
       <div class="home-container">
 
@@ -42,6 +46,15 @@
     </div>
     <!-- projects main  -->
 
+
+    <section class="pt-20 pb-32" id="GetAQuote">
+
+      <div class="home-container">
+        <FormsForm />
+      </div>
+
+      </section>
+
   </div>
 </template>
 
@@ -49,9 +62,7 @@
 <script>
 
 export default {
-
-  layout: 'advertising',
-
+  
   head: {
     title: 'Advertising Portfolio: Take a Look at some of our work',
     meta: [
@@ -133,12 +144,14 @@ export default {
 
   async asyncData({ $axios, store }) {
 
+    const carousel = await $axios.$get(`/projects/home/slides/digital`)
     const projects = await $axios.$get(`/all-projects?_format=json&page=0&subsidiary=1`)
     const expertise = await $axios.$get(`/expertises`)
     const industries = await $axios.$get(`/industries-list`)
     const services = await $axios.$get(`/all-services`)
 
       return {
+        carousel,
         projects,
         expertise,
         services,

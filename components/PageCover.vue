@@ -1,29 +1,33 @@
 <template>
-    <div class="w-full h-[60vh] sm:h-[70vh] lg:h-[70vh] 3xl:h-[60vh] w-full flex items-center relative text-center md:text-left">
-        <div class="w-full space-y-10 lg:space-y-20">
+    <div class="w-full h-[70vh] sm:h-[70vh] lg:h-[70vh] 3xl:h-[60vh] w-full flex items-center relative ">
+        <div class="w-full space-y-10 lg:space-y-32">
 
               <div class="home-container">
-                <div class="space-y-5 lg:space-y-32">
+                <div class="space-y-5 lg:space-y-10">
 
 
-                  <h1 class="text-[1.8rem] sm:text-[3rem] lg:text-6xl h-32 -space-y-1 font-bold icon-rainbow-text-3-stops-red-more icon-rainbow-text-3-stops inline-block">
-                    <span v-if="tline1.includes('#')" class="inline-block" v-for="(text, b) in breakText(tline1)" :key="b" v-html="text"> </span>
+                  <h1 class="text-4xl md:text-[60px] lg:text-[80px] font-bold icon-rainbow-text inline-block py-4 -tracking-[3px]">
+                    <div v-if="tline1.includes('#')" class="flex flex-col -space-y-2 md:space-y-7 pb-3">
+                      <span v-for="(text, b) in breakText(tline1)" :key="b" v-html="text"> </span>
+                    </div>
                     <span v-else class="block" v-html="tline1"> </span>
                     <span class="block" v-html="tline2"> </span>
                   </h1>
 
 
-                <div class="w-full flex items-end justify-between">
+                <div class="w-full flex flex-col md:flex-row items-center md:items-end justify-between space-y-10 md:space-y-0 space-y-reverse">
 
-                  <div class="flex flex-col lg:flex-row lg:items-center space-y-3 lg:space-y-0 lg:space-x-3" v-if="button">
+                  <AssetsAnimatedButtonOne 
+                  text="Our case studies" 
+                  target="projects" 
+                  backgroundcolor="bg-gray-900" 
+                  backgroundcoloronhover="transparent" 
+                  textcolor="text-gray-900"
+                  textcoloronhover="text-gray-900"
+                  class="order-2 md:order-1"
+                  bordercolor="border-gray-900" />
 
-                    <nuxt-link to="/advertising/projects" :data-back="buttontext" :data-front="buttontext" class="btn-flip px-8 w-[180px] pt-[8px] capitalzie text-sm bg-black text-white rounded-full h-7 flex items-center font-medium"> </nuxt-link>
-
-
-
-                  </div>
-
-                  <div class="w-1/3 ml-auto">
+                  <div class="order-1 md:order-2 w-full md:w-1/3 ml-auto">
                     <p class="text-black text-sm 2xl:text-base font-medium" v-html="about"></p>
                   </div>                    
 

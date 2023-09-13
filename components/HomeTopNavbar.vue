@@ -18,18 +18,18 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" fill="none"><path stroke="url(#a)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 1 5.5 6 1 1"/><defs><linearGradient id="a" x1=".893" x2="10.091" y1=".555" y2="2.064" gradientUnits="userSpaceOnUse"><stop stop-color="#56B7DF"/><stop offset=".331" stop-color="#9E7FE0"/><stop offset=".628" stop-color="#C769A3"/><stop offset="1" stop-color="#DD5C63"/></linearGradient></defs></svg>
                           </span>
                         </nuxt-link>
-                        <ul v-if="item.nested" class="opacity-0 translate-y-10 scale-50 group-hover:scale-100 group-hover:translate-y-0 transition-all duration-200 group-hover:opacity-100 absolute bg-white border border-gray-300 shadow-2xl shadow-theme-sky/30 hover:shadow-theme-sky/50 rounded-2xl flex items-center overflow-hidden pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100">
+                        <ul v-if="item.nested" class="icon-rainbow-bg-1 p-px overflow-hidden opacity-0 translate-y-10 scale-50 group-hover:scale-100 group-hover:translate-y-0 transition-all duration-200 group-hover:opacity-100 absolute rounded-2xl flex items-center overflow-hidden pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100">
                           <li v-for="(nest, i) in item.items" :key="i">
                             <nuxt-link
                               :style="`background-image: url(${nest.bgimg})`" 
-                              class="relative flex items-end text-lg w-36 h-32 p-5 bg-cover bg-center font-semibold" :class="nest.bgimg ? 'text-white' : 'text-black hover:bg-gray-50'" :to="nest.link">
-                              <span class="relative z-[11]">{{  nest.name  }}</span>  
+                              class="relative flex items-end justify-center text-lg w-36 h-[8rem] p-3 bg-cover bg-center font-semibold" :class="nest.bgimg ? 'text-white' : 'text-black hover:bg-gray-50 bg-white rounded-r-[15px]'" :to="nest.link">
+                              <span class="relative z-[11] -tracking-[0.8px]">{{  nest.name  }}</span>  
                               <span v-if="nest.bgimg != false" class="inset-0 absolute bg-gradient-to-t from-black via-transparent"></span>
                             </nuxt-link>
                           </li>
                         </ul>
                     </li>
-                    <li >
+                    <li>
                          <nuxt-link to="/contact" class="w-full lg:w-auto flex justify-center text-white py-1 px-3 xl:px-3 block font-medium focus:outline-none icon-rainbow-bg rounded-full">Contact Us</nuxt-link>
                     </li>
                 </ul>

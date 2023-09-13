@@ -28,10 +28,10 @@
       <div class="w-full md:w-2/3 space-y-20">
         <div class="newsletter space-y-6">
 
-          <div class="icon-rainbow-text-3-stops icon-rainbow-text-3-stops-red-more-1 font-medium text-center md:text-left"> Subscribe to our newsletter </div>
+          <div class="icon-rainbow-text font-medium text-center md:text-left w-full md:w-auto"> Subscribe to our newsletter </div>
           <div class="relative">
             <input type="text" class="w-full text-center md:text-left text-gray-200 placeholder-gray-600 py-1 text-4xl font-semibold bg-transparent active:outline-none focus:outline-none focus:" placeholder="Email Address">
-            <span class="absolute right-0 bottom-0 h-full flex items-center opacity-50 md:opacity-100">
+            <span class="absolute right-0 bottom-0 h-full flex items-center opacity-50 md:opacity-100 translate-x-2 scale-75 md:scale-100">
               <svg xmlns="http://www.w3.org/2000/svg"  width="55" height="55" fill="none"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 43.542 43.542 13.75m0 0v28.6m0-28.6h-28.6"/></svg>
             </span>
           </div>
