@@ -16,7 +16,7 @@
     "@studio-freight/lenis": "^1.0.19",
     "aos": "^2.3.4",
     "core-js": "^3.30.2",
-    "gsap": "./gsap-bonus.tgz",
+    "gsap": "file:gsap-bonus.tgz",
     "hooper": "^0.3.4",
     "install": "^0.13.0",
     "libphonenumber-js": "^1.10.38",

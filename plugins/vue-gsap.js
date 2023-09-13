@@ -13,5 +13,5 @@ Vue.mixin({
     this.splitText = SplitText;
     this.scrollTrigger = ScrollTrigger;
     this.scrollSmoother = ScrollSmoother;
-  }
+  },
 });

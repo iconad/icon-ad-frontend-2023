@@ -22,15 +22,15 @@
   export default {
     mounted() {
 
-      this.$lenis.on('scroll', (e) => {
-      });
+      // this.$lenis.on('scroll', (e) => {
+      // });
 
-      const raf = (time) => {
-        this.$lenis.raf(time);
-        requestAnimationFrame(raf);
-      }
+      // const raf = (time) => {
+      //   this.$lenis.raf(time);
+      //   requestAnimationFrame(raf);
+      // }
 
-      requestAnimationFrame(raf);
+      // requestAnimationFrame(raf);
     }
   }
 </script>

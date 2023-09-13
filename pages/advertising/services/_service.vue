@@ -225,7 +225,7 @@
           this.service.body = service.body;
           this.isPopup = true;
 
-          this.$lenis.stop();
+          // this.$lenis.stop();
 
           // animate using GSAP after Vue's DOM update cycle
           this.gsap.to(this.$refs.popupwrapper, { zIndex: 50, opacity: 1, ease: "power2.inOut", });
@@ -253,7 +253,7 @@
                   this.isPopup = false;
                   this.gsap.set(this.$refs.popupwrapper, { clearProps: "all" });
 
-                  this.$lenis.start();
+                  // this.$lenis.start();
 
               }
           });

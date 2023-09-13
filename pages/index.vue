@@ -174,7 +174,7 @@
     </section>
     <!-- branding projects -->
 
-    <section class="about-icon bg-white border-t">
+    <section class="about-icon bg-white -mt-[100vh]">
       <div class="h-20"></div>
 
       <div class="home-container">
@@ -189,7 +189,7 @@
                 About ICON
               </div>
               <h3
-                class="font-bold text-4xl md:text-5xl -space-y-px -tracking-[1px]"
+                class="font-bold text-4xl md:text-5xl -space-y-px -tracking-[1px] icon-heading"
               >
                 <span class="block">We are not just a</span>
                 <span class="block">360 Integrated</span>
@@ -279,13 +279,87 @@
         class="flex flex-wrap md:flex-nowrap items-center absolute inset-0 overflow-hidden select-none"
       >
         <div
-          class="order-2 md:order-1 w-full md:w-1/2 flex self-start pt-10 md:pt-40"
+          class="social-links order-2 md:order-1 w-full md:w-1/2 flex self-start pt-10 md:pt-40 px-12"
         >
-          <img
+          <!-- <img
             src="https://res.cloudinary.com/dizi8svi8/image/upload/v1693306590/image5_pzofqx.png"
             alt="image"
             class="select-none"
-          />
+          /> -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="1395"
+            height="1923"
+            viewBox="0 0 1395 1923"
+            class="w-fit mx-auto h-fit -mt-10"
+          >
+            <image
+              width="1395"
+              height="1923"
+              xlink:href="https://res.cloudinary.com/dizi8svi8/image/upload/v1694161507/social-hand/background_len7dh.png"
+            />
+            <g
+              class="group"
+              onclick="window.open('http://www.facebook.com', '_blank')"
+            >
+              <image
+                width="175"
+                height="148"
+                transform="translate(221, 286)"
+                class="cursor-pointer"
+                xlink:href="https://res.cloudinary.com/dizi8svi8/image/upload/v1694161500/social-hand/facebook_xz0luz.png"
+              />
+            </g>
+            <g
+              class="group"
+              onclick="window.open('http://www.instagram.com', '_blank')"
+            >
+              <image
+                width="181"
+                height="144"
+                transform="translate(387, 180)"
+                class="cursor-pointer"
+                xlink:href="https://res.cloudinary.com/dizi8svi8/image/upload/v1694161500/social-hand/instagram_ggni4v.png"
+              />
+            </g>
+            <g
+              class="group"
+              onclick="window.open('http://www.pinterest.com', '_blank')"
+            >
+              <image
+                width="187"
+                height="158"
+                transform="translate(362, 434)"
+                class="cursor-pointer"
+                xlink:href="https://res.cloudinary.com/dizi8svi8/image/upload/v1694161500/social-hand/pinterest_bl0xq8.png"
+              />
+            </g>
+            <g
+              class="group"
+              onclick="window.open('http://www.behance.com', '_blank')"
+            >
+              <image
+                width="179"
+                height="152"
+                transform="translate(538, 324)"
+                class="cursor-pointer"
+                xlink:href="https://res.cloudinary.com/dizi8svi8/image/upload/v1694161500/social-hand/behance_q8rpc5.png"
+              />
+            </g>
+            <g
+              class="group"
+              onclick="window.open('http://www.vimeo.com', '_blank')"
+            >
+              <image
+                width="184"
+                height="161"
+                transform="translate(513, 586)"
+                class="cursor-pointer"
+                xlink:href="https://res.cloudinary.com/dizi8svi8/image/upload/v1694161500/social-hand/vimeo_g4v9as.png"
+              />
+            </g>
+          </svg>
         </div>
         <div
           class="order-1 md:order-2 w-full md:w-1/2 flex justify-center md:block"
@@ -349,7 +423,11 @@ export default {
     };
   },
   mounted() {
-    this.initLayeredScrolling();
+    setTimeout(() => {
+      this.initLayeredScrolling();
+    }, 250);
+
+    // this.initSocailAnimation();
     // this.initParallaxEffect();
     // this.firstSection();
     // this.$lenis.on('scroll', this.scrollTrigger.update);
@@ -357,6 +435,12 @@ export default {
     // this.$lenis.raf(time * 1000);
     // });
     // this.gsap.ticker.lagSmoothing(0);
+  },
+  beforeDestroy() {
+    this.ctx.revert();
+  },
+  unmounted() {
+    this.ctx.revert();
   },
   methods: {
     firstSection() {
@@ -376,24 +460,45 @@ export default {
     },
 
     initLayeredScrolling() {
-      this.gsap.to(".layer-pin-1", {
-        marginTop: "-50%",
-        scrollTrigger: {
-          trigger: ".layer-pin-1",
-          start: "top bottom",
-          scrub: true,
-        },
+      this.ctx = this.gsap.context(() => {
+        this.gsap.to(".layer-pin-1", {
+          translateY: "-50%",
+          scrollTrigger: {
+            trigger: ".layer-pin-1",
+            start: "top bottom",
+            scrub: true,
+          },
+        });
+
+        this.gsap.to(".layer-pin-2", {
+          translateY: "-130%",
+          duration: 2,
+          scrollTrigger: {
+            trigger: ".layer-pin-1",
+            start: "top 50%",
+            scrub: true,
+          },
+        });
       });
 
-      this.gsap.to(".layer-pin-2", {
-        marginTop: "-50%",
-        duration: 2,
-        scrollTrigger: {
-          trigger: ".layer-pin-1",
-          start: "top 50%",
-          scrub: true,
-        },
+      return () => ctx.revert();
+    },
+
+    initSocailAnimation() {
+      const ctx = this.gsap.context(() => {
+        this.gsap.to(".social-in", {
+          y: 0,
+          opacity: "100%",
+          duration: 1,
+          scrollTrigger: {
+            trigger: ".social-links",
+            start: "-50% bottom",
+            scrub: true,
+            // markers: true,
+          },
+        });
       });
+      return () => ctx.revert();
     },
 
     initParallaxEffect() {

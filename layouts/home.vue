@@ -34,16 +34,16 @@
   export default {
     mounted() {
 
-      this.$lenis.on('scroll', (e) => {
-        // console.log(e);
-      });
+      // this.$lenis.on('scroll', (e) => {
+      //   // console.log(e);
+      // });
 
-      const raf = (time) => {
-        this.$lenis.raf(time);
-        requestAnimationFrame(raf);
-      }
+      // const raf = (time) => {
+      //   this.$lenis.raf(time);
+      //   requestAnimationFrame(raf);
+      // }
 
-      requestAnimationFrame(raf);
+      // requestAnimationFrame(raf);
     }
   }
 </script>

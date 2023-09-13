@@ -14,6 +14,7 @@
           src="https://icon-ad.com/assets/image1.png"
           alt="image"
           class="service-icon w-20 md:w-auto"
+          data-lag="0.1"
         />
 
         <a href="/advertising" class="block">
@@ -32,6 +33,7 @@
           src="https://icon-ad.com/assets/image2.png"
           alt="image"
           class="w-20 md:w-auto"
+          data-lag="0.2"
         />
 
         <a href="/digital" class="block">
@@ -50,6 +52,7 @@
           src="https://icon-ad.com/assets/image3.png"
           alt="image"
           class="w-20 md:w-auto"
+          data-lag="0.1"
         />
 
         <a href="/branding" class="block">
@@ -66,6 +69,7 @@
           src="https://icon-ad.com/assets/image4.png"
           alt="image"
           class="w-[7.3rem] md:w-auto"
+          data-lag="0.2"
         />
 
         <a href="/plus" class="block">
@@ -111,41 +115,36 @@ export default {
     }, 3000); // waits for 3 seconds
   },
   methods: {
+    parallaxIt(e, target, movement) {
+      let $wrap = serviceWrap;
+      let relX = e.pageX - $wrap.offsetLeft;
+      let relY = e.pageY - $wrap.offsetTop;
+
+      // let relX = e.pageX - $wrap.offset().left;
+      // let relY = e.pageY - $wrap.offset().top;
+
+      this.gsap.to(target, {
+        duration: 1,
+        translateX:
+          ((relX - $wrap.offsetWidth / 2) / $wrap.offsetWidth) * movement,
+        translateY:
+          ((relY - $wrap.offsetHeight / 2) / $wrap.offsetHeight) * movement,
+        // translateX: ((relX - $wrap.width() / 2) / $wrap.width()) * movement,
+        // translateY: ((relY - $wrap.height() / 2) / $wrap.height()) * movement,
+        ease: "none",
+      });
+    },
+    callParallax(e) {
+      this.parallaxIt(e, ".service-icon", 150);
+    },
     initIconsHover() {
       let timeout;
       const serviceWrap = document.querySelector(".service-wrap");
 
       serviceWrap.addEventListener("mousemove", function (e) {
         if (timeout) clearTimeout(timeout);
-        setTimeout(callParallax.bind(null, e), 200);
-        console.log(e);
+        setTimeout(this.callParallax.bind(null, e), 200);
       });
-
-      function callParallax(e) {
-        parallaxIt(e, ".service-icon", 150);
-      }
-
-      function parallaxIt(e, target, movement) {
-        let $this = serviceWrap;
-        let relX = e.pageX - $this.offsetLeft;
-        let relY = e.pageY - $this.offsetTop;
-
-        console.log($this);
-
-        // let relX = e.pageX - $this.offset().left;
-        // let relY = e.pageY - $this.offset().top;
-
-        this.gsap.to(target, {
-          duration: 1,
-          translateX:
-            ((relX - $this.offsetWidth / 2) / $this.offsetWidth) * movement,
-          translateY:
-            ((relY - $this.offsetHeight / 2) / $this.offsetHeight) * movement,
-          // translateX: ((relX - $this.width() / 2) / $this.width()) * movement,
-          // translateY: ((relY - $this.height() / 2) / $this.height()) * movement,
-          ease: "none",
-        });
-      }
     },
   },
 };
